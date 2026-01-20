@@ -266,7 +266,10 @@ Or you can send an issue for me.
 - https://github.com/PatrickJS/awesome-cursorrules [Awesome Cursor Rules]
 - https://github.com/anthropics/prompt-eng-interactive-tutorial [Anthropic Prompt Engineering Tutorial]
 - https://github.com/langgptai/wonderful-prompts [Wonderful Prompts Collection]
-- https://github.com/blader/humanizer [Claude Code Skill - Remove AI Writing Signs]
+
+### Claude Code Skills
+- https://github.com/blader/humanizer [Remove AI Writing Signs from Text]
+- https://github.com/op7418/Humanizer-zh [Humanizer Chinese Version]
 
 
 
