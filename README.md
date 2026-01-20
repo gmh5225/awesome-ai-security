@@ -27,21 +27,12 @@ Or you can send an issue for me.
   - https://github.com/microsoft/AI-Red-Teaming-Playground-Labs [Microsoft AI Red Teaming Playground Labs]
   - https://github.com/schwartz1375/genai-security-training [GenAI Red Teaming Training]
 
-- **Mindmaps / Roadmaps**
-  - https://github.com/slowmist/SlowMist-Learning-Roadmap-for-Becoming-a-Smart-Contract-Auditor [Smart Contract Auditor Roadmap]
-  - https://github.com/preslavxyz/Web3-Security-Researcher-Roadmap [Web3 Security Researcher Roadmap]
-  - https://github.com/x86byte/RE-MA-Roadmap [Reverse Engineering and Malware Analysis Roadmap]
-
 - **Blogs / Resources**
   - https://genai.owasp.org/ [OWASP GenAI Security Project]
   - https://llm-stats.com [LLM Leaderboard]
   - https://www.aidaily.win [AI Daily News]
   - https://baoyu.io/blog/how-to-write-good-prompt [How to Write Good Prompts]
-
-- **Bug Bounties**
-  - https://immunefi.com/ [Immunefi - Web3 Bug Bounty]
-  - https://hackerone.com [HackerOne]
-  - https://code4rena.com/ [Code4rena]
+  - https://rootissh.in/ [LLM Pentesting Series Blog]
 
 - **Newsletters / Collections**
   - https://mlsecops.com/podcast [MLSecOps Podcast]
@@ -130,75 +121,66 @@ Or you can send an issue for me.
 - https://github.com/fr0gger/nova-framework [Nova Framework - Jailbreak Detection]
 - https://github.com/fr0gger/nova_mcp [Nova MCP Server]
 - https://github.com/0xAIDR/AIDR-Bastion [GenAI Protection System]
+- https://github.com/CAU-ISS-Lab/AIGT-Detection-Evade-Detection [AI-Generated Text Detection & Evasion]
 
 
 
 ## AI Pentesting & Red Teaming
 
-### Automated Pentesting
+### AI-Powered Pentesting
 - https://github.com/GreyDGL/PentestGPT [GPT-4 Powered Pentesting Agent]
 - https://github.com/zakirkun/guardian-cli [AI-Powered Pentesting CLI with Gemini]
 - https://github.com/usestrix/strix [AI Security Pentesting]
 - https://github.com/aliasrobotics/cai [CAI - Cybersecurity AI Framework]
 - https://github.com/promptfoo/promptfoo [AI Agent Pentesting Framework]
 - https://github.com/antoninoLorenzo/AI-OPS [AI Assistant for Penetration Testing]
-- https://github.com/firetix/vibe-coding-penetration-tester [Pentesting CLI]
 - https://github.com/yz9yt/BugTrace-AI [AI Automated Web Pentesting]
-- https://github.com/six2dez/reconftw [Automated Reconnaissance Framework]
 - https://github.com/six2dez/reconftw_ai [ReconFTW with AI Analysis]
 
-### Red Teaming Tools
+### AI Red Teaming Tools
 - https://github.com/Azure/counterfit [Microsoft ML Penetration Testing Tool]
 - https://github.com/Azure/PyRIT [Microsoft Red-Teaming Framework for GenAI]
 - https://github.com/meta-llama/PurpleLlama [Meta Open-Source LLM Safety Tools]
 - https://github.com/NVIDIA/NeMo-Guardrails [NVIDIA Programmable Guardrails]
 - https://github.com/NoDataFound/hackGPT [LLM Toolkit for Offensive Security]
 - https://github.com/ipa-lab/hackingBuddyGPT [Autonomous Red-Teaming Agent]
-- https://github.com/0xMrNiko/Awesome-Red-Teaming [Awesome Red Teaming]
-- https://github.com/m14r41/PentestingEverything [Pentesting Tutorials]
 
-### MCP Security Tools
+### AI Security MCP Tools
 - https://github.com/0x4m4/hexstrike-ai [HexStrike AI - 150+ Cybersecurity Tools MCP]
 - https://github.com/cyproxio/mcp-for-security [Pentesting MCP]
 - https://github.com/johnhalloran321/mcpSafetyScanner [MCP Safety Scanner]
-- https://github.com/eunomia-bpf/MCPtrace [Linux Kernel eBPF Tracing MCP]
 - https://github.com/Karthikathangarasu/pentest-mcp [Pentest MCP]
 
-### C2 / Post-Exploitation
+### AI-Powered C2
 - https://github.com/Red-Hex-Consulting/Ankou [AI C2 Framework]
+
+### AI Password Cracking
+- https://github.com/d-sec-net/VPK [AI Automated Password Cracking]
 
 
 
 ## AI Security Tools & Frameworks
 
-### Vulnerability Detection
+### AI Vulnerability Detection
 - https://github.com/scabench-org/hound [AI Auditor with Adaptive Knowledge Graphs]
 - https://github.com/ZeroDaysBroker/GhidraGPT [GPT Integration for Ghidra]
 - https://github.com/jtang613/GhidrAssist [LLM Extension for Ghidra]
 - https://semgrep.dev/ [AI-Assisted SAST]
-- https://github.com/HikaruEgashira/vulnhuntrs [Web Security Audit Tool]
+- https://github.com/HikaruEgashira/vulnhuntrs [AI Web Security Audit Tool]
 - https://github.com/xvnpw/ai-security-analyzer [AI Security Doc Generator]
 - https://github.com/aress31/burpgpt [BurpGPT - AI Vulnerability Scanning]
 - https://github.com/haroonawanofficial/AISA-Scanner [AI Security Scanner]
-- https://github.com/lijiejie/BBScan [Web Vulnerability Scanner]
 
-### CVE & Exploit Tools
+### AI CVE Analysis
 - https://github.com/arschlochnop/VulnWatchdog [CVE Monitoring with GPT Analysis]
 - https://github.com/suhasgowtham-x/aegis-security-co-pilot [AI CVE Scanner]
-- https://github.com/trickest/cve [CVE Monitoring]
-- https://github.com/nomi-sec/PoC-in-GitHub [PoC Collection]
-- https://github.com/aquasecurity/vuln-list [Software Vulnerability CVE Collection]
-- https://github.com/cve-search/cve-search [CVE Search Tool]
 - https://github.com/ucsb-mlsec/VulnLLM-R [Specialized Reasoning LLM for Vulnerability]
 
-### OSINT Tools
+### AI OSINT
 - https://ai.cylect.io/ [AI OSINT]
-- https://github.com/gmh5225/socialscan [Social Account OSINT]
 - https://github.com/apurvsinghgautam/robin/ [AI-Powered Dark Web OSINT Tool]
-- https://github.com/musana/CF-Hero [Cloudflare Bypass Reconnaissance]
-- https://github.com/elliott-diy/Weather2Geo [Weather Image Geolocation]
 
-### Security Libraries
+### AI Security Libraries
 - https://secml.readthedocs.io/ [SecML - Secure and Explainable ML Library]
 - https://github.com/google/oss-fuzz-gen [AI Code Audit Fuzzing Tool]
 - https://github.com/Invicti-Security/brainstorm [AI Fuzzer for Web Applications]
@@ -232,7 +214,7 @@ Or you can send an issue for me.
 - https://github.com/qhjqhj00/MemoRAG [Long Memory RAG]
 - https://github.com/microsoft/PIKE-RAG [PIKE-RAG]
 
-### Browser Automation
+### AI Browser Automation
 - https://github.com/browser-use/browser-use [Browser-Use - AI Browser Control]
 - https://github.com/browser-use/macOS-use [Computer-Use for macOS]
 - https://github.com/web-infra-dev/midscene [Browser-Use Alternative]
@@ -243,7 +225,9 @@ Or you can send an issue for me.
 ### MCP Servers
 - https://mcp.so/ [MCP Collection Website]
 - https://github.com/gmh5225/MCP-Chinese-Getting-Started-Guide [MCP Getting Started Guide]
-- https://github.com/PraneshASP/foundry-mcp-server [Foundry MCP]
+- https://github.com/co-browser/browser-use-mcp-server [Browser-Use MCP]
+- https://github.com/langchain-ai/langchain-mcp-adapters [MCP to LangChain Adapter]
+- https://github.com/patruff/ollama-mcp-bridge [Ollama MCP Bridge]
 - https://github.com/regenrek/deepwiki-mcp [DeepWiki MCP]
 - https://github.com/upstash/context7 [Documentation MCP]
 
@@ -266,6 +250,14 @@ Or you can send an issue for me.
 - https://github.com/huggingface/open-r1 [DeepSeek-R1 Open Source Reproduction]
 - https://github.com/exo-explore/exo [AI Cluster Model Running]
 - https://github.com/CherryHQ/cherry-studio [Local LLM GUI]
+- https://github.com/sauravpanda/BrowserAI [Run Local LLMs in Browser]
+- https://github.com/signerlabs/Klee [Local Model Chat + RAG]
+- https://github.com/dontizi/rlama [Local Ollama + RAG]
+
+### Uncensored Models
+- https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard [Uncensored Model Leaderboard]
+- https://erichartford.com/uncensored-models [Uncensored Models Training Guide]
+- https://huggingface.co/cognitivecomputations/Dolphin3.0-Llama3.1-8B [Dolphin Uncensored Model]
 
 ### Prompts & Rules
 - https://github.com/NeoVertex1/SuperPrompt [Super Prompt]
@@ -285,29 +277,34 @@ Or you can send an issue for me.
 - https://github.com/vercel/ai-chatbot [Vercel AI Chatbot]
 - https://github.com/block/goose [MCP Desktop Agent]
 
-### Deep Research
+### AI Deep Research
 - https://github.com/assafelovic/gpt-researcher [GPT Researcher]
 - https://github.com/bytedance/deer-flow [ByteDance Deep Research]
 - https://github.com/LearningCircuit/local-deep-research [Local Deep Research]
 - https://github.com/u14app/deep-research [Deep Research NextJS]
 - https://github.com/zilliztech/deep-searcher [Local Deep Searcher]
 
-### Search Engines
+### AI Search Engines
 - https://github.com/rashadphz/farfalle [AI Search Engine]
 - https://github.com/miurla/morphic [AI Search Engine]
 - https://github.com/zaidmukaddam/scira [AI Search with xAI]
 - https://github.com/khoj-ai/khoj [AI Search with Local Models]
 
-### Code Analysis
-- https://github.com/gmh5225/CodeLens [Code Analysis Tool]
+### AI Code Analysis
+- https://github.com/gmh5225/CodeLens [Code Analysis Tool for LLM]
 - https://github.com/mufeedvh/code2prompt [Code to Prompt Tool]
-- https://github.com/yamadashy/repomix [GitHub Summarizer TS]
-- https://github.com/cyclotruc/gitingest [GitHub Summarizer Python]
+- https://github.com/yamadashy/repomix [GitHub Summarizer for LLM]
+- https://github.com/cyclotruc/gitingest [GitHub Summarizer for LLM]
 - https://github.com/ahmedkhaleel2004/gitdiagram [GitHub Diagram Generator]
 - https://gitingest.com [GitHub Code Merger for LLM]
 - https://deepwiki.com [GitHub Project Deep Search]
 
-### Social Media Bots
+### AI Web Scraping
+- https://github.com/ScrapeGraphAI/Scrapegraph-ai [AI Web Scraping]
+- https://github.com/mishushakov/llm-scraper [LLM Web Scraper]
+- https://github.com/samber/the-great-gpt-firewall [Anti-AI Web Scraping]
+
+### AI Social Media
 - https://github.com/d60/twikit [Twitter Bot Python]
 - https://github.com/elizaOS/agent-twitter-client [Twitter Bot JS]
 - https://github.com/blorm-network/ZerePy [Twitter AI Agent Python]
@@ -317,28 +314,28 @@ Or you can send an issue for me.
 
 ## AI Image & Video
 
-### Image Generation
+### AI Image Generation
 - https://github.com/AUTOMATIC1111/stable-diffusion-webui [Stable Diffusion WebUI]
 - https://github.com/leejet/stable-diffusion.cpp [Stable Diffusion C++]
 - https://github.com/apple/ml-stable-diffusion [Apple Stable Diffusion]
 - https://github.com/ant-research/MagicQuill [Intelligent Image Editing]
-- https://github.com/Stability-AI/stable-virtual-camera [Stable Virtual Camera]
 
-### Video Generation
+### AI Video Generation
 - https://github.com/bytedance/LatentSync [Digital Human Video]
 - https://github.com/HKUDS/AI-Creator [AI Video Creator]
-- https://github.com/FujiwaraChoki/MoneyPrinterV2 [Auto Video Generation]
 
-### TTS
+### AI TTS
 - https://github.com/SparkAudio/Spark-TTS [Spark TTS]
 - https://github.com/rany2/edge-tts [Edge TTS]
-- https://github.com/dbccccccc/ttsfm [OpenAI TTS API]
+
+### AI Face Recognition
+- https://github.com/serengil/deepface [Face Recognition Matching Library]
+- https://github.com/s0md3v/roop [AI Face Swap]
 
 
 
 ## Benchmarks & Standards
 
-- https://github.com/scabench-org/scabench [Smart Contract Audit Benchmark]
 - https://robustbench.github.io/ [Adversarial Robustness Benchmark]
 - https://jailbreakbench.github.io/ [LLM Jailbreak Benchmark]
 - https://crfm.stanford.edu/helm/air-bench/latest/ [Stanford AI Safety Benchmark]
@@ -366,6 +363,15 @@ Or you can send an issue for me.
 
 
 
+## Utilities
+
+- https://github.com/JefferyHcool/BiliNote [AI Video Note Generator]
+- https://github.com/mediar-ai/screenpipe [AI Screen Monitoring]
+- https://github.com/mediar-ai/terminator [AI OCR Recognition Tool]
+- https://github.com/gmh5225/git-diff [AI-based Git Commit Message Generator]
+
+
+
 ## Awesome Lists
 
 - https://github.com/TalEliyahu/Awesome-AI-Security [Governance and Tools Focus]
@@ -373,5 +379,7 @@ Or you can send an issue for me.
 - https://github.com/ElNiak/awesome-ai-cybersecurity [AI in Cybersecurity]
 - https://github.com/corca-ai/awesome-llm-security [LLM-specific Security]
 - https://github.com/JoranHonig/awesome-web3-ai-security [Web3 AI Security]
-- https://github.com/edoardottt/awesome-hacker-search-engines [Hacker Search Engines]
+- https://github.com/francedot/acu [AI Computer Use Agents]
+- https://github.com/patchy631/ai-engineering-hub [AI Engineering Hub]
+- https://github.com/wgwang/awesome-LLMs-In-China [Chinese LLMs]
 
