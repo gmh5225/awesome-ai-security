@@ -1,2 +1,829 @@
-# awesome-ai-security
-awesome ai security
+# Awesome AI Security
+
+A curated, **deduplicated** mega-list of AI / LLM / Agent security resources consolidated from everything under `ref/`.
+
+> Note: Some original source notes are written in Chinese; this README keeps **English-only labels** and **English-only source tags** for consistency.
+
+## Stats
+- **Sources scanned**: 34
+- **Raw extracted URL mentions**: 1057
+- **Unique URLs (global dedupe)**: 762
+
+## Table of Contents
+- [Foundations & Learning](#foundations-learning)
+- [LLM / GenAI AppSec (Prompt Injection, RAG, Agents)](#llm-genai-appsec-prompt-injection-rag-agents)
+- [Adversarial ML (Evasion, Poisoning, Backdoors)](#adversarial-ml-evasion-poisoning-backdoors)
+- [Privacy, Extraction & Model Stealing](#privacy-extraction-model-stealing)
+- [Red Teaming & Testing Tools](#red-teaming-testing-tools)
+- [Standards, Frameworks & Taxonomies](#standards-frameworks-taxonomies)
+- [AI for Security (Offense/Defense)](#ai-for-security-offense-defense)
+- [MCP / Agent Tooling Ecosystem](#mcp-agent-tooling-ecosystem)
+- [Prompt Collections / System Prompts (Research)](#prompt-collections-system-prompts-research)
+- [Misc / Productivity / Dev Tools](#misc-productivity-dev-tools)
+- [Sources](#sources)
+
+## Foundations & Learning
+
+- [AI-Powered Attack Automation: When Machine Learning Writes the Exploit Code](https://medium.com/@instatunnel/wwai-powered-attack-automation-when-machine-learning-writes-the-exploit-code-9eb00af91a51) — _sources: ref/awesome-ai-security-2_
+- [ashishps1/learn-ai-engineering](https://github.com/ashishps1/learn-ai-engineering) — _sources: ref/my_collect_
+- [Can Machine Learning Be Secure?](https://people.eecs.berkeley.edu/~adj/publications/paper-files/asiaccs06.pdf) — _sources: ref/Awesome-AI-Security-1_
+- [Deep Learning by Ian Goodfellow, Yoshua Bengio, Aaron Courville](https://www.deeplearningbook.org/) — _sources: ref/awesome-ai-security-2_
+- [Deep Learning Specialization by Andrew Ng](https://www.coursera.org/specializations/deep-learning) — _sources: ref/awesome-ai-security-2_
+- [developers.facebook.com/access-tokens](https://developers.facebook.com/docs/facebook-login/guides/access-tokens) — _sources: ref/security-notes_
+- [developers.facebook.com/instagram](https://developers.facebook.com/docs/instagram) — _sources: ref/security-notes_
+- [Dive into Deep Learning](https://d2l.ai/) — _sources: ref/awesome-ai-security-2_
+- [DorsaRoh/Machine-Learning](https://github.com/DorsaRoh/Machine-Learning) — _sources: ref/my_collect_
+- [doublespeak.chat/handbook](https://doublespeak.chat/#/handbook) — _sources: ref/my_collect_
+- [DrewThomasson/ebook2audiobook](https://github.com/DrewThomasson/ebook2audiobook) — _sources: ref/my_collect_
+- [echohive42/AI-reads-books-page-by-page](https://github.com/echohive42/AI-reads-books-page-by-page) — _sources: ref/my_collect_
+- [Efficient Label Contamination Attacks Against Black-Box Learning Models](https://www.ijcai.org/proceedings/2017/0551.pdf) — _sources: ref/Awesome-AI-Security-1_
+- [EvadeML - Machine Learning in the Presence of Adversaries](http://evademl.org/) — _sources: ref/Awesome-AI-Security-1_
+- [fast.ai Practical Deep Learning for Coders](https://course.fast.ai/) — _sources: ref/awesome-ai-security-2_
+- [gmh5225/ebook-treasure-chest](https://github.com/gmh5225/ebook-treasure-chest) — _sources: ref/my_collect_
+- [huggingface.co/1?fw=pt](https://huggingface.co/learn/nlp-course/en/chapter0/1?fw=pt) — _sources: ref/my_collect_
+- [huggingface.co/4](https://huggingface.co/learn/nlp-course/en/chapter3/4) — _sources: ref/my_collect_
+- [huggingface.co/reasoning-course](https://huggingface.co/reasoning-course) — _sources: ref/my_collect_
+- [jax-ml.github.io/transformers](https://jax-ml.github.io/scaling-book/transformers) — _sources: ref/my_collect_
+- [LearningCircuit/local-deep-research](https://github.com/LearningCircuit/local-deep-research) — _sources: ref/my_collect_
+- [microsoft/Phi-3CookBook](https://github.com/microsoft/Phi-3CookBook/blob/main/translations/zh/md/04.Fine-tuning/FineTuning_MLX.md) — _sources: ref/my_collect_
+- [Neural Networks and Deep Learning (Michael Nielsen)](http://neuralnetworksanddeeplearning.com/) — _sources: ref/awesome-ai-security-2_
+- [Practical Black-Box Attacks against Machine Learning](https://arxiv.org/abs/1602.02697) — _sources: ref/Awesome-AI-Security-1_
+- [Stanford CS229: Machine Learning](https://cs229.stanford.edu/) — _sources: ref/awesome-ai-security-2_
+- [StringSifter - A machine learning tool that ranks strings based on their relevance for malware analysis](https://github.com/fireeye/stringsifter) — _sources: ref/Awesome-AI-Security-1_
+- [Vulnerability of Deep Reinforcement Learning to Policy Induction Attacks](https://arxiv.org/abs/1701.04143) — _sources: ref/Awesome-AI-Security-1_
+- [YouTube](https://www.youtube.com/watch?v=vmkRMvhCW5c) — _sources: ref/my_collect_
+
+## LLM / GenAI AppSec (Prompt Injection, RAG, Agents)
+
+- [aceliuchanghong/FAQ_Of_LLM_Interview](https://github.com/aceliuchanghong/FAQ_Of_LLM_Interview) — _sources: ref/my_collect_
+- [ACL 2024 Tutorial: Vulnerabilities of LLMs to Adversarial Attacks](https://llm-vulnerability.github.io/) — _sources: ref/awesome-ai-security-2_
+- [Adversarial Robustness for Machine Learning (Elsevier)](https://www.sciencedirect.com/book/9780128240205/adversarial-robustness-for-machine-learning) — _sources: ref/awesome-ai-security-2_
+- [AI Agent Exploit Generation in Smart Contracts](https://www.emergentmind.com/topics/ai-agent-smart-contract-exploit-generation) — _sources: ref/awesome-ai-security-2_
+- [AI Village @ DEF CON](https://aivillage.org/) — _sources: ref/awesome-ai-security-2_
+- [AI42Crypto/AI-resources](https://github.com/AI42Crypto/AI-resources/blob/main/%E4%BB%8E0%E5%88%B6%E4%BD%9Cllm.md) — _sources: ref/my_collect_
+- [AI42Crypto/AI-resources](https://github.com/AI42Crypto/AI-resources/blob/main/GraphRAG.md) — _sources: ref/my_collect_
+- [AlexBuz/llama-zip](https://github.com/AlexBuz/llama-zip) — _sources: ref/my_collect_
+- [alexziskind1/llm-inference-calculator](https://github.com/alexziskind1/llm-inference-calculator) — _sources: ref/my_collect_
+- [alphasecio/prompt-guard](https://github.com/alphasecio/prompt-guard) — _sources: ref/my_collect_
+- [anakin.ai/uncensored-llms](https://anakin.ai/blog/uncensored-llms/) — _sources: ref/my_collect_
+- [anthropics/prompt-eng-interactive-tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial) — _sources: ref/my_collect_
+- [antoninoLorenzo/AI-OPS](https://github.com/antoninoLorenzo/AI-OPS) — _sources: ref/my_collect_
+- [arthurchiao.art/ai-agent-white-paper-zh](https://arthurchiao.art/blog/ai-agent-white-paper-zh/) — _sources: ref/my_collect_
+- [athina-ai/rag-cookbooks](https://github.com/athina-ai/rag-cookbooks) — _sources: ref/my_collect_
+- [AUGMXNT/llm-tracker.info-vault](https://github.com/AUGMXNT/llm-tracker.info-vault/blob/main/models/Best%20Models.md) — _sources: ref/my_collect_
+- [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) — _sources: ref/my_collect_
+- [Awesome-LLMs-Datasets](https://github.com/lmmlzn/Awesome-LLMs-Datasets) — _sources: ref/my_collect_
+- [awslabs/multi-agent-orchestrator](https://github.com/awslabs/multi-agent-orchestrator) — _sources: ref/my_collect_
+- [baoyu.io/how-to-write-good-prompt](https://baoyu.io/blog/how-to-write-good-prompt) — _sources: ref/my_collect_
+- [bbruceyuan/LLMs-Zero-to-Hero](https://github.com/bbruceyuan/LLMs-Zero-to-Hero) — _sources: ref/my_collect_
+- [Cinnamon/kotaemon](https://github.com/Cinnamon/kotaemon) — _sources: ref/my_collect_
+- [cloudflare/agents](https://github.com/cloudflare/agents) — _sources: ref/my_collect_
+- [corca-ai/awesome-llm-security](https://github.com/corca-ai/awesome-llm-security) — _sources: ref/awesome-ai-security-2, ref/my_collect_
+- [CyberAlbSecOP/Awesome_GPT_Super_Prompting](https://github.com/CyberAlbSecOP/Awesome_GPT_Super_Prompting) — _sources: ref/my_collect_
+- [datastax/ragbot-starter](https://github.com/datastax/ragbot-starter) — _sources: ref/my_collect_
+- [datawhalechina/happy-llm](https://github.com/datawhalechina/happy-llm) — _sources: ref/my_collect_
+- [datawhalechina/self-llm](https://github.com/datawhalechina/self-llm/blob/master/models/LLaMA3/04-LLaMA3-8B-Instruct%20Lora%20%E5%BE%AE%E8%B0%83.md) — _sources: ref/my_collect_
+- [David-patrick-chuks/Riona-AI-Agent](https://github.com/David-patrick-chuks/Riona-AI-Agent) — _sources: ref/my_collect_
+- [docs.unsloth.ai/tutorials-how-to-fine-tune-and-run-llms](https://docs.unsloth.ai/basics/tutorials-how-to-fine-tune-and-run-llms) — _sources: ref/my_collect_
+- [dontizi/rlama](https://github.com/dontizi/rlama) — _sources: ref/my_collect_
+- [dontriskit/awesome-ai-system-prompts](https://github.com/dontriskit/awesome-ai-system-prompts) — _sources: ref/my_collect_
+- [dstack - Confidential AI framework for secure ML/LLM deployment with hardware-enforced isolation and data privacy](https://github.com/Dstack-TEE/dstack) — _sources: ref/Awesome-AI-Security-1_
+- [EasyJailbreak](https://github.com/EasyJailbreak/EasyJailbreak) — _sources: ref/awesome-ai-security-2_
+- [echonoshy/cgft-llm](https://github.com/echonoshy/cgft-llm) — _sources: ref/my_collect_
+- [eddycmu/demystify-long-cot](https://github.com/eddycmu/demystify-long-cot) — _sources: ref/my_collect_
+- [elizaOS/agent-twitter-client](https://github.com/elizaOS/agent-twitter-client) — _sources: ref/my_collect_
+- [Everything You Wanted to Know About LLM-based Vulnerability Detection](https://arxiv.org/abs/2504.13474) — _sources: ref/awesome-ai-security-2_
+- [faizann24/rogue](https://github.com/faizann24/rogue) — _sources: ref/my_collect_
+- [FareedKhan-dev/all-rag-techniques](https://github.com/FareedKhan-dev/all-rag-techniques) — _sources: ref/my_collect_
+- [fr0gger/nova-framework](https://github.com/fr0gger/nova-framework) — _sources: ref/my_collect_
+- [Garak](https://github.com/NVIDIA/garak) — _sources: ref/awesome-ai-security-2_
+- [GenAI Security Podcast](https://podcasts.apple.com/ph/podcast/the-genai-security-podcast/id1782916580) — _sources: ref/awesome-ai-security-2_
+- [getnimbus/sui-agent-kit](https://github.com/getnimbus/sui-agent-kit) — _sources: ref/my_collect_
+- [getzep/graphiti](https://github.com/getzep/graphiti) — _sources: ref/my_collect_
+- [GhidraGPT](https://github.com/ZeroDaysBroker/GhidraGPT) — _sources: ref/awesome-ai-security-2_
+- [GhidrAssist](https://github.com/jtang613/GhidrAssist) — _sources: ref/awesome-ai-security-2_
+- [git-disl/awesome_LLM-harmful-fine-tuning-papers](https://github.com/git-disl/awesome_LLM-harmful-fine-tuning-papers) — _sources: ref/my_collect_
+- [gitingest.com](https://gitingest.com) — _sources: ref/my_collect_
+- [goat-sdk/goat](https://github.com/goat-sdk/goat) — _sources: ref/my_collect_
+- [guinmoon/LLMFarm](https://github.com/guinmoon/LLMFarm) — _sources: ref/my_collect_
+- [HackingBuddyGPT](https://github.com/ipa-lab/hackingBuddyGPT) — _sources: ref/awesome-ai-security-2_
+- [HandsOnLLM/Hands-On-Large-Language-Models](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models) — _sources: ref/my_collect_
+- [hhaAndroid/awesome-mm-chat](https://github.com/hhaAndroid/awesome-mm-chat/blob/2b30359f302f5ea36f11cc13a34688b10e6bcc3c/llm.md) — _sources: ref/my_collect_
+- [HKUDS/AutoAgent](https://github.com/HKUDS/AutoAgent) — _sources: ref/my_collect_
+- [HKUDS/MiniRAG](https://github.com/HKUDS/MiniRAG) — _sources: ref/my_collect_
+- [https://www.codacy.com/](https://www.codacy.com/) — _sources: ref/pentesting-notes_
+- [infiniflow/ragflow](https://github.com/infiniflow/ragflow) — _sources: ref/my_collect_
+- [Instruction Backdoor Attacks on Customized LLMs](https://arxiv.org/abs/2402.09179) — _sources: ref/awesome-ai-security-2_
+- [Invicti-Security/brainstorm](https://github.com/Invicti-Security/brainstorm) — _sources: ref/my_collect_
+- [JailbreakBench](https://jailbreakbench.github.io/) — _sources: ref/awesome-ai-security-2_
+- [jplhughes.github.io/bon-jailbreaking](https://jplhughes.github.io/bon-jailbreaking/) — _sources: ref/my_collect_
+- [karminski/one-small-step](https://github.com/karminski/one-small-step) — _sources: ref/my_collect_
+- [kortix-ai/suna](https://github.com/kortix-ai/suna) — _sources: ref/my_collect_
+- [KRLabsOrg/LettuceDetect](https://github.com/KRLabsOrg/LettuceDetect) — _sources: ref/my_collect_
+- [kvcache-ai/ktransformers](https://github.com/kvcache-ai/ktransformers) — _sources: ref/my_collect_
+- [lancedb/lancedb](https://github.com/lancedb/lancedb) — _sources: ref/my_collect_
+- [langgptai/wonderful-prompts](https://github.com/langgptai/wonderful-prompts) — _sources: ref/my_collect_
+- [langwatch/langwatch](https://github.com/langwatch/langwatch) — _sources: ref/my_collect_
+- [linjc16/Rec-R1](https://github.com/linjc16/Rec-R1) — _sources: ref/my_collect_
+- [LLM Agents can Autonomously Exploit One-day Vulnerabilities](https://arxiv.org/abs/2404.08144) — _sources: ref/awesome-ai-security-2_
+- [LLM Security Papers (chawins/llm-sp)](https://github.com/chawins/llm-sp) — _sources: ref/awesome-ai-security-2_
+- [llm-stats.com](https://llm-stats.com) — _sources: ref/my_collect_
+- [llmgenai/LLMInterviewQuestions](https://github.com/llmgenai/LLMInterviewQuestions) — _sources: ref/my_collect_
+- [LLMs in Software Security: A Survey of Vulnerability Detection Techniques](https://arxiv.org/html/2502.07049v2) — _sources: ref/awesome-ai-security-2_
+- [lobehub/lobe-chat](https://github.com/lobehub/lobe-chat) — _sources: ref/my_collect_
+- [LouisShark/chatgpt_system_prompt](https://github.com/LouisShark/chatgpt_system_prompt) — _sources: ref/my_collect_
+- [mainframecomputer/orchestra](https://github.com/mainframecomputer/orchestra) — _sources: ref/my_collect_
+- [manuelescobar-dev/LLM-Tools](https://github.com/manuelescobar-dev/LLM-Tools) — _sources: ref/my_collect_
+- [matthewwithanm/python-markdownify](https://github.com/matthewwithanm/python-markdownify) — _sources: ref/my_collect_
+- [medium.com](https://medium.com/rahasak/fine-tune-llm-for-medical-diagnosis-prediction-with-apple-mlx-1366ca2c5d63) — _sources: ref/my_collect_
+- [Membership Inference Attacks on Large-Scale Models: A Survey](https://arxiv.org/abs/2503.19338) — _sources: ref/awesome-ai-security-2_
+- [microsoft/lost_in_conversation](https://github.com/microsoft/lost_in_conversation) — _sources: ref/my_collect_
+- [microsoft/magentic-ui](https://github.com/microsoft/magentic-ui) — _sources: ref/my_collect_
+- [microsoft/PIKE-RAG](https://github.com/microsoft/PIKE-RAG) — _sources: ref/my_collect_
+- [mishushakov/llm-scraper](https://github.com/mishushakov/llm-scraper) — _sources: ref/my_collect_
+- [mkurman/grpo-llm-evaluator](https://github.com/mkurman/grpo-llm-evaluator) — _sources: ref/my_collect_
+- [ml-explore/mlx-examples](https://github.com/ml-explore/mlx-examples/blob/main/llms/mlx_lm/LORA.md) — _sources: ref/my_collect_
+- [ml-explore/mlx-lm](https://github.com/ml-explore/mlx-lm) — _sources: ref/my_collect_
+- [Model Leeching: An Extraction Attack Targeting LLMs](https://arxiv.org/abs/2309.10544) — _sources: ref/awesome-ai-security-2_
+- [mufeedvh/code2prompt](https://github.com/mufeedvh/code2prompt) — _sources: ref/my_collect_
+- [myshell-ai/ShellAgent](https://github.com/myshell-ai/ShellAgent) — _sources: ref/my_collect_
+- [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) — _sources: ref/awesome-ai-security-2_
+- [niceberginc/agentipy](https://github.com/niceberginc/agentipy) — _sources: ref/my_collect_
+- [NirDiamant/RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) — _sources: ref/my_collect_
+- [Olow304/memvid](https://github.com/Olow304/memvid) — _sources: ref/my_collect_
+- [OpenAI Says AI Browsers May Always Be Vulnerable to Prompt Injection Attacks](https://techcrunch.com/2025/12/22/openai-says-ai-browsers-may-always-be-vulnerable-to-prompt-injection-attacks/) — _sources: ref/awesome-ai-security-2_
+- [OpenMachine-ai/transformer-tricks](https://github.com/OpenMachine-ai/transformer-tricks) — _sources: ref/my_collect_
+- [patchy631/ai-engineering-hub](https://github.com/patchy631/ai-engineering-hub) — _sources: ref/my_collect_
+- [PentestGPT](https://github.com/GreyDGL/PentestGPT) — _sources: ref/awesome-ai-security-2_
+- [PentestGPT: An LLM-empowered Automatic Penetration Testing Tool](https://arxiv.org/abs/2308.06782) — _sources: ref/awesome-ai-security-2_
+- [philschmid/nextjs-gemini-2-0-pdf-structured-data](https://github.com/philschmid/nextjs-gemini-2-0-pdf-structured-data) — _sources: ref/my_collect_
+- [PrimeIntellect-ai/prime-rl](https://github.com/PrimeIntellect-ai/prime-rl) — _sources: ref/my_collect_
+- [Prompt Injection & the Rise of Prompt Attacks: All You Need to Know](https://www.lakera.ai/blog/guide-to-prompt-injection) — _sources: ref/awesome-ai-security-2_
+- [Prompt Injection Attacks in 2025: Risks, Defenses & Testing](https://redbotsecurity.com/prompt-injection-attacks-ai-security-2025/) — _sources: ref/awesome-ai-security-2_
+- [Prompt Injection Attacks: The Most Common AI Exploit in 2025](https://www.obsidiansecurity.com/blog/prompt-injection) — _sources: ref/awesome-ai-security-2_
+- [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) — _sources: ref/my_collect, ref/pentesting-notes_
+- [protectai/llm-guard](https://github.com/protectai/llm-guard) — _sources: ref/my_collect_
+- [protectai/modelscan](https://github.com/protectai/modelscan) — _sources: ref/my_collect_
+- [Purple Llama (Meta)](https://github.com/meta-llama/PurpleLlama) — _sources: ref/awesome-ai-security-2_
+- [PyRIT (Python Risk Identification Tool)](https://github.com/Azure/PyRIT) — _sources: ref/awesome-ai-security-2_
+- [qhjqhj00/MemoRAG](https://github.com/qhjqhj00/MemoRAG) — _sources: ref/my_collect_
+- [RanL703/LLM-Inference-Calc](https://github.com/RanL703/LLM-Inference-Calc) — _sources: ref/my_collect_
+- [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) — _sources: ref/my_collect_
+- [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch/tree/main/ch05/11_qwen3) — _sources: ref/my_collect_
+- [Rebuff](https://github.com/protectai/rebuff) — _sources: ref/awesome-ai-security-2_
+- [reworkd/AgentGPT](https://github.com/reworkd/AgentGPT) — _sources: ref/my_collect_
+- [RomiconEZ/llamator](https://github.com/RomiconEZ/llamator) — _sources: ref/my_collect_
+- [rootissh.in](https://rootissh.in/llm-pentesting-series-01-12-foundation-of-llm-pentesting-part-1-f531d9dd6cce) — _sources: ref/model-security-notes, ref/pentesting-notes_
+- [RUCAIBox/awesome-llm-pretraining](https://github.com/RUCAIBox/awesome-llm-pretraining) — _sources: ref/my_collect_
+- [sauravpanda/BrowserAI](https://github.com/sauravpanda/BrowserAI) — _sources: ref/my_collect_
+- [ScaBench](https://github.com/scabench-org/scabench) — _sources: ref/awesome-ai-security-2_
+- [schwartz1375/genai-security-training](https://github.com/schwartz1375/genai-security-training) — _sources: ref/pentesting-notes_
+- [SciPhi-AI/R2R](https://github.com/SciPhi-AI/R2R) — _sources: ref/my_collect_
+- [Semgrep](https://semgrep.dev/) — _sources: ref/awesome-ai-security-2, ref/pentesting-notes_
+- [shaxiu/XianyuAutoAgent](https://github.com/shaxiu/XianyuAutoAgent) — _sources: ref/my_collect_
+- [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/rag_tutorials/gemini_agentic_rag) — _sources: ref/my_collect_
+- [signerlabs/Klee](https://github.com/signerlabs/Klee) — _sources: ref/my_collect_
+- [sigoden/llm-functions](https://github.com/sigoden/llm-functions) — _sources: ref/my_collect_
+- [skyzh/tiny-llm](https://github.com/skyzh/tiny-llm) — _sources: ref/my_collect_
+- [SsmallSong/R1-Searcher](https://github.com/SsmallSong/R1-Searcher) — _sources: ref/my_collect_
+- [stanford-oval/storm](https://github.com/stanford-oval/storm) — _sources: ref/my_collect_
+- [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) — _sources: ref/my_collect_
+- [Tactics of Adversarial Attack on Deep Reinforcement Learning Agents](http://yclin.me/adversarial_attack_RL/) — _sources: ref/Awesome-AI-Security-1_
+- [tml-epfl/llm-adaptive-attacks](https://github.com/tml-epfl/llm-adaptive-attacks) — _sources: ref/my_collect_
+- [Tolga1452/ai-prompts](https://github.com/Tolga1452/ai-prompts) — _sources: ref/my_collect_
+- [TrustLLM Benchmark](https://trustllmbenchmark.github.io/TrustLLM-Website/) — _sources: ref/awesome-ai-security-2_
+- [ucsb-mlsec/VulnLLM-R](https://github.com/ucsb-mlsec/VulnLLM-R) — _sources: ref/pentesting-notes_
+- [View the interactive roadmap](https://floatingpragma.io/awesome-ai-security) — _sources: ref/awesome-ai-security-2_
+- [Vigil LLM](https://github.com/deadbits/vigil-llm) — _sources: ref/awesome-ai-security-2_
+- [vinay-gatech/stocks-insights-ai-agent](https://github.com/vinay-gatech/stocks-insights-ai-agent) — _sources: ref/my_collect_
+- [VoltAgent/voltagent](https://github.com/VoltAgent/voltagent) — _sources: ref/my_collect_
+- [WangRongsheng/awesome-LLM-resourses](https://github.com/WangRongsheng/awesome-LLM-resourses) — _sources: ref/my_collect_
+- [wgwang/awesome-LLMs-In-China](https://github.com/wgwang/awesome-LLMs-In-China) — _sources: ref/my_collect_
+- [X (Twitter)](https://x.com/Saboo_Shubham_/status/1879007403200655584) — _sources: ref/my_collect_
+- [X-PLUG/MM_StoryAgent](https://github.com/X-PLUG/MM_StoryAgent) — _sources: ref/my_collect_
+- [YouTube](https://www.youtube.com/watch?v=77990wI3LZk) — _sources: ref/my_collect_
+- [YouTube](https://www.youtube.com/watch?v=JIaWgRStuXA) — _sources: ref/my_collect_
+- [YouTube](https://youtu.be/_UU4cffEmKI?si=aD8S-ESZ-c9f4Q9B) — _sources: ref/my_collect_
+- [ZJU-LLMs/Foundations-of-LLMs](https://github.com/ZJU-LLMs/Foundations-of-LLMs) — _sources: ref/my_collect_
+
+## Adversarial ML (Evasion, Poisoning, Backdoors)
+
+- [A Brief Introduction to Adversarial Examples](https://gradientscience.org/intro_adversarial/) — _sources: ref/awesome-ai-security-2_
+- [A Meta-Survey of Adversarial Attacks Against Artificial Intelligence Systems](https://www.sciencedirect.com/science/article/pii/S0925231225019034) — _sources: ref/awesome-ai-security-2_
+- [A Survey of Adversarial Examples in Computer Vision](https://wujns.edpsciences.org/articles/wujns/full_html/2025/01/wujns-1007-1202-2025-01-0001-20/wujns-1007-1202-2025-01-0001-20.html) — _sources: ref/awesome-ai-security-2_
+- [Accessorize to a Crime: Real and Stealthy Attacks on State-of-the-Art Face Recognition](https://www.cs.cmu.edu/~sbhagava/papers/face-rec-ccs16.pdf) — _sources: ref/Awesome-AI-Security-1_
+- [Adversarial Attacks and Defenses in AI Systems: Challenges, Strategies, and Future Directions](https://rsisinternational.org/journals/ijrias/articles/adversarial-attacks-and-defenses-in-ai-systems-challenges-strategies-and-future-directions/) — _sources: ref/awesome-ai-security-2_
+- [Adversarial Attacks on Neural Network Policies](http://rll.berkeley.edu/adversarial/) — _sources: ref/Awesome-AI-Security-1_
+- [Adversarial Data Mining for Cyber Security](https://www.utdallas.edu/~muratk/CCS-tutorial.pdf) — _sources: ref/Awesome-AI-Security-1_
+- [Adversarial Examples and Adversarial Training by Ian Goodfellow at Stanford](https://www.youtube.com/watch?v=CIfsB_EYsVI) — _sources: ref/Awesome-AI-Security-1_
+- [Adversarial Examples and their implications](https://hackernoon.com/the-implications-of-adversarial-examples-deep-learning-bits-3-4086108287c7) — _sources: ref/Awesome-AI-Security-1_
+- [Adversarial Examples for Evaluating Reading Comprehension Systems](https://nlp.stanford.edu/pubs/jia2017adversarial.pdf) — _sources: ref/Awesome-AI-Security-1_
+- [Adversarial examples in the physical world](https://arxiv.org/abs/1607.02533) — _sources: ref/Awesome-AI-Security-1_
+- [Adversarial Generative Nets: Neural Network Attacks on State-of-the-Art Face Recognition](https://arxiv.org/abs/1801.00349) — _sources: ref/Awesome-AI-Security-1_
+- [Adversarial Images for Variational Autoencoders](https://arxiv.org/abs/1612.00155) — _sources: ref/Awesome-AI-Security-1_
+- [Adversarial Learning and Secure AI (Cambridge, 2023)](https://www.cambridge.org/highereducation/books/adversarial-learning-and-secure-ai/79986B5D288511757C2A95D71262E039) — _sources: ref/awesome-ai-security-2_
+- [Adversarial Learning for Good: My Talk at #34c3 on Deep Learning Blindspots](http://blog.kjamistan.com/adversarial-learning-for-good-my-talk-at-34c3-on-deep-learning-blindspots/) — _sources: ref/Awesome-AI-Security-1_
+- [Adversarial Machine Learning (Cambridge)](https://www.cambridge.org/core/books/adversarial-machine-learning/C42A9D49CBC626DF7B8E54E72974AA3B) — _sources: ref/awesome-ai-security-2_
+- [Adversarial Machine Learning - PRA Lab](https://pralab.diee.unica.it/en/AdversarialMachineLearning) — _sources: ref/Awesome-AI-Security-1_
+- [Adversarial Machine Learning Library(Ad-lib)](https://github.com/vu-aml/adlib) — _sources: ref/Awesome-AI-Security-1_
+- [Adversarial Machines](https://medium.com/@samim/adversarial-machines-998d8362e996) — _sources: ref/Awesome-AI-Security-1_
+- [Adversarial Manipulation of Deep Representations](https://arxiv.org/abs/1511.05122) — _sources: ref/Awesome-AI-Security-1_
+- [Adversarial Patch](https://arxiv.org/abs/1712.09665) — _sources: ref/Awesome-AI-Security-1_
+- [Adversarial Perturbations Against Deep Neural Networks for Malware Classification](https://arxiv.org/abs/1606.04435) — _sources: ref/Awesome-AI-Security-1_
+- [Adversarial Robustness Toolbox (ART)](https://github.com/Trusted-AI/adversarial-robustness-toolbox) — _sources: ref/awesome-ai-security-2_
+- [Adversarial Robustness: Softmax versus Openmax](https://arxiv.org/abs/1708.01697) — _sources: ref/Awesome-AI-Security-1_
+- [Adversarial Task Allocation](https://arxiv.org/abs/1709.00358) — _sources: ref/Awesome-AI-Security-1_
+- [Artificial Intelligence: A Modern Approach](https://aima.cs.berkeley.edu/) — _sources: ref/awesome-ai-security-2_
+- [artnitolog/awesome-arxiv](https://github.com/artnitolog/awesome-arxiv) — _sources: ref/my_collect_
+- [astriaai/headshots-starter](https://github.com/astriaai/headshots-starter) — _sources: ref/my_collect_
+- [awesome-adversarial-machine-learning](https://github.com/yenchenlin/awesome-adversarial-machine-learning) — _sources: ref/Awesome-AI-Security-1_
+- [awesome-ml-for-cybersecurity](https://github.com/jivoi/awesome-ml-for-cybersecurity) — _sources: ref/Awesome-AI-Security-1_
+- [Beatrix: Robust Backdoor Detection via Gram Matrices](https://www.ndss-symposium.org/wp-content/uploads/2024/09/2023-69-slides.pdf) — _sources: ref/awesome-ai-security-2_
+- [Can you fool AI with adversarial examples on a visual Turing test?](https://arxiv.org/abs/1709.08693) — _sources: ref/Awesome-AI-Security-1_
+- [civitai.com/stable-diffusion-webui](https://civitai.com/articles/1299/stable-diffusion-webui) — _sources: ref/my_collect_
+- [CleverHans - Python library to benchmark machine learning systems vulnerability to adversarial examples](https://github.com/tensorflow/cleverhans) — _sources: ref/Awesome-AI-Security-1_
+- [cookbook.openai.com/fine-tune-transfomers](https://cookbook.openai.com/articles/gpt-oss/fine-tune-transfomers) — _sources: ref/my_collect_
+- [Crafting Adversarial Input Sequences for Recurrent Neural Networks](https://arxiv.org/abs/1604.08275) — _sources: ref/Awesome-AI-Security-1_
+- [Data Driven Exploratory Attacks on Black Box Classifiers in Adversarial Domains](https://arxiv.org/abs/1703.07909) — _sources: ref/Awesome-AI-Security-1_
+- [Defensive Distillation is Not Robust to Adversarial Examples](http://nicholas.carlini.com/papers/2016_defensivedistillation.pdf) — _sources: ref/Awesome-AI-Security-1_
+- [Delving into adversarial attacks on deep policies](https://arxiv.org/abs/1705.06452) — _sources: ref/Awesome-AI-Security-1_
+- [Delving into Transferable Adversarial Examples and Black-box Attacks](https://arxiv.org/abs/1611.02770) — _sources: ref/Awesome-AI-Security-1_
+- [devcenter.heroku.com/platform-api-quickstart](https://devcenter.heroku.com/articles/platform-api-quickstart) — _sources: ref/security-notes_
+- [Did you hear that? Adversarial Examples Against Automatic Speech Recognition](https://arxiv.org/abs/1801.00554) — _sources: ref/Awesome-AI-Security-1_
+- [erichartford.com/uncensored-models](https://erichartford.com/uncensored-models) — _sources: ref/my_collect_
+- [Evasion attacks against machine learning at test time](https://pralab.diee.unica.it/sites/default/files/Biggio13-ecml.pdf) — _sources: ref/Awesome-AI-Security-1_
+- [Explaining and Harnessing Adversarial Examples](https://arxiv.org/abs/1412.6572) — _sources: ref/Awesome-AI-Security-1_
+- [Exploring the Space of Adversarial Images](https://arxiv.org/abs/1510.05328) — _sources: ref/Awesome-AI-Security-1_
+- [Exploring the Space of Adversarial Images](https://github.com/tabacof/adversarial) — _sources: ref/Awesome-AI-Security-1_
+- [Fast Feature Fool: A data independent approach to universal adversarial perturbations](https://arxiv.org/abs/1707.05572v1) — _sources: ref/Awesome-AI-Security-1_
+- [Foolbox - Python toolbox to create adversarial examples](https://github.com/bethgelab/foolbox) — _sources: ref/Awesome-AI-Security-1_
+- [Generating Adversarial Malware Examples for Black-Box Attacks Based on GAN](https://arxiv.org/abs/1702.05983) — _sources: ref/Awesome-AI-Security-1_
+- [google-gemini/gemini-image-editing-nextjs-quickstart](https://github.com/google-gemini/gemini-image-editing-nextjs-quickstart) — _sources: ref/my_collect_
+- [High Dimensional Spaces, Deep Learning and Adversarial Examples](https://arxiv.org/abs/1801.00634) — _sources: ref/Awesome-AI-Security-1_
+- [https://spotbugs.github.io/](https://spotbugs.github.io/) — _sources: ref/pentesting-notes_
+- [Is Feature Selection Secure against Training Data Poisoning?](https://pralab.diee.unica.it/en/node/1191) — _sources: ref/Awesome-AI-Security-1_
+- [Key Concepts in AI Safety: Robustness and Adversarial Examples](https://cset.georgetown.edu/publication/key-concepts-in-ai-safety-robustness-and-adversarial-examples/) — _sources: ref/awesome-ai-security-2_
+- [Looking at the Bag is not Enough to Find the Bomb: An Evasion of Structural Methods for Malicious PDF Files Detection](https://pralab.diee.unica.it/sites/default/files/maiorca_ASIACCS13.pdf) — _sources: ref/Awesome-AI-Security-1_
+- [Machine Learning and Security](https://www.oreilly.com/library/view/machine-learning-and/9781491979891/) — _sources: ref/awesome-ai-security-2_
+- [MNTD: Detecting AI Trojans Using Meta Neural Analysis](https://arxiv.org/abs/1910.03137) — _sources: ref/awesome-ai-security-2_
+- [Neural Networks in Adversarial Setting and Ill-Conditioned Weight Space](https://arxiv.org/abs/1801.00905) — _sources: ref/Awesome-AI-Security-1_
+- [nick-tonjum/open-webui-artifacts-overhaul](https://github.com/nick-tonjum/open-webui-artifacts-overhaul) — _sources: ref/my_collect_
+- [Note on Attacking Object Detectors with Adversarial Stickers](https://arxiv.org/abs/1712.08062) — _sources: ref/Awesome-AI-Security-1_
+- [On the (Statistical) Detection of Adversarial Examples](https://arxiv.org/abs/1702.06280) — _sources: ref/Awesome-AI-Security-1_
+- [On The Integrity Of Deep Learning Systems In Adversarial Settings](https://etda.libraries.psu.edu/catalog/28680) — _sources: ref/Awesome-AI-Security-1_
+- [Poisoning Attacks Need Only a Few Points](https://arxiv.org/abs/2510.07192) — _sources: ref/awesome-ai-security-2_
+- [Poisoning Behavioral Malware Clustering](http://pralab.diee.unica.it/en/node/1121) — _sources: ref/Awesome-AI-Security-1_
+- [RHMD: Evasion-Resilient Hardware Malware Detectors](http://www.cs.ucr.edu/~kkhas001/pubs/micro17-rhmd.pdf) — _sources: ref/Awesome-AI-Security-1_
+- [Robust Physical-World Attacks on Deep Learning Models](https://arxiv.org/abs/1707.08945) — _sources: ref/Awesome-AI-Security-1_
+- [RobustBench](https://robustbench.github.io/) — _sources: ref/awesome-ai-security-2_
+- [SaadAhla/VSCode-Backdoor](https://github.com/SaadAhla/VSCode-Backdoor) — _sources: ref/security-notes_
+- [SecML](https://secml.readthedocs.io/) — _sources: ref/awesome-ai-security-2_
+- [Simple Black-Box Adversarial Perturbations for Deep Networks](https://arxiv.org/abs/1612.06299) — _sources: ref/Awesome-AI-Security-1_
+- [Synthesizing Robust Adversarial Examples](https://arxiv.org/abs/1707.07397) — _sources: ref/Awesome-AI-Security-1_
+- [TextAttack](https://github.com/QData/TextAttack) — _sources: ref/awesome-ai-security-2_
+- [The Space of Transferable Adversarial Examples](https://arxiv.org/abs/1704.03453) — _sources: ref/Awesome-AI-Security-1_
+- [Threat of Adversarial Attacks on Deep Learning in Computer Vision: A Survey](https://arxiv.org/abs/1801.00553) — _sources: ref/Awesome-AI-Security-1_
+- [Towards Poisoning of Deep Learning Algorithms with Back-gradient Optimization](https://arxiv.org/abs/1708.08689) — _sources: ref/Awesome-AI-Security-1_
+- [Transferability in Machine Learning: from Phenomena to Black-Box Attacks using Adversarial Samples](https://arxiv.org/abs/1605.07277) — _sources: ref/Awesome-AI-Security-1_
+- [Universal adversarial perturbations](https://arxiv.org/abs/1610.08401) — _sources: ref/Awesome-AI-Security-1_
+- [Universal adversarial perturbations](https://github.com/LTS4/universal) — _sources: ref/Awesome-AI-Security-1_
+- [vercel-labs/ai-sdk-reasoning-starter](https://github.com/vercel-labs/ai-sdk-reasoning-starter) — _sources: ref/my_collect_
+- [vercel-labs/ai-sdk-starter-xai](https://github.com/vercel-labs/ai-sdk-starter-xai) — _sources: ref/my_collect_
+- [Vulnerability of machine learning models to adversarial examples](http://ceur-ws.org/Vol-1649/187.pdf) — _sources: ref/Awesome-AI-Security-1_
+- [Wild Patterns: Ten Years After the Rise of Adversarial Machine Learning](https://arxiv.org/abs/1712.03141) — _sources: ref/Awesome-AI-Security-1_
+- [Witches' Brew: Industrial Scale Data Poisoning via Gradient Matching](https://arxiv.org/abs/2009.02276) — _sources: ref/awesome-ai-security-2_
+- [YouTube](https://www.youtube.com/watch?v=tRuN8xYdETs) — _sources: ref/my_collect_
+
+## Privacy, Extraction & Model Stealing
+
+- [A Methodology for Formalizing Model-Inversion Attacks](https://andrewxiwu.github.io/public/papers/2016/WFJN16-a-methodology-for-modeling-model-inversion-attacks.pdf) — _sources: ref/Awesome-AI-Security-1_
+- [A Survey of Privacy Attacks in Machine Learning](https://dl.acm.org/doi/10.1145/3624010) — _sources: ref/awesome-ai-security-2_
+- [awesome-ml-privacy-attacks](https://github.com/stratosphereips/awesome-ml-privacy-attacks) — _sources: ref/awesome-ai-security-2_
+- [Extracting Training Data from Large Language Models](https://www.usenix.org/conference/usenixsecurity21/presentation/carlini-extracting) — _sources: ref/awesome-ai-security-2_
+- [Membership Inference Attacks on Machine Learning: A Survey](https://arxiv.org/abs/2103.07853) — _sources: ref/awesome-ai-security-2_
+- [Model extraction attacks on Machine-Learning-as-a-Service platforms](https://github.com/ftramer/Steal-ML) — _sources: ref/Awesome-AI-Security-1_
+- [Model Inversion Attacks that Exploit Confidence Information and Basic Countermeasures](https://www.cs.cmu.edu/~mfredrik/papers/fjr2015ccs.pdf) — _sources: ref/Awesome-AI-Security-1_
+- [Stealing Machine Learning Models via Prediction APIs](https://arxiv.org/abs/1609.02943) — _sources: ref/Awesome-AI-Security-1_
+
+## Red Teaming & Testing Tools
+
+- [0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai) — _sources: ref/pentesting-notes_
+- [0xdea/exploits](https://github.com/0xdea/exploits) — _sources: ref/pentesting-notes_
+- [0xMrNiko/Awesome-Red-Teaming](https://github.com/0xMrNiko/Awesome-Red-Teaming) — _sources: ref/pentesting-notes_
+- [9 AI Enabled Cybersecurity Tools in 2025](https://www.packetlabs.net/posts/9-ai-enabled-cybersecurity-tools-in-2025/) — _sources: ref/awesome-ai-security-2_
+- [adityatelange/evil-winrm-py](https://github.com/adityatelange/evil-winrm-py) — _sources: ref/pentesting-notes_
+- [amrelsagaei/Chatio](https://github.com/amrelsagaei/Chatio) — _sources: ref/pentesting-notes_
+- [AonCyberLabs/Windows-Exploit-Suggester](https://github.com/AonCyberLabs/Windows-Exploit-Suggester) — _sources: ref/pentesting-notes_
+- [aquasecurity/vuln-list](https://github.com/aquasecurity/vuln-list) — _sources: ref/pentesting-notes_
+- [arschlochnop/VulnWatchdog](https://github.com/arschlochnop/VulnWatchdog) — _sources: ref/pentesting-notes_
+- [Best AI Pentesting Tools in 2026](https://escape.tech/blog/best-ai-pentesting-tools/) — _sources: ref/awesome-ai-security-2_
+- [billchurch/webssh2](https://github.com/billchurch/webssh2) — _sources: ref/pentesting-notes_
+- [blacklanternsecurity/TREVORproxy](https://github.com/blacklanternsecurity/TREVORproxy) — _sources: ref/pentesting-notes_
+- [BurpGPT](https://github.com/aress31/burpgpt) — _sources: ref/awesome-ai-security-2_
+- [c0nf1den71al/Lodestar-Forge](https://github.com/c0nf1den71al/Lodestar-Forge) — _sources: ref/pentesting-notes_
+- [CAI: Cybersecurity AI](https://github.com/aliasrobotics/cai) — _sources: ref/awesome-ai-security-2, ref/pentesting-notes_
+- [caido/caido](https://github.com/caido/caido) — _sources: ref/pentesting-notes_
+- [chat.openai.com/g-fmLSgXrKN-kali-gpt](https://chat.openai.com/g/g-fmLSgXrKN-kali-gpt) — _sources: ref/pentesting-notes_
+- [cocomelonc/cocomelonc.github.io](https://github.com/cocomelonc/cocomelonc.github.io) — _sources: ref/pentesting-notes_
+- [cve-search/cve-search](https://github.com/cve-search/cve-search) — _sources: ref/pentesting-notes_
+- [cve.circl.lu/android](https://cve.circl.lu/api/search/google/android) — _sources: ref/pentesting-notes_
+- [d-sec-net/VPK](https://github.com/d-sec-net/VPK) — _sources: ref/pentesting-notes_
+- [dk0m/ZeroCrumb](https://github.com/dk0m/ZeroCrumb) — _sources: ref/pentesting-notes_
+- [firetix/vibe-coding-penetration-tester](https://github.com/firetix/vibe-coding-penetration-tester) — _sources: ref/pentesting-notes_
+- [Fitretech-Security/session-forking](https://github.com/Fitretech-Security/session-forking) — _sources: ref/pentesting-notes_
+- [fkasler/phishmonger](https://github.com/fkasler/phishmonger) — _sources: ref/pentesting-notes_
+- [FluddSec/v8_ndays](https://github.com/FluddSec/v8_ndays) — _sources: ref/pentesting-notes, ref/security-notes_
+- [gist.github.com/067e1e74e61c670ccc669c5b17f8d1ba](https://gist.github.com/gmh5225/067e1e74e61c670ccc669c5b17f8d1ba) — _sources: ref/pentesting-notes_
+- [git.kernel.org](https://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git/commit/?id=103406b38c600fec1fe375a77b27d87e314aea09) — _sources: ref/pentesting-notes_
+- [git.kernel.org](https://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git/commit/?id=32ca245464e1479bfea8592b9db227fdc1641705) — _sources: ref/pentesting-notes_
+- [git.kernel.org](https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=8c0a559825281764061a127632e5ad273f0466ad) — _sources: ref/pentesting-notes_
+- [git.kernel.org](https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=9857af0fcff385c75433f2162c30c62eb912ef6d) — _sources: ref/pentesting-notes_
+- [git.kernel.org](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=ba677dbe77af5ffe6204e0f3f547f3ba059c6302) — _sources: ref/pentesting-notes_
+- [gmh5225/chrome_v8_ndays](https://github.com/gmh5225/chrome_v8_ndays) — _sources: ref/pentesting-notes, ref/security-notes_
+- [gmh5225/LNK-poc](https://github.com/gmh5225/LNK-poc) — _sources: ref/pentesting-notes_
+- [gnmyt/Nexterm](https://github.com/gnmyt/Nexterm) — _sources: ref/pentesting-notes, ref/security-notes_
+- [haroonawanofficial/AISA-Scanner](https://github.com/haroonawanofficial/AISA-Scanner) — _sources: ref/pentesting-notes_
+- [https://checkmarx.com/](https://checkmarx.com/) — _sources: ref/pentesting-notes_
+- [https://codeql.github.com/](https://codeql.github.com/) — _sources: ref/pentesting-notes_
+- [https://deepsource.io/](https://deepsource.io/) — _sources: ref/pentesting-notes_
+- [https://pmd.github.io/](https://pmd.github.io/) — _sources: ref/pentesting-notes_
+- [https://snyk.io/product/snyk-code/](https://snyk.io/product/snyk-code/) — _sources: ref/pentesting-notes_
+- [https://www.microfocus.com/en-us/solutions/application-security/static-code-analyzer](https://www.opentext.com/products/static-application-security-testing) — _sources: ref/pentesting-notes_
+- [https://www.veracode.com/](https://www.veracode.com/) — _sources: ref/pentesting-notes_
+- [kapellos/LNKSmuggler](https://github.com/kapellos/LNKSmuggler) — _sources: ref/pentesting-notes_
+- [lijiejie/BBScan](https://github.com/lijiejie/BBScan) — _sources: ref/pentesting-notes_
+- [Lissy93/web-check](https://github.com/Lissy93/web-check) — _sources: ref/pentesting-notes_
+- [m14r41/PentestingEverything](https://github.com/m14r41/PentestingEverything) — _sources: ref/pentesting-notes_
+- [microsoft/AI-Red-Teaming-Playground-Labs](https://github.com/microsoft/AI-Red-Teaming-Playground-Labs) — _sources: ref/pentesting-notes_
+- [moonD4rk/HackBrowserData](https://github.com/moonD4rk/HackBrowserData) — _sources: ref/pentesting-notes_
+- [NeverSight/chrome-exp](https://github.com/NeverSight/chrome-exp/blob/main/chrome-bug-commit-tracker.py) — _sources: ref/pentesting-notes_
+- [nomi-sec/PoC-in-GitHub](https://github.com/nomi-sec/PoC-in-GitHub) — _sources: ref/pentesting-notes_
+- [Petitoto/chromium-exploit-dev](https://github.com/Petitoto/chromium-exploit-dev) — _sources: ref/pentesting-notes, ref/security-notes_
+- [Red-Hex-Consulting/Ankou](https://github.com/Red-Hex-Consulting/Ankou) — _sources: ref/pentesting-notes_
+- [rodolfomarianocy/OSCP-Tricks-2023](https://github.com/rodolfomarianocy/OSCP-Tricks-2023) — _sources: ref/pentesting-notes_
+- [rules.sonarsource.com/RSPEC-2631](https://rules.sonarsource.com/java/type/Vulnerability/RSPEC-2631/) — _sources: ref/pentesting-notes_
+- [six2dez/reconftw](https://github.com/six2dez/reconftw) — _sources: ref/pentesting-notes_
+- [six2dez/reconftw_ai](https://github.com/six2dez/reconftw_ai) — _sources: ref/pentesting-notes_
+- [sl4v/hfsplus-kernel-fuzzing-demo](https://github.com/sl4v/hfsplus-kernel-fuzzing-demo) — _sources: ref/pentesting-notes_
+- [Stanford AIR-Bench 2024](https://crfm.stanford.edu/helm/air-bench/latest/) — _sources: ref/awesome-ai-security-2_
+- [suhasgowtham-x/aegis-security-co-pilot](https://github.com/suhasgowtham-x/aegis-security-co-pilot) — _sources: ref/pentesting-notes_
+- [Top 10 AI Pentesting Tools (2025)](https://mindgard.ai/blog/top-ai-pentesting-tools) — _sources: ref/awesome-ai-security-2_
+- [Top AI Pentesting Tools in 2025: PentestGPT vs. Penligent vs. PentestAI](https://www.penligent.ai/hackinglabs/top-ai-pentesting-tools-in-2025-pentestgpt-vs-penligent-vs-pentestai-reviewed/) — _sources: ref/awesome-ai-security-2_
+- [trickest/cve](https://github.com/trickest/cve) — _sources: ref/pentesting-notes_
+- [usestrix/strix](https://github.com/usestrix/strix) — _sources: ref/pentesting-notes_
+- [WebGoat/WebGoat](https://github.com/WebGoat/WebGoat) — _sources: ref/pentesting-notes_
+- [wh1ant/vulnjs](https://github.com/wh1ant/vulnjs) — _sources: ref/pentesting-notes_
+- [www.cve-search.org/api](https://www.cve-search.org/api/) — _sources: ref/pentesting-notes_
+- [www.microfocus.com/static-code-analyzer](https://www.microfocus.com/en-us/solutions/application-security/static-code-analyzer) — _sources: ref/pentesting-notes_
+- [www.xis10cial.com](https://www.xis10cial.com) — _sources: ref/pentesting-notes_
+- [xelemental/Mal-LNK-Analyzer](https://github.com/xelemental/Mal-LNK-Analyzer) — _sources: ref/pentesting-notes_
+- [yz9yt/BugTrace-AI](https://github.com/yz9yt/BugTrace-AI) — _sources: ref/pentesting-notes_
+- [zakirkun/guardian-cli](https://github.com/zakirkun/guardian-cli) — _sources: ref/pentesting-notes_
+
+## Standards, Frameworks & Taxonomies
+
+- [Adversarial Attacks against Intrusion Detection Systems: Taxonomy, Solutions and Open Issues](https://pdfs.semanticscholar.org/d4e8/aed54dc4c6bed41651254a49d47885648142.pdf) — _sources: ref/Awesome-AI-Security-1_
+- [Exploring the Role of Generative AI in Enhancing Cybersecurity](https://www.sciencedirect.com/science/article/pii/S2590005625001365) — _sources: ref/awesome-ai-security-2_
+- [https://checkstyle.sourceforge.io/](https://checkstyle.sourceforge.io/) — _sources: ref/pentesting-notes_
+- [https://owasp.org/www-project-dependency-check/](https://owasp.org/www-project-dependency-check/) — _sources: ref/pentesting-notes_
+- [https://www.perforce.com/products/klocwork](https://www.perforce.com/products/klocwork) — _sources: ref/pentesting-notes_
+- [https://www.sonarqube.org/](https://www.sonarqube.org/) — _sources: ref/pentesting-notes_
+- [LLM01:2025 Prompt Injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/) — _sources: ref/awesome-ai-security-2_
+- [MITRE ATLAS](https://atlas.mitre.org/) — _sources: ref/awesome-ai-security-2_
+- [NIST Adversarial ML Taxonomy](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-2e2025.pdf) — _sources: ref/awesome-ai-security-2_
+- [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) — _sources: ref/awesome-ai-security-2_
+- [nvd.nist.gov/cve-2024-24919](https://nvd.nist.gov/vuln/detail/cve-2024-24919) — _sources: ref/security-notes_
+- [OWASP Gen AI Incident & Exploit Round-up, Q2'25](https://genai.owasp.org/2025/07/14/owasp-gen-ai-incident-exploit-round-up-q225/) — _sources: ref/awesome-ai-security-2_
+- [OWASP GenAI Security Project](https://genai.owasp.org/) — _sources: ref/awesome-ai-security-2_
+- [OWASP Top 10 for LLM Applications 2025](https://owasp.org/www-project-top-10-for-large-language-model-applications/) — _sources: ref/awesome-ai-security-2_
+- [owasp.org/05-checklist.html](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/stable-en/02-checklist/05-checklist.html) — _sources: ref/pentesting-notes_
+- [wiki.sei.cmu.edu/SEI+CERT+Oracle+Coding+Standard+for+Java](https://wiki.sei.cmu.edu/confluence/display/java/SEI+CERT+Oracle+Coding+Standard+for+Java) — _sources: ref/pentesting-notes_
+
+## AI for Security (Offense/Defense)
+
+- [0xAIDR/AIDR-Bastion](https://github.com/0xAIDR/AIDR-Bastion) — _sources: ref/model-security-notes_
+- [4xyy/AI-Vuln-Scanner](https://github.com/4xyy/AI-Vuln-Scanner) — _sources: ref/my_collect_
+- [A Survey of Bugs in AI-Generated Code](https://arxiv.org/abs/2512.05239) — _sources: ref/awesome-ai-security-2_
+- [A Watermark for Large Language Models](https://arxiv.org/abs/2301.10226) — _sources: ref/awesome-ai-security-2_
+- [aceberg/WatchYourLAN](https://github.com/aceberg/WatchYourLAN) — _sources: ref/security-notes_
+- [advisories/GHSA-596c-w2jc-jmmx](https://github.com/advisories/GHSA-596c-w2jc-jmmx) — _sources: ref/security-notes_
+- [AI Coding Tools Exploded in 2025: The First Security Exploits Followed](https://fortune.com/2025/12/15/ai-coding-tools-security-exploit-software/) — _sources: ref/awesome-ai-security-2_
+- [AI Security Analyzer](https://github.com/xvnpw/ai-security-analyzer) — _sources: ref/awesome-ai-security-2_
+- [AI Security Newsletter](https://github.com/TalEliyahu/awesome-security-newsletters) — _sources: ref/awesome-ai-security-2_
+- [AI Vulnerability Database (AVID)](https://avidml.org/) — _sources: ref/awesome-ai-security-2_
+- [ai.cylect.io](https://ai.cylect.io/) — _sources: ref/security-notes_
+- [alphaleadership/feed](https://github.com/alphaleadership/feed) — _sources: ref/security-notes_
+- [api.slack.com/oauth-v2](https://api.slack.com/authentication/oauth-v2) — _sources: ref/security-notes_
+- [api.slack.com/rotation](https://api.slack.com/authentication/rotation) — _sources: ref/security-notes_
+- [api.slack.com/webhooks](https://api.slack.com/messaging/webhooks) — _sources: ref/security-notes_
+- [apurvsinghgautam/robin](https://github.com/apurvsinghgautam/robin/) — _sources: ref/security-notes_
+- [arxiv.org/2507.02737v1](https://arxiv.org/html/2507.02737v1) — _sources: ref/model-security-notes_
+- [Automatically Evading Classifiers A Case Study on PDF Malware Classifiers](http://evademl.org/docs/evademl.pdf) — _sources: ref/Awesome-AI-Security-1_
+- [blog.clamav.net/clamav-143-and-109-security-patch.html](https://blog.clamav.net/2025/06/clamav-143-and-109-security-patch.html) — _sources: ref/security-notes_
+- [blog.jstassen.com](https://blog.jstassen.com/2016/03/code-regex-for-instagram-username-and-hashtags/) — _sources: ref/security-notes_
+- [CAI - Cybersecurity AI framework for autonomous security testing](https://github.com/aliasrobotics/CAI) — _sources: ref/Awesome-AI-Security-1_
+- [Camouflage from face detection - CV Dazzle](https://www.cvdazzle.com/) — _sources: ref/Awesome-AI-Security-1_
+- [CAU-ISS-Lab/AIGT-Detection-Evade-Detection](https://github.com/CAU-ISS-Lab/AIGT-Detection-Evade-Detection) — _sources: ref/model-security-notes_
+- [ccp.netcup.eu](https://ccp.netcup.eu/) — _sources: ref/security-notes_
+- [chmj/cve-feed-tracker](https://github.com/chmj/cve-feed-tracker) — _sources: ref/security-notes_
+- [Counterfit](https://github.com/Azure/counterfit) — _sources: ref/awesome-ai-security-2_
+- [Deep-pwning](https://github.com/cchio/deep-pwning) — _sources: ref/Awesome-AI-Security-1_
+- [DeepFool](https://github.com/lts4/deepfool) — _sources: ref/Awesome-AI-Security-1_
+- [DeepFool: a simple and accurate method to fool deep neural networks](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Moosavi-Dezfooli_DeepFool_A_Simple_CVPR_2016_paper.pdf) — _sources: ref/Awesome-AI-Security-1_
+- [DEF CON 25 - Hyrum Anderson - Evading next gen AV using AI](https://youtu.be/FGCle6T0Jpc) — _sources: ref/Awesome-AI-Security-1_
+- [developer.squareup.com/obtaintoken](https://developer.squareup.com/reference/square/oauth-api/obtaintoken) — _sources: ref/security-notes_
+- [docs.github.com](https://docs.github.com/en/apps/creating-github-apps/authenticating-with-a-github-app/about-authentication-with-a-github-app#authenticating-as-an-installation) — _sources: ref/security-notes_
+- [docs.github.com](https://docs.github.com/en/apps/creating-github-apps/authenticating-with-a-github-app/authenticating-with-a-github-app-on-behalf-of-a-user) — _sources: ref/security-notes_
+- [docs.github.com/authorizing-oauth-apps](https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/authorizing-oauth-apps) — _sources: ref/security-notes_
+- [docs.github.com/managing-your-personal-access-tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) — _sources: ref/security-notes_
+- [elliott-diy/Weather2Geo](https://github.com/elliott-diy/Weather2Geo) — _sources: ref/security-notes_
+- [ElNiak/awesome-ai-cybersecurity](https://github.com/ElNiak/awesome-ai-cybersecurity) — _sources: ref/awesome-ai-security-2_
+- [en.fofa.info](https://en.fofa.info/result?qbase64=dGl0bGU9IkNoZWNrIFBvaW50IFNTTCBOZXR3b3JrIEV4dGVuZGVyIiA%3D) — _sources: ref/security-notes_
+- [en.fofa.info/result?qbase64=YXBwPSJDSVNDTy1DbGFtQVYi](https://en.fofa.info/result?qbase64=YXBwPSJDSVNDTy1DbGFtQVYi) — _sources: ref/security-notes_
+- [FLI AI Safety Index 2024](https://futureoflife.org/wp-content/uploads/2024/12/AI-Safety-Index-2024-Full-Report-11-Dec-24.pdf) — _sources: ref/awesome-ai-security-2_
+- [gelusus/wxvl](https://github.com/gelusus/wxvl) — _sources: ref/security-notes_
+- [Generic Black-Box End-to-End Attack against RNNs and Other API Calls Based Malware Classifiers](https://arxiv.org/abs/1707.05970) — _sources: ref/Awesome-AI-Security-1_
+- [GitHub](https://github.com/muellerberndt) — _sources: ref/awesome-ai-security-2_
+- [GitHub Copilot Security Evaluation](https://cyber.nyu.edu/2021/10/15/ccs-researchers-find-github-copilot-generates-vulnerable-code-40-of-the-time/) — _sources: ref/awesome-ai-security-2_
+- [gmh5225/socialscan](https://github.com/gmh5225/socialscan) — _sources: ref/security-notes_
+- [google/oss-fuzz-gen](https://github.com/google/oss-fuzz-gen) — _sources: ref/my_collect_
+- [grep.app](https://grep.app/search?q=EAACEdEose0cBA%5B0-9A-Za-z%5D%2B&regexp=true) — _sources: ref/security-notes_
+- [grok.com](https://grok.com/share/bGVnYWN5_7b63f6fd-c117-494d-99bd-e33a7fb6c2ee) — _sources: ref/security-notes_
+- [HikaruEgashira/vulnhuntrs](https://github.com/HikaruEgashira/vulnhuntrs) — _sources: ref/my_collect_
+- [Hound](https://github.com/scabench-org/hound) — _sources: ref/awesome-ai-security-2_
+- [How to check whether a string is Base64 encoded or not](https://stackoverflow.com/a/8571649) — _sources: ref/security-notes_
+- [hunter.how](https://hunter.how/list?searchValue=product.name%3D%22Next.js%22) — _sources: ref/security-notes_
+- [ivre/ivre](https://github.com/ivre/ivre) — _sources: ref/security-notes_
+- [ivre/ivre.git](https://github.com/ivre/ivre.git) — _sources: ref/security-notes_
+- [ivre/masscanned](https://github.com/ivre/masscanned) — _sources: ref/security-notes_
+- [labs.watchtowr.com](https://labs.watchtowr.com/check-point-wrong-check-point-cve-2024-24919/) — _sources: ref/security-notes_
+- [linux.do/963625](https://linux.do/t/topic/963625) — _sources: ref/model-security-notes_
+- [LOTS about Attacking Deep Features](https://arxiv.org/abs/1611.06179) — _sources: ref/Awesome-AI-Security-1_
+- [Malware Env for OpenAI Gym](https://github.com/endgameinc/gym-malware) — _sources: ref/Awesome-AI-Security-1_
+- [MLSecOps Podcast](https://mlsecops.com/podcast) — _sources: ref/awesome-ai-security-2_
+- [muellerberndt](https://twitter.com/muellerberndt) — _sources: ref/awesome-ai-security-2_
+- [musana/CF-Hero](https://github.com/musana/CF-Hero) — _sources: ref/security-notes_
+- [odomojuli/regextokens](https://github.com/odomojuli/regextokens) — _sources: ref/security-notes_
+- [One pixel attack for fooling deep neural networks](https://arxiv.org/abs/1710.08864v1) — _sources: ref/Awesome-AI-Security-1_
+- [ottosulin/awesome-ai-security](https://github.com/ottosulin/awesome-ai-security) — _sources: ref/awesome-ai-security-2_
+- [Query Strategies for Evading Convex-Inducing Classifiers](https://people.eecs.berkeley.edu/~adj/publications/paper-files/1007-0484v1.pdf) — _sources: ref/Awesome-AI-Security-1_
+- [repo.mongodb.org/ubuntu](https://repo.mongodb.org/apt/ubuntu) — _sources: ref/security-notes_
+- [sari3l/Poc-Monitor](https://github.com/sari3l/Poc-Monitor) — _sources: ref/security-notes_
+- [Stripe API Keys Documentation](https://docs.stripe.com/keys) — _sources: ref/security-notes_
+- [TalEliyahu/Awesome-AI-Security](https://github.com/TalEliyahu/Awesome-AI-Security) — _sources: ref/awesome-ai-security-2_
+- [View source](https://github.com/twitter/twitter-text/blob/master/rb/lib/twitter-text/regex.rb) — _sources: ref/security-notes_
+- [www.mongodb.org/server-6.0.asc](https://www.mongodb.org/static/pgp/server-6.0.asc) — _sources: ref/security-notes_
+- [www.ndss-symposium.org/ndss2019_04B-3_Meli_paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_04B-3_Meli_paper.pdf) — _sources: ref/security-notes_
+- [www.netcup.eu](https://www.netcup.eu/) — _sources: ref/security-notes_
+- [www.netcup.eu/terms-and-conditions](https://www.netcup.eu/en/about-netcup/terms-and-conditions) — _sources: ref/security-notes_
+- [www.netcup.eu/vps](https://www.netcup.eu/vps/) — _sources: ref/security-notes_
+- [x86byte/RE-MA-Roadmap](https://github.com/x86byte/RE-MA-Roadmap) — _sources: ref/security-notes_
+- [ycdxsb/PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github) — _sources: ref/security-notes_
+
+## MCP / Agent Tooling Ecosystem
+
+- [34892002/bilibili-mcp-js](https://github.com/34892002/bilibili-mcp-js) — _sources: ref/my_collect_
+- [AI42Crypto/AI-resources](https://github.com/AI42Crypto/AI-resources/blob/main/LangChain%20vs%20LangGraph.md) — _sources: ref/my_collect_
+- [AI42Crypto/AI-resources](https://github.com/AI42Crypto/AI-resources/blob/main/Smolagents%E6%A6%82%E8%BF%B0.md) — _sources: ref/my_collect_
+- [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) — _sources: ref/my_collect_
+- [blazickjp/arxiv-mcp-server](https://github.com/blazickjp/arxiv-mcp-server) — _sources: ref/my_collect_
+- [block/goose](https://github.com/block/goose) — _sources: ref/my_collect_
+- [browser-use/browser-use](https://github.com/browser-use/browser-use) — _sources: ref/my_collect_
+- [browser-use/macOS-use](https://github.com/browser-use/macOS-use) — _sources: ref/my_collect_
+- [browser-use/workflow-use](https://github.com/browser-use/workflow-use) — _sources: ref/my_collect_
+- [chatmcp/mcp-server-chatsum](https://github.com/chatmcp/mcp-server-chatsum) — _sources: ref/my_collect_
+- [co-browser/browser-use-mcp-server](https://github.com/co-browser/browser-use-mcp-server) — _sources: ref/my_collect_
+- [cyproxio/mcp-for-security](https://github.com/cyproxio/mcp-for-security) — _sources: ref/pentesting-notes_
+- [EthanHenrickson/math-mcp](https://github.com/EthanHenrickson/math-mcp) — _sources: ref/my_collect_
+- [eunomia-bpf/MCPtrace](https://github.com/eunomia-bpf/MCPtrace) — _sources: ref/pentesting-notes_
+- [fr0gger/nova_mcp](https://github.com/fr0gger/nova_mcp) — _sources: ref/my_collect_
+- [geelen/mcp-remote](https://github.com/geelen/mcp-remote) — _sources: ref/my_collect_
+- [GLips/Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP) — _sources: ref/my_collect_
+- [gmh5225/blender-mcp](https://github.com/gmh5225/blender-mcp) — _sources: ref/my_collect_
+- [gmh5225/hex2dec-mcp](https://github.com/gmh5225/hex2dec-mcp) — _sources: ref/my_collect_
+- [gmh5225/langgraph-example](https://github.com/gmh5225/langgraph-example) — _sources: ref/my_collect_
+- [gmh5225/MCP-Chinese-Getting-Started-Guide](https://github.com/gmh5225/MCP-Chinese-Getting-Started-Guide) — _sources: ref/my_collect_
+- [gmh5225/smolagents_examples](https://github.com/gmh5225/smolagents_examples) — _sources: ref/my_collect_
+- [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox) — _sources: ref/my_collect_
+- [huggingface.co/smolagents](https://huggingface.co/blog/smolagents) — _sources: ref/my_collect_
+- [huggingface/smolagents](https://github.com/huggingface/smolagents/blob/main/examples/vlm_web_browser.py) — _sources: ref/my_collect_
+- [jae-jae/fetcher-mcp](https://github.com/jae-jae/fetcher-mcp) — _sources: ref/my_collect_
+- [jedisct1/zig-mcp-server](https://github.com/jedisct1/zig-mcp-server) — _sources: ref/my_collect_
+- [johnhalloran321/mcpSafetyScanner](https://github.com/johnhalloran321/mcpSafetyScanner) — _sources: ref/my_collect_
+- [justinpbarnett/unity-mcp](https://github.com/justinpbarnett/unity-mcp) — _sources: ref/my_collect_
+- [Karthikathangarasu/pentest-mcp](https://github.com/Karthikathangarasu/pentest-mcp) — _sources: ref/security-notes_
+- [langchain-ai/chat-langchain](https://github.com/langchain-ai/chat-langchain) — _sources: ref/my_collect_
+- [langchain-ai/executive-ai-assistant](https://github.com/langchain-ai/executive-ai-assistant) — _sources: ref/my_collect_
+- [langchain-ai/langchain](https://github.com/langchain-ai/langchain) — _sources: ref/my_collect_
+- [langchain-ai/langchain-mcp-adapters](https://github.com/langchain-ai/langchain-mcp-adapters) — _sources: ref/my_collect_
+- [langchain-ai/langchain-nextjs-template](https://github.com/langchain-ai/langchain-nextjs-template) — _sources: ref/my_collect_
+- [langchain-ai/langgraph-codeact](https://github.com/langchain-ai/langgraph-codeact) — _sources: ref/my_collect_
+- [langchain-ai/langgraph-studio](https://github.com/langchain-ai/langgraph-studio) — _sources: ref/my_collect_
+- [langchain-ai/langmem](https://github.com/langchain-ai/langmem) — _sources: ref/my_collect_
+- [langchain-ai/memory-agent](https://github.com/langchain-ai/memory-agent) — _sources: ref/my_collect_
+- [langchain-ai/ollama-deep-researcher](https://github.com/langchain-ai/ollama-deep-researcher/blob/main/src/assistant/prompts.py) — _sources: ref/my_collect_
+- [langchain-ai/social-media-agent](https://github.com/langchain-ai/social-media-agent) — _sources: ref/my_collect_
+- [langmanus/langmanus](https://github.com/langmanus/langmanus/blob/main/README_zh.md) — _sources: ref/my_collect_
+- [mcp.so](https://mcp.so/) — _sources: ref/my_collect_
+- [nottelabs/notte](https://github.com/nottelabs/notte) — _sources: ref/my_collect_
+- [PatrickJS/awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) — _sources: ref/my_collect_
+- [patruff/ollama-mcp-bridge](https://github.com/patruff/ollama-mcp-bridge) — _sources: ref/my_collect_
+- [PraneshASP/foundry-mcp-server](https://github.com/PraneshASP/foundry-mcp-server) — _sources: ref/my_collect_
+- [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) — _sources: ref/my_collect_
+- [regenrek/deepwiki-mcp](https://github.com/regenrek/deepwiki-mcp) — _sources: ref/my_collect_
+- [rstevens70/Cursor-MDC-Files](https://github.com/rstevens70/Cursor-MDC-Files) — _sources: ref/my_collect_
+- [sonnylazuardi/cursor-talk-to-figma-mcp](https://github.com/sonnylazuardi/cursor-talk-to-figma-mcp) — _sources: ref/my_collect_
+- [stefanoamorelli/nasdaq-data-link-mcp](https://github.com/stefanoamorelli/nasdaq-data-link-mcp) — _sources: ref/my_collect_
+- [supabase.com/ai-prompts](https://supabase.com/docs/guides/getting-started/ai-prompts) — _sources: ref/my_collect_
+- [syedazharmbnr1/claude-chatgpt-mcp](https://github.com/syedazharmbnr1/claude-chatgpt-mcp) — _sources: ref/my_collect_
+- [trycua/cua](https://github.com/trycua/cua) — _sources: ref/my_collect_
+- [upstash/context7](https://github.com/upstash/context7) — _sources: ref/my_collect_
+- [vercel-labs/mcp-for-next.js](https://github.com/vercel-labs/mcp-for-next.js) — _sources: ref/my_collect_
+- [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) — _sources: ref/my_collect_
+- [wong2/awesome-mcp-servers](https://github.com/wong2/awesome-mcp-servers) — _sources: ref/my_collect_
+- [www.aivi.fyi](https://www.aivi.fyi/aiagents/introduce-ScrapeGraphAI+LangChain+LangGraph) — _sources: ref/my_collect_
+- [X (Twitter)](https://x.com/LangChainAI/status/188031414493663662) — _sources: ref/my_collect_
+- [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/blob/main/Cursor%20Prompts/cursor%20agent.txt) — _sources: ref/my_collect_
+- [YouTube](https://www.youtube.com/watch?v=ky7ft0XkDAM) — _sources: ref/my_collect_
+
+## Prompt Collections / System Prompts (Research)
+
+- [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) — _sources: ref/my_collect_
+- [HackGPT](https://github.com/NoDataFound/hackGPT) — _sources: ref/awesome-ai-security-2_
+- [NeoVertex1/SuperPrompt](https://github.com/NeoVertex1/SuperPrompt) — _sources: ref/my_collect_
+
+## Misc / Productivity / Dev Tools
+
+- [01Coder](https://www.youtube.com/@01coder30) — _sources: ref/my_collect_
+- [100rabhsah/ai-news-aggregator](https://github.com/100rabhsah/ai-news-aggregator) — _sources: ref/my_collect_
+- [78/xiaozhi-esp32](https://github.com/78/xiaozhi-esp32) — _sources: ref/my_collect_
+- [78/xiaozhi-sf32](https://github.com/78/xiaozhi-sf32) — _sources: ref/my_collect_
+- [ahmedkhaleel2004/gitdiagram](https://github.com/ahmedkhaleel2004/gitdiagram) — _sources: ref/my_collect_
+- [AI42Crypto/AI-resources](https://github.com/AI42Crypto/AI-resources/blob/main/LangSmith%E4%BB%8B%E7%BB%8D.md) — _sources: ref/my_collect_
+- [AI42Crypto/AI-resources](https://github.com/AI42Crypto/AI-resources/blob/main/mlx%E6%A8%A1%E5%9E%8B%E5%BE%AE%E8%B0%83%E5%AE%9E%E6%B5%8B.md) — _sources: ref/my_collect_
+- [AI42Crypto/AI-resources](https://github.com/AI42Crypto/AI-resources/blob/main/text2img.md) — _sources: ref/my_collect_
+- [AI42Crypto/AI-resources](https://github.com/AI42Crypto/AI-resources/blob/main/train/qwen_0_5b__grpo.py) — _sources: ref/my_collect_
+- [AI42Crypto/remove_watermark](https://github.com/AI42Crypto/remove_watermark) — _sources: ref/my_collect_
+- [AI42Crypto/small-models](https://github.com/AI42Crypto/small-models) — _sources: ref/my_collect_
+- [AI42Crypto2/aigc-detector](https://github.com/AI42Crypto2/aigc-detector) — _sources: ref/my_collect_
+- [aiapp.vidnoz.com](https://aiapp.vidnoz.com/) — _sources: ref/my_collect_
+- [aishenqi.net](https://aishenqi.net) — _sources: ref/my_collect_
+- [AK391/gemini-gradio](https://github.com/AK391/gemini-gradio) — _sources: ref/my_collect_
+- [AlexGalhardo/Software-Engineering](https://github.com/AlexGalhardo/Software-Engineering) — _sources: ref/my_collect_
+- [ammaarreshi/Gemini-Search](https://github.com/ammaarreshi/Gemini-Search) — _sources: ref/my_collect_
+- [analyticalrohit/pytorch_fundamentals](https://github.com/analyticalrohit/pytorch_fundamentals/tree/main) — _sources: ref/my_collect_
+- [AndrewZhe/lawyer-llama](https://github.com/AndrewZhe/lawyer-llama) — _sources: ref/my_collect_
+- [ant-research/MagicQuill](https://github.com/ant-research/MagicQuill) — _sources: ref/my_collect_
+- [api.together.ai](https://api.together.ai/) — _sources: ref/my_collect_
+- [apple/ml-stable-diffusion](https://github.com/apple/ml-stable-diffusion) — _sources: ref/my_collect_
+- [arcee-ai/mergekit](https://github.com/arcee-ai/mergekit) — _sources: ref/my_collect_
+- [Arindam200/awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps) — _sources: ref/my_collect_
+- [Arman19941113/dnd-resume](https://github.com/Arman19941113/dnd-resume) — _sources: ref/my_collect_
+- [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) — _sources: ref/my_collect_
+- [AsyncFuncAI/deepwiki-open](https://github.com/AsyncFuncAI/deepwiki-open) — _sources: ref/my_collect_
+- [atiilla/sqlmap-ai](https://github.com/atiilla/sqlmap-ai) — _sources: ref/my_collect_
+- [auntieyafen/AIventura](https://github.com/auntieyafen/AIventura) — _sources: ref/my_collect_
+- [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) — _sources: ref/my_collect_
+- [awesome-ai-marketing](https://github.com/sarahdanesh/awesome-ai-marketing) — _sources: ref/my_collect_
+- [awesome-ai-tools](https://github.com/mahseema/awesome-ai-tools) — _sources: ref/my_collect_
+- [awesome-deepseek-integration](https://github.com/deepseek-ai/awesome-deepseek-integration) — _sources: ref/my_collect_
+- [awesome-marketing](https://github.com/marketingtoolslist/awesome-marketing) — _sources: ref/my_collect_
+- [badboysm890/ClaraVerse](https://github.com/badboysm890/ClaraVerse) — _sources: ref/my_collect_
+- [blorm-network/ZerePy](https://github.com/blorm-network/ZerePy) — _sources: ref/my_collect_
+- [byt3bl33d3r/gemini-web-navigator](https://github.com/byt3bl33d3r/gemini-web-navigator) — _sources: ref/my_collect_
+- [bytedance/deer-flow](https://github.com/bytedance/deer-flow) — _sources: ref/my_collect_
+- [bytedance/LatentSync](https://github.com/bytedance/LatentSync) — _sources: ref/my_collect_
+- [bytedance/pasa](https://github.com/bytedance/pasa) — _sources: ref/my_collect_
+- [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat) — _sources: ref/my_collect_
+- [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) — _sources: ref/my_collect_
+- [civitai.com/443821?modelVersionId=1177183](https://civitai.com/models/443821?modelVersionId=1177183) — _sources: ref/my_collect_
+- [civitai.com/hunyuanvideo-pov-titjob-paizuri](https://civitai.com/models/1114844/hunyuanvideo-pov-titjob-paizuri) — _sources: ref/my_collect_
+- [civitai.com/kodora](https://civitai.com/models/1081853/kodora) — _sources: ref/my_collect_
+- [civitai.com/pornmaster-pro-asianv3-vae](https://civitai.com/models/1031343/pornmaster-pro-asianv3-vae) — _sources: ref/my_collect_
+- [civitai.com/prefect-pony-xl](https://civitai.com/models/439889/prefect-pony-xl) — _sources: ref/my_collect_
+- [civitai.com/wai-nsfw-illustrious-sdxl](https://civitai.com/models/827184/wai-nsfw-illustrious-sdxl) — _sources: ref/my_collect_
+- [cjyyx/AI_Gen_Novel](https://github.com/cjyyx/AI_Gen_Novel) — _sources: ref/my_collect_
+- [CoDS-GCS/MEGR-APT-code](https://github.com/CoDS-GCS/MEGR-APT-code) — _sources: ref/my_collect_
+- [console.groq.com/playground?model=whisper-large-v3](https://console.groq.com/playground?model=whisper-large-v3) — _sources: ref/my_collect_
+- [copyweb.ai](https://copyweb.ai) — _sources: ref/my_collect_
+- [CrazyBoyM/llama3-Chinese-chat](https://github.com/CrazyBoyM/llama3-Chinese-chat) — _sources: ref/my_collect_
+- [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) — _sources: ref/my_collect_
+- [cyclotruc/gitingest](https://github.com/cyclotruc/gitingest) — _sources: ref/my_collect_
+- [d.aigclink.ai](https://d.aigclink.ai) — _sources: ref/my_collect_
+- [d60/twikit](https://github.com/d60/twikit) — _sources: ref/my_collect_
+- [DarkWebInformer/Dark_Ledger](https://github.com/DarkWebInformer/Dark_Ledger) — _sources: ref/my_collect_
+- [dbccccccc/ttsfm](https://github.com/dbccccccc/ttsfm) — _sources: ref/my_collect_
+- [deepwiki.com](https://deepwiki.com) — _sources: ref/my_collect_
+- [docling-project/docling](https://github.com/docling-project/docling) — _sources: ref/my_collect_
+- [dreammis/social-auto-upload](https://github.com/dreammis/social-auto-upload) — _sources: ref/my_collect_
+- [e2b-dev/desktop](https://github.com/e2b-dev/desktop) — _sources: ref/my_collect_
+- [edoardottt/awesome-hacker-search-engines](https://github.com/edoardottt/awesome-hacker-search-engines) — _sources: ref/my_collect_
+- [egoist/sitefetch](https://github.com/egoist/sitefetch) — _sources: ref/my_collect_
+- [elizaOS/eliza](https://github.com/elizaOS/eliza) — _sources: ref/my_collect_
+- [ericciarla/trendFinder](https://github.com/ericciarla/trendFinder) — _sources: ref/my_collect_
+- [exo-explore/exo](https://github.com/exo-explore/exo) — _sources: ref/my_collect_
+- [EZ.Encoder Academy](https://www.youtube.com/@ez.encoder.academy/videos) — _sources: ref/my_collect_
+- [FareedKhan-dev/all-rl-algorithms](https://github.com/FareedKhan-dev/all-rl-algorithms) — _sources: ref/my_collect_
+- [fatwang2/search2ai](https://github.com/fatwang2/search2ai/blob/main/units/news.js) — _sources: ref/my_collect_
+- [fdarkaou/open-deep-research](https://github.com/fdarkaou/open-deep-research) — _sources: ref/my_collect_
+- [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) — _sources: ref/my_collect_
+- [FoloUp/FoloUp](https://github.com/FoloUp/FoloUp) — _sources: ref/my_collect_
+- [francedot/acu](https://github.com/francedot/acu) — _sources: ref/my_collect_
+- [FujiwaraChoki/MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2) — _sources: ref/my_collect_
+- [gamma.app/docs](https://gamma.app/docs) — _sources: ref/my_collect_
+- [GeekyWizKid/writing-helper](https://github.com/GeekyWizKid/writing-helper) — _sources: ref/my_collect_
+- [gist.github.com/4676755236bb08cab5f4e54a0475d6fb](https://gist.github.com/willccbb/4676755236bb08cab5f4e54a0475d6fb) — _sources: ref/my_collect_
+- [gist.github.com/6740c9d2011ba4a57ae8d13c8a488bf2](https://gist.github.com/gmh5225/6740c9d2011ba4a57ae8d13c8a488bf2) — _sources: ref/my_collect_
+- [github.com/marketplace?type=models](https://github.com/marketplace?type=models) — _sources: ref/my_collect_
+- [github.com/OpenGithubs](https://github.com/OpenGithubs) — _sources: ref/my_collect_
+- [github.com/protectai](https://github.com/protectai) — _sources: ref/my_collect_
+- [gmh5225/api_model](https://github.com/gmh5225/api_model) — _sources: ref/my_collect_
+- [gmh5225/CodeLens](https://github.com/gmh5225/CodeLens) — _sources: ref/my_collect_
+- [gmh5225/free-gemini-tg-bot](https://github.com/gmh5225/free-gemini-tg-bot) — _sources: ref/my_collect_
+- [gmh5225/GeminiVoiceToText](https://github.com/gmh5225/GeminiVoiceToText) — _sources: ref/my_collect_
+- [gmh5225/git-diff](https://github.com/gmh5225/git-diff) — _sources: ref/my_collect_
+- [gmh5225/manus_cfg](https://github.com/gmh5225/manus_cfg) — _sources: ref/my_collect_
+- [gmh5225/test-Janus](https://github.com/gmh5225/test-Janus) — _sources: ref/my_collect_
+- [Goekdeniz-Guelmez/mlx-lm-lora](https://github.com/Goekdeniz-Guelmez/mlx-lm-lora) — _sources: ref/my_collect_
+- [Goldziher/kreuzberg](https://github.com/Goldziher/kreuzberg) — _sources: ref/my_collect_
+- [google/A2A](https://github.com/google/A2A) — _sources: ref/my_collect_
+- [GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/long-context/intro_long_context.ipynb) — _sources: ref/my_collect_
+- [gpuez.com](https://gpuez.com/) — _sources: ref/my_collect_
+- [GramSearch/telegram-search](https://github.com/GramSearch/telegram-search) — _sources: ref/my_collect_
+- [hhaAndroid/awesome-mm-chat](https://github.com/hhaAndroid/awesome-mm-chat) — _sources: ref/my_collect_
+- [hhhuang/CAG](https://github.com/hhhuang/CAG) — _sources: ref/my_collect_
+- [HKUDS/AI-Creator](https://github.com/HKUDS/AI-Creator) — _sources: ref/my_collect_
+- [huggingface.co](https://huggingface.co/cstr/DeepSeek-R1-Distill-Llama-8B-abliterated-Q4_K_M-GGUF) — _sources: ref/my_collect_
+- [huggingface.co](https://huggingface.co/mradermacher/DeepSeek-R1-Distill-Llama-70B-Uncensored-i1-GGUF) — _sources: ref/my_collect_
+- [huggingface.co](https://huggingface.co/mradermacher/DeepSeek-R1-Distill-Llama-8B-abliterate-i1-GGUF) — _sources: ref/my_collect_
+- [huggingface.co](https://huggingface.co/mradermacher/DeepSeek-R1-Distill-Qwen-32B-abliterated-GGUF) — _sources: ref/my_collect_
+- [huggingface.co](https://huggingface.co/mradermacher/MathSageFR-DeepSeek-R1-Distill-Qwen-1.5B-i1-GGUF) — _sources: ref/my_collect_
+- [huggingface.co/abliteration](https://huggingface.co/blog/mlabonne/abliteration) — _sources: ref/my_collect_
+- [huggingface.co/DeepSeek-R1-Distill-Qwen-7B-abliterated](https://huggingface.co/Orion-zhen/DeepSeek-R1-Distill-Qwen-7B-abliterated) — _sources: ref/my_collect_
+- [huggingface.co/dolphin-r1](https://huggingface.co/datasets/cognitivecomputations/dolphin-r1) — _sources: ref/my_collect_
+- [huggingface.co/Dolphin3.0-Llama3.1-8B](https://huggingface.co/cognitivecomputations/Dolphin3.0-Llama3.1-8B) — _sources: ref/my_collect_
+- [huggingface.co/Edge-TTS-Text-to-Speech](https://huggingface.co/spaces/innoai/Edge-TTS-Text-to-Speech) — _sources: ref/my_collect_
+- [huggingface.co/Fimbulvetr-11B-v2](https://huggingface.co/Sao10K/Fimbulvetr-11B-v2) — _sources: ref/my_collect_
+- [huggingface.co/Janus-Pro-1B](https://huggingface.co/deepseek-ai/Janus-Pro-1B) — _sources: ref/my_collect_
+- [huggingface.co/Janus-Pro-7B](https://huggingface.co/deepseek-ai/Janus-Pro-7B) — _sources: ref/my_collect_
+- [huggingface.co/janus-pro-webgpu](https://huggingface.co/spaces/webml-community/janus-pro-webgpu) — _sources: ref/my_collect_
+- [huggingface.co/llama-3.2-from-scratch](https://huggingface.co/rasbt/llama-3.2-from-scratch) — _sources: ref/my_collect_
+- [huggingface.co/orthogonal-activation-steering-TOXIC](https://huggingface.co/datasets/Undi95/orthogonal-activation-steering-TOXIC) — _sources: ref/my_collect_
+- [huggingface.co/split_files](https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/tree/main/split_files) — _sources: ref/my_collect_
+- [huggingface.co/stablelm-zephyr-3b](https://huggingface.co/stabilityai/stablelm-zephyr-3b) — _sources: ref/my_collect_
+- [huggingface.co/UGI-Leaderboard](https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard) — _sources: ref/my_collect_
+- [huggingface/HuggingSnap](https://github.com/huggingface/HuggingSnap) — _sources: ref/my_collect_
+- [huggingface/open-r1](https://github.com/huggingface/open-r1) — _sources: ref/my_collect_
+- [i-am-bee/beeai-framework](https://github.com/i-am-bee/beeai-framework) — _sources: ref/my_collect_
+- [iamgio/quarkdown](https://github.com/iamgio/quarkdown) — _sources: ref/my_collect_
+- [icalk-nlp/EduChat](https://github.com/icalk-nlp/EduChat) — _sources: ref/my_collect_
+- [ihmily/StreamCap](https://github.com/ihmily/StreamCap) — _sources: ref/my_collect_
+- [InternLM/MindSearch](https://github.com/InternLM/MindSearch) — _sources: ref/my_collect_
+- [Jamesun921/cam-run](https://github.com/Jamesun921/cam-run) — _sources: ref/my_collect_
+- [jaytaylor/html2text](https://github.com/jaytaylor/html2text) — _sources: ref/my_collect_
+- [JefferyHcool/BiliNote](https://github.com/JefferyHcool/BiliNote) — _sources: ref/my_collect_
+- [jgm/pandoc](https://github.com/jgm/pandoc) — _sources: ref/my_collect_
+- [JoeLeelyf/customize-arxiv-daily](https://github.com/JoeLeelyf/customize-arxiv-daily) — _sources: ref/my_collect_
+- [JohnMachado11/Build-a-Large-Language-Model-from-Scratch](https://github.com/JohnMachado11/Build-a-Large-Language-Model-from-Scratch) — _sources: ref/my_collect_
+- [Kent0n-Li/ChatDoctor](https://github.com/Kent0n-Li/ChatDoctor) — _sources: ref/my_collect_
+- [khoj-ai/khoj](https://github.com/khoj-ai/khoj) — _sources: ref/my_collect_
+- [KiWi233333/JiwuChat](https://github.com/KiWi233333/JiwuChat) — _sources: ref/my_collect_
+- [lanesky/thinking-gemini](https://github.com/lanesky/thinking-gemini/tree/main) — _sources: ref/my_collect_
+- [langgptai.feishu.cn/RXdbwRyASiShtDky381ciwFEnpe](https://langgptai.feishu.cn/wiki/RXdbwRyASiShtDky381ciwFEnpe) — _sources: ref/my_collect_
+- [langgptai/LangGPT](https://github.com/langgptai/LangGPT) — _sources: ref/my_collect_
+- [lanqian528/chat2api](https://github.com/lanqian528/chat2api) — _sources: ref/my_collect_
+- [leejet/stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) — _sources: ref/my_collect_
+- [Lightning-AI/litgpt](https://github.com/Lightning-AI/litgpt) — _sources: ref/my_collect_
+- [lightpanda-io/browser](https://github.com/lightpanda-io/browser) — _sources: ref/my_collect_
+- [LMCache/LMCache](http://github.com/LMCache/LMCache) — _sources: ref/my_collect_
+- [lonePatient/awesome-pretrained-chinese-nlp-models](https://github.com/lonePatient/awesome-pretrained-chinese-nlp-models) — _sources: ref/my_collect_
+- [lorien/awesome-web-scraping](https://github.com/lorien/awesome-web-scraping) — _sources: ref/my_collect_
+- [mahrtayyab/tweety](https://github.com/mahrtayyab/tweety) — _sources: ref/my_collect_
+- [mainframecomputer/orchestra](https://github.com/mainframecomputer/orchestra/blob/main/examples/python/github_update_summarizer_team.py) — _sources: ref/my_collect_
+- [mandyroskelley/enhanced-property-search](https://github.com/mandyroskelley/enhanced-property-search) — _sources: ref/my_collect_
+- [mannaandpoem/OpenManus](https://github.com/mannaandpoem/OpenManus) — _sources: ref/my_collect_
+- [maojindao55/botgroup.chat](https://github.com/maojindao55/botgroup.chat) — _sources: ref/my_collect_
+- [MaoXiaoYuZ/Long-Novel-GPT](https://github.com/MaoXiaoYuZ/Long-Novel-GPT) — _sources: ref/my_collect_
+- [marketplace/models](https://github.com/marketplace/models/azure-openai/gpt-4-1/playground) — _sources: ref/my_collect_
+- [mattjared/nextjs-ai-lite](https://github.com/mattjared/nextjs-ai-lite) — _sources: ref/my_collect_
+- [mckaywrigley/ai-code-translator](https://github.com/mckaywrigley/ai-code-translator) — _sources: ref/my_collect_
+- [mckaywrigley/r1-automated-pr-example](https://github.com/mckaywrigley/r1-automated-pr-example) — _sources: ref/my_collect_
+- [mediar-ai/screenpipe](https://github.com/mediar-ai/screenpipe) — _sources: ref/my_collect_
+- [mediar-ai/terminator](https://github.com/mediar-ai/terminator) — _sources: ref/my_collect_
+- [medium.com](https://medium.com/@lucamassaron/fine-tuning-gemma-3-1b-it-for-financial-sentiment-analysis-a-step-by-step-guide-1a025d2fc75d) — _sources: ref/my_collect_
+- [MeiGen-AI/PosterCraft](https://github.com/MeiGen-AI/PosterCraft) — _sources: ref/my_collect_
+- [mindverse/Second-Me](https://github.com/mindverse/Second-Me) — _sources: ref/my_collect_
+- [miurla/morphic](https://github.com/miurla/morphic) — _sources: ref/my_collect_
+- [mrexodia/pangram-gui](https://github.com/mrexodia/pangram-gui) — _sources: ref/my_collect_
+- [MrPio/PDF-watermark-removal](https://github.com/MrPio/PDF-watermark-removal) — _sources: ref/my_collect_
+- [mudler/LocalAI](https://github.com/mudler/LocalAI) — _sources: ref/my_collect_
+- [naklecha/llama3-from-scratch](https://github.com/naklecha/llama3-from-scratch) — _sources: ref/my_collect_
+- [nanbingxyz/5ire](https://github.com/nanbingxyz/5ire) — _sources: ref/my_collect_
+- [niedev/RTranslator](https://github.com/niedev/RTranslator) — _sources: ref/my_collect_
+- [norbusonam/vercel-ai-sdk-playground](https://github.com/norbusonam/vercel-ai-sdk-playground) — _sources: ref/my_collect_
+- [open-webui/open-webui](https://github.com/open-webui/open-webui) — _sources: ref/my_collect_
+- [OpenAISpace/ai-trend-publish](https://github.com/OpenAISpace/ai-trend-publish) — _sources: ref/my_collect_
+- [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) — _sources: ref/my_collect_
+- [openrouter.ai/api](https://openrouter.ai/openai/o1/api) — _sources: ref/my_collect_
+- [pedrib/PoC](https://github.com/pedrib/PoC) — _sources: ref/my_collect_
+- [PeterGriffinJin/Search-R1](https://github.com/PeterGriffinJin/Search-R1) — _sources: ref/my_collect_
+- [pondorasti/emojis](https://github.com/pondorasti/emojis) — _sources: ref/my_collect_
+- [PrimeIntellect-ai/prime](https://github.com/PrimeIntellect-ai/prime) — _sources: ref/my_collect_
+- [QuantumNous/new-api](https://github.com/QuantumNous/new-api) — _sources: ref/my_collect_
+- [qwq.aigpu.cn](https://qwq.aigpu.cn) — _sources: ref/my_collect_
+- [rany2/edge-tts](https://github.com/rany2/edge-tts) — _sources: ref/my_collect_
+- [rashadphz/farfalle](https://github.com/rashadphz/farfalle) — _sources: ref/my_collect_
+- [replicate/scribble-diffusion](https://github.com/replicate/scribble-diffusion) — _sources: ref/my_collect_
+- [richards199999/Thinking-Claude](https://github.com/richards199999/Thinking-Claude) — _sources: ref/my_collect_
+- [robertpiosik/gemini-coder](https://github.com/robertpiosik/gemini-coder) — _sources: ref/my_collect_
+- [roboflow/rf-detr](https://github.com/roboflow/rf-detr) — _sources: ref/my_collect_
+- [rsc/2fa](https://github.com/rsc/2fa) — _sources: ref/my_collect_
+- [s-smits/grpo-optuna](https://github.com/s-smits/grpo-optuna/blob/main/main.py) — _sources: ref/my_collect_
+- [s0md3v/roop](https://github.com/s0md3v/roop) — _sources: ref/my_collect_
+- [samber/the-great-gpt-firewall](https://github.com/samber/the-great-gpt-firewall) — _sources: ref/my_collect_
+- [ScrapeGraphAI/Scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai) — _sources: ref/my_collect_
+- [searxng/searxng](https://github.com/searxng/searxng) — _sources: ref/my_collect_
+- [sentient-agi/OpenDeepSearch](https://github.com/sentient-agi/OpenDeepSearch) — _sources: ref/my_collect_
+- [serengil/deepface](https://github.com/serengil/deepface) — _sources: ref/my_collect_
+- [space.bilibili.com/3493136967928639](https://space.bilibili.com/3493136967928639) — _sources: ref/my_collect_
+- [space.bilibili.com/?spm_id_from=333.999.0.0](https://space.bilibili.com/88461692/?spm_id_from=333.999.0.0) — _sources: ref/my_collect_
+- [SparkAudio/Spark-TTS](https://github.com/SparkAudio/Spark-TTS) — _sources: ref/my_collect_
+- [Stability-AI/stable-virtual-camera](https://github.com/Stability-AI/stable-virtual-camera) — _sources: ref/my_collect_
+- [StephDietz/watch-this](https://github.com/StephDietz/watch-this) — _sources: ref/my_collect_
+- [steven-tey/chathn](https://github.com/steven-tey/chathn) — _sources: ref/my_collect_
+- [steven-tey/shooketh](https://github.com/steven-tey/shooketh) — _sources: ref/my_collect_
+- [supermemoryai/opensearch-ai](https://github.com/supermemoryai/opensearch-ai) — _sources: ref/my_collect_
+- [TavernAI/TavernAI](https://github.com/TavernAI/TavernAI) — _sources: ref/my_collect_
+- [thewh1teagle/kokoro-onnx](https://github.com/thewh1teagle/kokoro-onnx) — _sources: ref/my_collect_
+- [Threekiii/Awesome-POC](https://github.com/Threekiii/Awesome-POC) — _sources: ref/my_collect_
+- [timerring/bilive](https://github.com/timerring/bilive) — _sources: ref/my_collect_
+- [transformerlab/transformerlab-app](https://github.com/transformerlab/transformerlab-app) — _sources: ref/my_collect_
+- [TransformerLensOrg/TransformerLens](https://github.com/TransformerLensOrg/TransformerLens) — _sources: ref/my_collect_
+- [u14app/deep-research](https://github.com/u14app/deep-research) — _sources: ref/my_collect_
+- [umlx5h/LLPlayer](https://github.com/umlx5h/LLPlayer) — _sources: ref/my_collect_
+- [v11enp9ok1h.feishu.cn/EgkjwmrDEirn32koaLOc05SYnbc](https://v11enp9ok1h.feishu.cn/wiki/EgkjwmrDEirn32koaLOc05SYnbc) — _sources: ref/my_collect_
+- [vdraw.ai](https://vdraw.ai/ai-infographic-generator?utm_source=homeCTA) — _sources: ref/my_collect_
+- [vectara/hallucination-leaderboard](https://github.com/vectara/hallucination-leaderboard) — _sources: ref/my_collect_
+- [vercel-labs/ai-sdk-computer-use](https://github.com/vercel-labs/ai-sdk-computer-use) — _sources: ref/my_collect_
+- [vercel-labs/semantic-image-search](https://github.com/vercel-labs/semantic-image-search) — _sources: ref/my_collect_
+- [vercel.com/fine-tuning-openai-nextjs](https://vercel.com/guides/fine-tuning-openai-nextjs) — _sources: ref/my_collect_
+- [vercel.com/templates?type=ai](https://vercel.com/templates?type=ai) — _sources: ref/my_collect_
+- [vercel/ai-chatbot](https://github.com/vercel/ai-chatbot) — _sources: ref/my_collect_
+- [VikParuchuri/marker](https://github.com/VikParuchuri/marker) — _sources: ref/my_collect_
+- [web-infra-dev/midscene](https://github.com/web-infra-dev/midscene/blob/main/README.zh.md) — _sources: ref/my_collect_
+- [webwhiz-ai/webwhiz](https://github.com/webwhiz-ai/webwhiz) — _sources: ref/my_collect_
+- [weise25/LocalSite-ai](https://github.com/weise25/LocalSite-ai) — _sources: ref/my_collect_
+- [www.aidaily.win](https://www.aidaily.win) — _sources: ref/my_collect_
+- [www.bilibili.com/BV1uHzGYREi6](https://www.bilibili.com/video/BV1uHzGYREi6) — _sources: ref/my_collect_
+- [www.nazha.co/how-cline-works](https://www.nazha.co/posts/how-cline-works) — _sources: ref/my_collect_
+- [wy876/POC](https://github.com/wy876/POC) — _sources: ref/my_collect_
+- [X (Twitter)](https://x.com/Saboo_Shubham_/status/1879369724653703181) — _sources: ref/my_collect_
+- [X (Twitter)](https://x.com/UnslothAI/status/1953896997867729075) — _sources: ref/my_collect_
+- [X (Twitter)](https://x.com/dotey/status/1735531881230213136?lang=ar-x-fm) — _sources: ref/my_collect_
+- [X (Twitter)](https://x.com/karminski3/status/1953229600961773683) — _sources: ref/my_collect_
+- [X (Twitter)](https://x.com/rasbt/status/1913589458726690892) — _sources: ref/my_collect_
+- [X (Twitter)](https://x.com/shao__meng/status/1887654668005949910) — _sources: ref/my_collect_
+- [yamadashy/repomix](https://github.com/yamadashy/repomix) — _sources: ref/my_collect_
+- [YouTube](https://www.youtube.com/@%E9%B9%8F%E5%93%A5%E7%9A%84AI) — _sources: ref/my_collect_
+- [YouTube](https://www.youtube.com/@AIsuperdomain) — _sources: ref/my_collect_
+- [YouTube](https://www.youtube.com/@AIzimo/videos) — _sources: ref/my_collect_
+- [YouTube](https://www.youtube.com/@ai-spinX3) — _sources: ref/my_collect_
+- [YouTube](https://www.youtube.com/@mu_li) — _sources: ref/my_collect_
+- [YouTube](https://www.youtube.com/@sunleyan_2021) — _sources: ref/my_collect_
+- [YouTube](https://www.youtube.com/@zhuhaofunAI) — _sources: ref/my_collect_
+- [YouTube](https://www.youtube.com/channel/UC9AquL6FroLH8Wy2ksXh8_w) — _sources: ref/my_collect_
+- [YouTube](https://www.youtube.com/watch?v=-q3kQIa5stk) — _sources: ref/my_collect_
+- [YouTube](https://www.youtube.com/watch?v=18X8T52M4Wo) — _sources: ref/my_collect_
+- [YouTube](https://www.youtube.com/watch?v=3T7gIyBdjfI) — _sources: ref/my_collect_
+- [YouTube](https://www.youtube.com/watch?v=6DOXy0sYGSM) — _sources: ref/my_collect_
+- [YouTube](https://www.youtube.com/watch?v=JpQC0W91E6k) — _sources: ref/my_collect_
+- [YouTube](https://www.youtube.com/watch?v=UCmPrNFWClI) — _sources: ref/my_collect_
+- [YouTube](https://www.youtube.com/watch?v=knGEaQk0slc) — _sources: ref/my_collect_
+- [YouTube](https://www.youtube.com/watch?v=sE12haEVREY) — _sources: ref/my_collect_
+- [YouTube](https://www.youtube.com/watch?v=wTW0NccRXtI) — _sources: ref/my_collect_
+- [YouTube](https://youtu.be/P8F9wOl9RXQ?si=Iwb-5YYpohaCNhTp) — _sources: ref/my_collect_
+- [YouTube](https://youtu.be/PEB8z48mAhw?si=dP5mnCqyaAejrl94) — _sources: ref/my_collect_
+- [YouTube](https://youtu.be/XJH3fJ1X9wg?si=Mh-uKjD0kRlbpSSe) — _sources: ref/my_collect_
+- [YouTube](https://youtu.be/aNisiIo1xBY?si=J7fhsmqk0qQJPMuE) — _sources: ref/my_collect_
+- [YouTube](https://youtu.be/opk1f-XtIsw?si=vWIVWOMB-VIMJNQQ) — _sources: ref/my_collect_
+- [YouTube](https://youtu.be/vcH4KmlRDis?si=NZ1FsEpT0RT3XkLa) — _sources: ref/my_collect_
+- [yuruotong1/autoMate](https://github.com/yuruotong1/autoMate/blob/master/README_CN.md) — _sources: ref/my_collect_
+- [zaidmukaddam/miniperplx](https://github.com/zaidmukaddam/miniperplx) — _sources: ref/my_collect_
+- [zaidmukaddam/open-r1-chat-template](https://github.com/zaidmukaddam/open-r1-chat-template) — _sources: ref/my_collect_
+- [zaidmukaddam/scira](https://github.com/zaidmukaddam/scira) — _sources: ref/my_collect_
+- [zhangtyzzz/uni-api](https://github.com/zhangtyzzz/uni-api) — _sources: ref/my_collect_
+- [zilliztech/deep-searcher](https://github.com/zilliztech/deep-searcher) — _sources: ref/my_collect_
+
+## Sources
+
+Consolidated from `ref/` (original files kept in repo for traceability).
+
+Source tags used above:
+
+- `ref/Awesome-AI-Security-1`
+- `ref/awesome-ai-security-2`
+- `ref/my_collect`
+- `ref/model-security-notes`
+- `ref/pentesting-notes`
+- `ref/security-notes`
+- `ref/other`
