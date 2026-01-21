@@ -48,6 +48,7 @@ Use this skill when adding or organizing:
 - **LLM guardrails/detectors** → `AI Security & Attacks → Model Security`
 - **Prompt injection tools** → `AI Security & Attacks → Prompt Injection`
 - **Adversarial ML libraries** → `AI Security & Attacks → Adversarial Attacks` or `AI Security Libraries`
+- **AI RE/debugging tools** → `AI Security Tools & Frameworks → AI Reverse Engineering`
 - **AI vulnerability scanners** → `AI Security Tools & Frameworks → AI Vulnerability Detection`
 - **Benchmarks** → `Benchmarks & Standards`
 - **MCP security tools** → `AI Pentesting & Red Teaming → AI Security MCP Tools`

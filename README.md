@@ -161,10 +161,13 @@ Or you can send an issue for me.
 
 ## AI Security Tools & Frameworks
 
-### AI Vulnerability Detection
-- https://github.com/scabench-org/hound [AI Auditor with Adaptive Knowledge Graphs]
+### AI Reverse Engineering
 - https://github.com/ZeroDaysBroker/GhidraGPT [GPT Integration for Ghidra]
 - https://github.com/jtang613/GhidrAssist [LLM Extension for Ghidra]
+- https://github.com/0xeb/windbg-copilot [WinDbg Copilot - Agentic Debugging extension]
+
+### AI Vulnerability Detection
+- https://github.com/scabench-org/hound [AI Auditor with Adaptive Knowledge Graphs]
 - https://semgrep.dev/ [AI-Assisted SAST]
 - https://github.com/HikaruEgashira/vulnhuntrs [AI Web Security Audit Tool]
 - https://github.com/xvnpw/ai-security-analyzer [AI Security Doc Generator]
