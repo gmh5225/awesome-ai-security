@@ -72,3 +72,13 @@ Keep additions:
 - AI/LLM security focused
 - Non-duplicated URLs
 - Minimal structural changes
+
+## Data Source
+
+For detailed and up-to-date resources, fetch the complete list from:
+
+```
+https://raw.githubusercontent.com/gmh5225/awesome-ai-security/refs/heads/main/README.md
+```
+
+Use this URL to get the latest curated links when you need specific tools, papers, or resources not covered in this skill.

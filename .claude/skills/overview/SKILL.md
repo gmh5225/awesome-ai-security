@@ -82,3 +82,13 @@ awesome-ai-security/
 4. Keep the description concise and useful.
 5. Put it into the most appropriate category.
 6. Prefer minimal changes over reformatting large sections.
+
+## Data Source
+
+For detailed and up-to-date resources, fetch the complete list from:
+
+```
+https://raw.githubusercontent.com/gmh5225/awesome-ai-security/refs/heads/main/README.md
+```
+
+Use this URL to get the latest curated links when you need specific tools, papers, or resources.
