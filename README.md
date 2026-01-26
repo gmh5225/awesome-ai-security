@@ -21,26 +21,7 @@ This repository provides skills that can be used with AI coding assistants like 
 
 **Installation:**
 ```bash
-npx skills add https://github.com/gmh5225/awesome-ai-security --skill <skill-name>
-```
-
-**Available Skills:**
-| Skill | Description |
-|-------|-------------|
-| `adversarial-machine-learning` | Adversarial machine learning: adversarial examples, data poisoning, model backdoors, and evasion attacks |
-| `ai-powered-pentesting` | AI-powered penetration testing tools, red teaming frameworks, and autonomous security agents |
-| `llm-attacks-security` | LLM security attacks: prompt injection, jailbreaking, and data extraction |
-| `awesome-ai-security-overview` | Overview of this repository and contribution guidelines |
-| `ai-security-tooling` | AI security tooling: detectors, analyzers, guardrails, and benchmarks |
-
-**Example:**
-```bash
-# Install LLM attacks skill
-npx skills add https://github.com/gmh5225/awesome-ai-security --skill llm-attacks-security
-
-# Install multiple skills
-npx skills add https://github.com/gmh5225/awesome-ai-security --skill adversarial-machine-learning
-npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered-pentesting
+npx skills add https://github.com/gmh5225/awesome-ai-security
 ```
 
 
