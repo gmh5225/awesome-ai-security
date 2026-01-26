@@ -16,6 +16,33 @@ Or you can send an issue for me.
 - https://github.com/HyunCafe/contribute-practice
 - https://docs.github.com/en/get-started/quickstart/contributing-to-projects
 
+## Skills for AI Coding Assistants
+This repository provides skills that can be used with AI coding assistants like [Cursor](https://www.cursor.com/), [Claude Code](https://docs.anthropic.com/en/docs/claude-code), [Codex CLI](https://github.com/openai/codex), and other compatible tools. Install skills to get specialized knowledge about AI security topics.
+
+**Installation:**
+```bash
+npx skills add https://github.com/gmh5225/awesome-ai-security --skill <skill-name>
+```
+
+**Available Skills:**
+| Skill | Description |
+|-------|-------------|
+| `adversarial-machine-learning` | Adversarial machine learning: adversarial examples, data poisoning, model backdoors, and evasion attacks |
+| `ai-powered-pentesting` | AI-powered penetration testing tools, red teaming frameworks, and autonomous security agents |
+| `llm-attacks-security` | LLM security attacks: prompt injection, jailbreaking, and data extraction |
+| `awesome-ai-security-overview` | Overview of this repository and contribution guidelines |
+| `ai-security-tooling` | AI security tooling: detectors, analyzers, guardrails, and benchmarks |
+
+**Example:**
+```bash
+# Install LLM attacks skill
+npx skills add https://github.com/gmh5225/awesome-ai-security --skill llm-attacks-security
+
+# Install multiple skills
+npx skills add https://github.com/gmh5225/awesome-ai-security --skill adversarial-machine-learning
+npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered-pentesting
+```
+
 
 
 ## AI Security Starter Pack
