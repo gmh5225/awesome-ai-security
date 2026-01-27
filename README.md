@@ -19,6 +19,8 @@ Or you can send an issue for me.
 ## Skills for AI Coding Assistants
 This repository provides skills that can be used with AI coding assistants like [Cursor](https://www.cursor.com/), [Claude Code](https://docs.anthropic.com/en/docs/claude-code), [Codex CLI](https://github.com/openai/codex), and other compatible tools. Install skills to get specialized knowledge about AI security topics.
 
+- https://github.com/vercel-labs/skills [The open agent skills tool - npx skills]
+
 **Installation:**
 ```bash
 npx skills add https://github.com/gmh5225/awesome-ai-security --skill <skill-name>
