@@ -260,6 +260,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://mcp.so/ [MCP Collection Website]
 - https://github.com/gmh5225/MCP-Chinese-Getting-Started-Guide [MCP Getting Started Guide]
 - https://github.com/microsoft/DebugMCP [VSCode extension that exposes a local MCP server for AI-assisted debugging (multi-language)]
+- https://github.com/anthropics/knowledge-work-plugins [Claude plugins repo with skills/connectors/slash commands (MCP integration)]
 - https://github.com/co-browser/browser-use-mcp-server [Browser-Use MCP]
 - https://github.com/langchain-ai/langchain-mcp-adapters [MCP to LangChain Adapter]
 - https://github.com/patruff/ollama-mcp-bridge [Ollama MCP Bridge]
