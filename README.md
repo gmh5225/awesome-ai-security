@@ -199,6 +199,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/scabench-org/hound [AI Auditor with Adaptive Knowledge Graphs]
 - https://semgrep.dev/ [AI-Assisted SAST]
 - https://github.com/squirrelscan/squirrelscan [Website audit tool for agent/LLM workflows (security/performance/SEO)]
+- https://github.com/rohansx/vgx [Git pre-commit security scanner with LLM integration (detect AI code + vulnerabilities)]
 - https://github.com/HikaruEgashira/vulnhuntrs [AI Web Security Audit Tool]
 - https://github.com/xvnpw/ai-security-analyzer [AI Security Doc Generator]
 - https://github.com/aress31/burpgpt [BurpGPT - AI Vulnerability Scanning]
