@@ -317,6 +317,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/vercel/ai-chatbot [Vercel AI Chatbot]
 - https://github.com/block/goose [MCP Desktop Agent]
 - https://github.com/openclaw/openclaw [Personal AI assistant across platforms and channels]
+- https://github.com/HKUDS/nanobot [Ultra-lightweight personal AI assistant (Clawdbot-inspired)]
 
 ### AI Deep Research
 - https://github.com/assafelovic/gpt-researcher [GPT Researcher]
