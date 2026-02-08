@@ -304,6 +304,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/langgptai/wonderful-prompts [Wonderful Prompts Collection]
 
 ### Claude Code Skills
+- https://github.com/VoltAgent/awesome-claude-code-subagents [100+ Specialized Claude Code Subagents Collection]
 - https://github.com/blader/humanizer [Remove AI Writing Signs from Text]
 - https://github.com/op7418/Humanizer-zh [Humanizer Chinese Version]
 
