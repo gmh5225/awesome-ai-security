@@ -326,6 +326,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/LearningCircuit/local-deep-research [Local Deep Research]
 - https://github.com/u14app/deep-research [Deep Research NextJS]
 - https://github.com/zilliztech/deep-searcher [Local Deep Searcher]
+- https://github.com/aakashsharan/research-vault [AI Research Assistant with RAG and Structured Extraction]
 
 ### AI Search Engines
 - https://github.com/rashadphz/farfalle [AI Search Engine]
