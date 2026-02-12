@@ -306,6 +306,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 
 ### Claude Code Skills
 - https://github.com/VoltAgent/awesome-claude-code-subagents [100+ Specialized Claude Code Subagents Collection]
+- https://github.com/Dammyjay93/interface-design [Design Engineering for Claude Code - Consistent UI]
 - https://github.com/blader/humanizer [Remove AI Writing Signs from Text]
 - https://github.com/op7418/Humanizer-zh [Humanizer Chinese Version]
 
