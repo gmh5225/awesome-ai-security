@@ -238,6 +238,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/VoltAgent/voltagent [VoltAgent - TypeScript AI Agent]
 - https://github.com/langchain-ai/langgraph [LangGraph]
 - https://github.com/langchain-ai/langchain [LangChain]
+- https://github.com/openonion/connectonion [ConnectOnion - AI Agent Framework for Agent Collaboration]
 
 ### RAG Frameworks
 - https://github.com/infiniflow/ragflow [Best RAG Solution]
