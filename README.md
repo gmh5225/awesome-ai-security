@@ -323,6 +323,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/block/goose [MCP Desktop Agent]
 - https://github.com/openclaw/openclaw [Personal AI assistant across platforms and channels]
 - https://github.com/HKUDS/nanobot [Ultra-lightweight personal AI assistant (Clawdbot-inspired)]
+- https://github.com/zeroclaw-labs/zeroclaw [ZeroClaw - Rust AI assistant, under 5MB RAM, $10 hardware]
 
 ### AI Deep Research
 - https://github.com/assafelovic/gpt-researcher [GPT Researcher]
