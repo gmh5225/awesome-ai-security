@@ -220,6 +220,9 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/google/oss-fuzz-gen [AI Code Audit Fuzzing Tool]
 - https://github.com/Invicti-Security/brainstorm [AI Fuzzer for Web Applications]
 
+### AI Agent Security
+- https://github.com/peg/rampart [Firewall for AI agents - policy engine for OpenClaw, Claude Code, Cursor, Codex]
+
 
 
 ## AI Agents & Frameworks
