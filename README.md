@@ -262,6 +262,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/browser-use/workflow-use [Browser-Use Workflow Recording]
 - https://github.com/microsoft/magentic-ui [Microsoft Browser-Use Alternative]
 - https://github.com/lightpanda-io/browser [Lightpanda - Headless Browser for AI]
+- https://github.com/jo-inc/camofox-browser [Camofox - Headless browser server for AI agents, anti-detection]
 
 ### MCP Servers
 - https://mcp.so/ [MCP Collection Website]
