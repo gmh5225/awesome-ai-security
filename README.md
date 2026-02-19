@@ -224,6 +224,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/peg/rampart [Firewall for AI agents - policy engine for OpenClaw, Claude Code, Cursor, Codex]
 - https://github.com/cisco-ai-defense/skill-scanner [Security scanner for agent skills - prompt injection, exfiltration, malicious code]
 - https://github.com/huifer/skill-security-scan [CLI to scan Claude Skills for security risks before installing]
+- https://github.com/avast/sage [Sage - Agent Detection & Response: guards commands, files, web requests for Claude Code, Cursor, OpenClaw]
 
 
 
