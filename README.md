@@ -222,6 +222,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 
 ### AI Agent Security
 - https://github.com/peg/rampart [Firewall for AI agents - policy engine for OpenClaw, Claude Code, Cursor, Codex]
+- https://github.com/cisco-ai-defense/skill-scanner [Security scanner for agent skills - prompt injection, exfiltration, malicious code]
 
 
 
