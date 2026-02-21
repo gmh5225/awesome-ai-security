@@ -167,6 +167,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/six2dez/reconftw_ai [ReconFTW with AI Analysis]
 - https://github.com/Ed1s0nZ/CyberStrikeAI [AI-Native Security Testing Platform with 100+ Tools]
 - https://github.com/vxcontrol/pentagi [PentAGI - Fully autonomous AI agents for penetration testing]
+- https://github.com/KeygraphHQ/shannon [Shannon - Autonomous AI pentester, finds and executes real exploits in web apps]
 
 ### AI Red Teaming Tools
 - https://github.com/Azure/counterfit [Microsoft ML Penetration Testing Tool]
