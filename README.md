@@ -21,6 +21,8 @@ This repository provides skills that can be used with AI agents and coding assis
 
 - https://github.com/vercel-labs/skills [The open agent skills tool - npx skills]
 
+**[View on learn-skills.dev](https://learn-skills.dev/skills/gmh5225/awesome-ai-security)**
+
 **Installation:**
 ```bash
 npx skills add https://github.com/gmh5225/awesome-ai-security --skill <skill-name>
