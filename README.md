@@ -319,10 +319,11 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/anthropics/prompt-eng-interactive-tutorial [Anthropic Prompt Engineering Tutorial]
 - https://github.com/langgptai/wonderful-prompts [Wonderful Prompts Collection]
 
-### Claude Code Skills
+### Claude Code Skills / Plugins
 - https://github.com/VoltAgent/awesome-claude-code-subagents [100+ Specialized Claude Code Subagents Collection]
 - https://github.com/Dammyjay93/interface-design [Design Engineering for Claude Code - Consistent UI]
 - https://github.com/BehiSecc/VibeSec-Skill [Claude skill for secure code and common vulnerability prevention]
+- https://github.com/hamelsmu/claude-review-loop [Claude Code plugin: automated code review loop with Codex]
 - https://github.com/blader/humanizer [Remove AI Writing Signs from Text]
 - https://github.com/op7418/Humanizer-zh [Humanizer Chinese Version]
 
