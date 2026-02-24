@@ -142,6 +142,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://trustllmbenchmark.github.io/TrustLLM-Website/ [TrustLLM Benchmark]
 - https://github.com/stratosphereips/awesome-ml-privacy-attacks [Awesome ML Privacy Attacks]
 - https://github.com/chawins/llm-sp [LLM Security Papers]
+- https://github.com/journey-ad/gemini-watermark-remover [Client-side Gemini AI image watermark remover - Reverse Alpha Blending]
 
 ### Model Security
 - https://arxiv.org/html/2507.02737v1 [Steganography Capabilities in Frontier LLMs]
