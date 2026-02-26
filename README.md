@@ -337,6 +337,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 ### Chat & Assistant
 - https://github.com/open-webui/open-webui [ChatGPT Clone]
 - https://github.com/ChatGPTNextWeb/NextChat [NextJS Chat]
+- https://github.com/vercel/chat [Chat SDK - TypeScript SDK for chat bots on Slack, Teams, Google Chat, Discord]
 - https://github.com/vercel/ai-chatbot [Vercel AI Chatbot]
 - https://github.com/block/goose [MCP Desktop Agent]
 - https://github.com/openclaw/openclaw [Personal AI assistant across platforms and channels]
