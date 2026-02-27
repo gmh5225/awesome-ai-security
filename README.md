@@ -257,6 +257,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/voltropy/volt [Volt - Coding agent with lossless context management]
 - https://github.com/badlogic/pi-mono [Pi - AI agent toolkit: coding agent CLI, LLM API, TUI/web UI, Slack bot, vLLM pods]
 - https://github.com/prateekmedia/claude-agent-sdk-pi [Claude Agent SDK as LLM provider for Pi]
+- https://github.com/disler/pi-vs-claude-code [Pi vs Claude Code: comparison, Pi extensions, damage-control safety]
 - https://github.com/boshu2/agentops [AgentOps - DevOps layer for coding agents: flow, feedback, memory across sessions]
 
 ### RAG Frameworks
