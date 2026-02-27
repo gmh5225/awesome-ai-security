@@ -232,6 +232,9 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/avast/sage [Sage - Agent Detection & Response: guards commands, files, web requests for Claude Code, Cursor, OpenClaw]
 - https://github.com/botiverse/agent-vault [Keep secrets hidden from AI agents - placeholder I/O layer, encrypted vault]
 
+### AI Slop / PR Quality
+- https://github.com/peakoss/anti-slop [GitHub Action: detect and auto-close low-quality and AI slop PRs]
+
 
 
 ## AI Agents & Frameworks
