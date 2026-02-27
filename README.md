@@ -210,6 +210,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/xvnpw/ai-security-analyzer [AI Security Doc Generator]
 - https://github.com/aress31/burpgpt [BurpGPT - AI Vulnerability Scanning]
 - https://github.com/haroonawanofficial/AISA-Scanner [AI Security Scanner]
+- https://github.com/youpengl/OpenVul [OpenVul - Post-training framework for LLM-based vulnerability detection (SFT/DPO/ORPO/GRPO)]
 
 ### AI CVE Analysis
 - https://github.com/arschlochnop/VulnWatchdog [CVE Monitoring with GPT Analysis]
