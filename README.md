@@ -348,6 +348,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/vercel/ai-chatbot [Vercel AI Chatbot]
 - https://github.com/block/goose [MCP Desktop Agent]
 - https://github.com/openclaw/openclaw [Personal AI assistant across platforms and channels]
+- https://github.com/zhixianio/clawpal [ClawPal - Desktop companion for OpenClaw: manage agents, models, configs with visual UI]
 - https://github.com/HKUDS/nanobot [Ultra-lightweight personal AI assistant (Clawdbot-inspired)]
 - https://github.com/zeroclaw-labs/zeroclaw [ZeroClaw - Rust AI assistant, under 5MB RAM, $10 hardware]
 - https://github.com/louisho5/picobot [Picobot - Lightweight self-hosted AI bot, single Go binary]
