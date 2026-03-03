@@ -216,6 +216,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/arschlochnop/VulnWatchdog [CVE Monitoring with GPT Analysis]
 - https://github.com/suhasgowtham-x/aegis-security-co-pilot [AI CVE Scanner]
 - https://github.com/ucsb-mlsec/VulnLLM-R [Specialized Reasoning LLM for Vulnerability]
+- https://github.com/RogoLabs/VulnRadar [VulnRadar - Vulnerability radar via GitHub Actions: CVE watchlist, KEV/EPSS/PatchThis, issues, Discord/Slack/Teams]
 
 ### AI OSINT
 - https://ai.cylect.io/ [AI OSINT]
@@ -262,6 +263,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/prateekmedia/claude-agent-sdk-pi [Claude Agent SDK as LLM provider for Pi]
 - https://github.com/disler/pi-vs-claude-code [Pi vs Claude Code: comparison, Pi extensions, damage-control safety]
 - https://github.com/boshu2/agentops [AgentOps - DevOps layer for coding agents: flow, feedback, memory across sessions]
+- https://github.com/Cranot/roam-code [Architectural intelligence layer for AI coding agents — structural graph, governance, multi-agent orchestration, vulnerability mapping, 100% local]
 
 ### RAG Frameworks
 - https://github.com/infiniflow/ragflow [Best RAG Solution]
