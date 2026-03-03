@@ -200,6 +200,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/ZeroDaysBroker/GhidraGPT [GPT Integration for Ghidra]
 - https://github.com/jtang613/GhidrAssist [LLM Extension for Ghidra]
 - https://github.com/0xeb/windbg-copilot [WinDbg Copilot - Agentic Debugging extension]
+- https://github.com/agentrebench/AgentRE-Bench [AgentRE-Bench - Agentic benchmark for long-horizon binary RE: C2/encoding/anti-analysis, deterministic scoring, 13 ELF tasks]
 
 ### AI Vulnerability Detection
 - https://github.com/scabench-org/hound [AI Auditor with Adaptive Knowledge Graphs]
@@ -333,6 +334,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 
 ### Claude Code Skills / Plugins
 - https://github.com/VoltAgent/awesome-claude-code-subagents [100+ Specialized Claude Code Subagents Collection]
+- https://github.com/popup-studio-ai/bkit-claude-code [bkit - PDCA methodology + context engineering for Claude Code, AI-native development]
 - https://github.com/Dammyjay93/interface-design [Design Engineering for Claude Code - Consistent UI]
 - https://github.com/BehiSecc/VibeSec-Skill [Claude skill for secure code and common vulnerability prevention]
 - https://github.com/hamelsmu/claude-review-loop [Claude Code plugin: automated code review loop with Codex]
