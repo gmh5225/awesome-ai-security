@@ -387,6 +387,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/samber/the-great-gpt-firewall [Anti-AI Web Scraping]
 
 ### AI Social Media
+- https://github.com/steipete/birdclaw [Local-first X workspace: archive import, AI-ranked inbox/triage, profile-reply scan for AI/slop, scriptable JSON for agents]
 - https://github.com/d60/twikit [Twitter Bot Python]
 - https://github.com/elizaOS/agent-twitter-client [Twitter Bot JS]
 - https://github.com/blorm-network/ZerePy [Twitter AI Agent Python]
