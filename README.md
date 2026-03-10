@@ -302,6 +302,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 ## AI Development & Training
 
 ### Training Frameworks
+- https://github.com/trevin-creator/autoresearch-mlx [Apple Silicon (MLX) port of Karpathy's autoresearch — autonomous AI research loops on Mac, agent edits train.py, val_bpb keep/revert]
 - https://github.com/kvcache-ai/ktransformers [LLM Inference Optimization Framework]
 - https://github.com/transformerlab/transformerlab-app [Training Studio]
 - https://github.com/Lightning-AI/litgpt [Fine-tuning Framework]
