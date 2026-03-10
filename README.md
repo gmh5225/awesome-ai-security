@@ -201,6 +201,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/jtang613/GhidrAssist [LLM Extension for Ghidra]
 - https://github.com/0xeb/windbg-copilot [WinDbg Copilot - Agentic Debugging extension]
 - https://github.com/agentrebench/AgentRE-Bench [AgentRE-Bench - Agentic benchmark for long-horizon binary RE: C2/encoding/anti-analysis, deterministic scoring, 13 ELF tasks]
+- https://github.com/banteg/bn [bn - Agent-friendly Binary Ninja CLI: decompile, xrefs, types, mutations via Unix socket to GUI plugin]
 
 ### AI Vulnerability Detection
 - https://github.com/scabench-org/hound [AI Auditor with Adaptive Knowledge Graphs]
