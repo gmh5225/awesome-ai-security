@@ -148,6 +148,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://arxiv.org/html/2507.02737v1 [Steganography Capabilities in Frontier LLMs]
 - https://jplhughes.github.io/bon-jailbreaking/ [AI Jailbreaking]
 - https://huggingface.co/blog/mlabonne/abliteration [Model Abliteration]
+- https://github.com/FailSpy/abliterator [abliterator - Python library to ablate refusal/features in LLMs, TransformerLens, cache activations, refusal direction]
 - https://github.com/spkgyk/abliteration [Abliteration - uncensor LLMs via refusal-vector removal, PyTorch hooks, no TransformerLens]
 - https://github.com/protectai/llm-guard [LLM Guard - Security Tool]
 - https://github.com/protectai/modelscan [ModelScan - Scan Models for Unsafe Code]
