@@ -416,6 +416,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/elizaOS/agent-twitter-client [Twitter Bot JS]
 - https://github.com/blorm-network/ZerePy [Twitter AI Agent Python]
 - https://github.com/langchain-ai/social-media-agent [Social Media Automation]
+- https://github.com/RandyVentures/tgcli [tgcli - Telegram CLI: sync, search, send, JSON output; built for OpenClaw E2E testing]
 
 
 
