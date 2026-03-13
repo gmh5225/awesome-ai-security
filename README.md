@@ -298,6 +298,18 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/regenrek/deepwiki-mcp [DeepWiki MCP]
 - https://github.com/upstash/context7 [Documentation MCP]
 
+### AI Sandbox & Isolation
+- https://github.com/microsandbox/microsandbox [AI Code Execution Sandbox, E2B Alternative]
+- https://github.com/jamesmurdza/sandboxjs [All-in-One Sandbox for AI Agents]
+- https://github.com/agent-infra/sandbox [Agent Infrastructure Sandbox]
+- https://github.com/skanehira/mori [Rust-based Sandbox]
+- https://github.com/always-further/nono [Rust-based Sandbox]
+- https://github.com/penberg/agentfs [TypeScript Agent Sandbox with Controlled File System Access]
+- https://github.com/zerocore-ai/microsandbox [Microsandbox - Hardware-level Isolation for Untrusted Code]
+- https://github.com/vercel-labs/ai-sdk-tool-code-execution [Vercel AI SDK Code Execution Sandbox]
+- https://github.com/moru-ai/moru [Run AI Agents in the Cloud]
+- https://github.com/earendil-works/gondolin [Experimental Linux MicroVM Agent Sandbox]
+
 
 
 ## AI Development & Training
