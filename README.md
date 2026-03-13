@@ -154,6 +154,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/fr0gger/nova_mcp [Nova MCP Server]
 - https://github.com/0xAIDR/AIDR-Bastion [GenAI Protection System]
 - https://github.com/CAU-ISS-Lab/AIGT-Detection-Evade-Detection [AI-Generated Text Detection & Evasion]
+- https://github.com/AUGMXNT/deccp [deccp - Evaluating and unaligning Chinese LLM censorship, abliteration PoC for Qwen2]
 
 
 
