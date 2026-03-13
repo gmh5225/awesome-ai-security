@@ -150,6 +150,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://huggingface.co/blog/mlabonne/abliteration [Model Abliteration]
 - https://github.com/FailSpy/abliterator [abliterator - Python library to ablate refusal/features in LLMs, TransformerLens, cache activations, refusal direction]
 - https://github.com/spkgyk/abliteration [Abliteration - uncensor LLMs via refusal-vector removal, PyTorch hooks, no TransformerLens]
+- https://github.com/jim-plus/llm-abliteration [llm-abliteration - make abliterated models with Transformers, batch inference, dense/MoE, norm-preserving biprojected, low VRAM]
 - https://github.com/protectai/llm-guard [LLM Guard - Security Tool]
 - https://github.com/protectai/modelscan [ModelScan - Scan Models for Unsafe Code]
 - https://github.com/fr0gger/nova-framework [Nova Framework - Jailbreak Detection]
