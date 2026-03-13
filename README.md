@@ -265,6 +265,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/jshachm/pi-rs [pi-mono rust version]
 - https://github.com/prateekmedia/claude-agent-sdk-pi [Claude Agent SDK as LLM provider for Pi]
 - https://github.com/disler/pi-vs-claude-code [Pi vs Claude Code: comparison, Pi extensions, damage-control safety]
+- https://github.com/davebcn87/pi-autoresearch [Pi Autoresearch - autonomous experiment loop for Pi: try/measure/keep/revert, test speed, bundle size, LLM training, Lighthouse]
 - https://github.com/boshu2/agentops [AgentOps - DevOps layer for coding agents: flow, feedback, memory across sessions]
 - https://github.com/Cranot/roam-code [Architectural intelligence layer for AI coding agents — structural graph, governance, multi-agent orchestration, vulnerability mapping, 100% local]
 
