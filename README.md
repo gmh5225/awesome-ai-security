@@ -482,6 +482,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/mediar-ai/screenpipe [AI Screen Monitoring]
 - https://github.com/mediar-ai/terminator [AI OCR Recognition Tool]
 - https://github.com/gmh5225/git-diff [AI-based Git Commit Message Generator]
+- https://github.com/ticarpi/jwt_tool [jwt_tool - JWT toolkit: validate, forge, scan, tamper, CVE exploits (alg=none, RS/HS256, key injection, etc.), dictionary attack]
 
 
 
