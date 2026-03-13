@@ -148,6 +148,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://arxiv.org/html/2507.02737v1 [Steganography Capabilities in Frontier LLMs]
 - https://jplhughes.github.io/bon-jailbreaking/ [AI Jailbreaking]
 - https://huggingface.co/blog/mlabonne/abliteration [Model Abliteration]
+- https://github.com/p-e-w/heretic [Heretic - fully automatic censorship removal for LLMs, abliteration + Optuna TPE optimizer, dense/MoE/multimodal]
 - https://github.com/FailSpy/abliterator [abliterator - Python library to ablate refusal/features in LLMs, TransformerLens, cache activations, refusal direction]
 - https://github.com/spkgyk/abliteration [Abliteration - uncensor LLMs via refusal-vector removal, PyTorch hooks, no TransformerLens]
 - https://github.com/jim-plus/llm-abliteration [llm-abliteration - make abliterated models with Transformers, batch inference, dense/MoE, norm-preserving biprojected, low VRAM]
@@ -159,6 +160,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/0xAIDR/AIDR-Bastion [GenAI Protection System]
 - https://github.com/CAU-ISS-Lab/AIGT-Detection-Evade-Detection [AI-Generated Text Detection & Evasion]
 - https://github.com/AUGMXNT/deccp [deccp - Evaluating and unaligning Chinese LLM censorship, abliteration PoC for Qwen2]
+- https://github.com/gpiat/AIAE-AbliterationBench [AbliterationBench - benchmark model resilience to residual stream/abliteration attacks]
 
 
 
@@ -441,6 +443,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 
 - https://robustbench.github.io/ [Adversarial Robustness Benchmark]
 - https://jailbreakbench.github.io/ [LLM Jailbreak Benchmark]
+- https://github.com/gpiat/AIAE-AbliterationBench [AbliterationBench - benchmark model resilience to residual stream/abliteration attacks]
 - https://crfm.stanford.edu/helm/air-bench/latest/ [Stanford AI Safety Benchmark]
 - https://atlas.mitre.org/ [MITRE ATLAS - AI Threat Matrix]
 - https://www.nist.gov/itl/ai-risk-management-framework [NIST AI Risk Management Framework]
