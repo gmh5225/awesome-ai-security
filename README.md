@@ -418,6 +418,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/blorm-network/ZerePy [Twitter AI Agent Python]
 - https://github.com/langchain-ai/social-media-agent [Social Media Automation]
 - https://github.com/RandyVentures/tgcli [tgcli - Telegram CLI: sync, search, send, JSON output; built for OpenClaw E2E testing]
+- https://github.com/terminaltrove/moltbook-tui [moltbook-tui - TUI client for Moltbook, social network for AI agents; feed, comments, leaderboards, submolts]
 
 
 
@@ -475,6 +476,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 
 ## Utilities
 
+- https://github.com/jaredpalmer/mogcli [mogcli - agent-friendly Microsoft 365 CLI, Mail/Calendar/Contacts/Groups/Tasks/OneDrive, --json/--plain]
 - https://github.com/JefferyHcool/BiliNote [AI Video Note Generator]
 - https://github.com/mediar-ai/screenpipe [AI Screen Monitoring]
 - https://github.com/mediar-ai/terminator [AI OCR Recognition Tool]
