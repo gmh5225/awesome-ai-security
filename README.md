@@ -186,6 +186,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/NVIDIA/NeMo-Guardrails [NVIDIA Programmable Guardrails]
 - https://github.com/NoDataFound/hackGPT [LLM Toolkit for Offensive Security]
 - https://github.com/ipa-lab/hackingBuddyGPT [Autonomous Red-Teaming Agent]
+- https://github.com/Yanlewen/TradeTrap [TradeTrap - test LLM-based trading agents: prompt injection, MCP hijacking, state tampering, memory poisoning; AI-Trader/Valuecell]
 
 ### AI Security MCP Tools
 - https://github.com/0x4m4/hexstrike-ai [HexStrike AI - 150+ Cybersecurity Tools MCP]
@@ -323,6 +324,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/vercel-labs/ai-sdk-tool-code-execution [Vercel AI SDK Code Execution Sandbox]
 - https://github.com/moru-ai/moru [Run AI Agents in the Cloud]
 - https://github.com/earendil-works/gondolin [Experimental Linux MicroVM Agent Sandbox]
+- https://github.com/rcarmo/piclaw [PiClaw - Docker sandbox for Pi Coding Agent: isolated Debian, streaming web UI, SSE, persistent sessions, passkeys/TOTP, optional WhatsApp]
 
 
 
