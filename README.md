@@ -250,6 +250,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/Invicti-Security/brainstorm [AI Fuzzer for Web Applications]
 
 ### AI Agent Security
+- https://github.com/NVIDIA/NemoClaw [NVIDIA plugin for secure installation of OpenClaw - sandboxed agents with Landlock/seccomp/netns, policy-enforced egress and inference]
 - https://github.com/peg/rampart [Firewall for AI agents - policy engine for OpenClaw, Claude Code, Cursor, Codex]
 - https://github.com/openguardrails/openguardrails [OpenGuardrails - Runtime security for AI agents: prompt injection, credential leakage, exfiltration, behavioral threats]
 - https://github.com/cisco-ai-defense/skill-scanner [Security scanner for agent skills - prompt injection, exfiltration, malicious code]
