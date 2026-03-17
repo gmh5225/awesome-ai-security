@@ -99,6 +99,15 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
   - https://github.com/deepseek-ai/awesome-deepseek-integration [Awesome DeepSeek Integration]
   - https://github.com/lmmlzn/Awesome-LLMs-Datasets [Awesome LLMs Datasets]
 
+- **From-scratch LLMs / Reasoning**
+  - https://github.com/rasbt/LLMs-from-scratch/tree/main/ch05/11_qwen3 [Qwen3 From Scratch - Chinese walkthrough]
+  - https://github.com/rasbt/LLMs-from-scratch/blob/main/ch05/11_qwen3/standalone-qwen3-moe-plus-kvcache.ipynb [Implement Qwen3 MoE with KV cache from scratch]
+  - https://github.com/rasbt/LLMs-from-scratch/tree/main/ch05/12_gemma3 [Build Gemma 3 270M from scratch]
+  - https://github.com/rasbt/reasoning-from-scratch [Reasoning models from scratch]
+  - https://github.com/mingyin0312/RLFromScratch [Reinforcement learning from scratch (Chinese tutorial)]
+  - https://github.com/alexzhang13/rlm [Recursive Language Models for unbounded context]
+  - https://github.com/karpathy/nanochat [End-to-end nanochat training loop in ~8K lines]
+
 
 
 ## AI Security & Attacks
@@ -186,6 +195,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/NVIDIA/NeMo-Guardrails [NVIDIA Programmable Guardrails]
 - https://github.com/NoDataFound/hackGPT [LLM Toolkit for Offensive Security]
 - https://github.com/ipa-lab/hackingBuddyGPT [Autonomous Red-Teaming Agent]
+- https://github.com/Yanlewen/TradeTrap [TradeTrap - test LLM-based trading agents: prompt injection, MCP hijacking, state tampering, memory poisoning; AI-Trader/Valuecell]
 
 ### AI Security MCP Tools
 - https://github.com/0x4m4/hexstrike-ai [HexStrike AI - 150+ Cybersecurity Tools MCP]
@@ -240,6 +250,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/Invicti-Security/brainstorm [AI Fuzzer for Web Applications]
 
 ### AI Agent Security
+- https://github.com/NVIDIA/NemoClaw [NVIDIA plugin for secure installation of OpenClaw - sandboxed agents with Landlock/seccomp/netns, policy-enforced egress and inference]
 - https://github.com/peg/rampart [Firewall for AI agents - policy engine for OpenClaw, Claude Code, Cursor, Codex]
 - https://github.com/openguardrails/openguardrails [OpenGuardrails - Runtime security for AI agents: prompt injection, credential leakage, exfiltration, behavioral threats]
 - https://github.com/cisco-ai-defense/skill-scanner [Security scanner for agent skills - prompt injection, exfiltration, malicious code]
@@ -324,6 +335,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/vercel-labs/ai-sdk-tool-code-execution [Vercel AI SDK Code Execution Sandbox]
 - https://github.com/moru-ai/moru [Run AI Agents in the Cloud]
 - https://github.com/earendil-works/gondolin [Experimental Linux MicroVM Agent Sandbox]
+- https://github.com/rcarmo/piclaw [PiClaw - Docker sandbox for Pi Coding Agent: isolated Debian, streaming web UI, SSE, persistent sessions, passkeys/TOTP, optional WhatsApp]
 
 
 
@@ -338,6 +350,9 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/arcee-ai/mergekit [Model Merge Tool]
 - https://github.com/PrimeIntellect-ai/prime [Distributed AI Training]
 - https://docs.unsloth.ai/basics/tutorials-how-to-fine-tune-and-run-llms [Unsloth Fine-tuning]
+- https://x.com/UnslothAI/status/1953896997867729075 [Free fine-tuning tutorial for gpt-oss-20b]
+- https://github.com/OpenPipe/ART [ART - Agent Reinforcement Trainer framework with GRPO integration]
+- https://medium.com/@lucamassaron/fine-tuning-gemma-3-1b-it-for-financial-sentiment-analysis-a-step-by-step-guide-1a025d2fc75d [Step-by-step Gemma 3 1B-IT finetuning guide for financial sentiment]
 
 ### Local Models
 - https://github.com/mudler/LocalAI [Local Model Loading Tool]
@@ -348,6 +363,10 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/sauravpanda/BrowserAI [Run Local LLMs in Browser]
 - https://github.com/signerlabs/Klee [Local Model Chat + RAG]
 - https://github.com/dontizi/rlama [Local Ollama + RAG]
+- https://github.com/dinoki-ai/osaurus [MLX-based local inference server, Ollama alternative]
+- https://github.com/trymirai/uzu [High-performance Rust inference engine]
+- https://github.com/jundot/omlx [LLM inference server for Apple Silicon]
+- https://github.com/gmh5225/optiml [OptiML - accelerate local inference via hot/cold neuron partitioning across GPU/CPU]
 
 ### Uncensored Models
 - https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard [Uncensored Model Leaderboard]
@@ -361,6 +380,11 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/PatrickJS/awesome-cursorrules [Awesome Cursor Rules]
 - https://github.com/anthropics/prompt-eng-interactive-tutorial [Anthropic Prompt Engineering Tutorial]
 - https://github.com/langgptai/wonderful-prompts [Wonderful Prompts Collection]
+- https://github.com/mshumer/gpt-oss-pro-mode [Shared "pro mode" prompts to upgrade many open models]
+
+### Routing & Model Selection
+- https://github.com/microsoft/best-route-llm [Train routing models to pick the best LLM per query]
+- https://openrouter.ai/switchpoint/router [Hosted router to automatically select optimal models]
 
 ### Claude Code Skills / Plugins
 - https://github.com/VoltAgent/awesome-claude-code-subagents [100+ Specialized Claude Code Subagents Collection]
@@ -457,6 +481,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://atlas.mitre.org/ [MITRE ATLAS - AI Threat Matrix]
 - https://www.nist.gov/itl/ai-risk-management-framework [NIST AI Risk Management Framework]
 - https://github.com/vectara/hallucination-leaderboard [Model Hallucination Leaderboard]
+- https://github.com/regenrek/aidex [Aidex - practical ranking of models by cost, quality, and use-case fitness]
 
 
 
