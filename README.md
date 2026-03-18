@@ -335,6 +335,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/vercel-labs/ai-sdk-tool-code-execution [Vercel AI SDK Code Execution Sandbox]
 - https://github.com/moru-ai/moru [Run AI Agents in the Cloud]
 - https://github.com/earendil-works/gondolin [Experimental Linux MicroVM Agent Sandbox]
+- https://github.com/adammiribyan/zeroboot [Zeroboot - sub-millisecond KVM VM sandboxes for AI agents via Firecracker snapshot + CoW forking, Python/Node SDK]
 - https://github.com/rcarmo/piclaw [PiClaw - Docker sandbox for Pi Coding Agent: isolated Debian, streaming web UI, SSE, persistent sessions, passkeys/TOTP, optional WhatsApp]
 
 
