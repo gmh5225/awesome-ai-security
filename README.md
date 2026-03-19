@@ -303,6 +303,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/HKUDS/MiniRAG [Mini RAG]
 - https://github.com/qhjqhj00/MemoRAG [Long Memory RAG]
 - https://github.com/microsoft/PIKE-RAG [PIKE-RAG]
+- https://github.com/EverMind-AI/MSA [MSA (Memory Sparse Attention) - scalable end-to-end trainable latent memory for extreme long context (paper; code/models TBD)]
 
 ### AI Browser Automation
 - https://github.com/browser-use/browser-use [Browser-Use - AI Browser Control]
