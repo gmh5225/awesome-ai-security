@@ -300,9 +300,14 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/lobehub/lobe-chat [Local RAG System]
 - https://github.com/HKUDS/MiniRAG [Mini RAG]
 - https://github.com/microsoft/PIKE-RAG [PIKE-RAG]
+- https://github.com/Olow304/memvid [Memvid - experimental RAG by encoding document corpora into video for retrieval]
 
 ### AI Memory & Long Context
 - https://github.com/mem0ai/mem0 [Mem0 - universal long-term memory layer for AI agents; user/session/agent state, Python & Node SDKs, self-host or Mem0 Platform]
+- https://github.com/supermemoryai/supermemory [Supermemory - long-term memory API/SDK for AI apps and agents]
+- https://github.com/mindverse/Second-Me [Second-Me - personal AI twin: learns your style, remembers context, can act on your behalf]
+- https://github.com/langchain-ai/langmem [LangMem - LangChain toolkit for long-term agent memory]
+- https://github.com/langchain-ai/memory-agent [Memory agent - LangGraph reference agent with persistent memory patterns]
 - https://github.com/alexzhang13/rlm [Recursive Language Models (RLM) - unbounded context via recursive sub-LLM calls]
 - https://github.com/EverMind-AI/MSA [MSA (Memory Sparse Attention) - end-to-end trainable sparse latent memory for extreme long context (paper; code/models TBD)]
 - https://github.com/getzep/graphiti [Graphiti - dynamic temporal knowledge graph as agent memory (Zep)]
