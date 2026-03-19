@@ -394,6 +394,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/BehiSecc/VibeSec-Skill [Claude skill for secure code and common vulnerability prevention]
 - https://github.com/hamelsmu/claude-review-loop [Claude Code plugin: automated code review loop with Codex]
 - https://github.com/blader/humanizer [Remove AI Writing Signs from Text]
+- https://github.com/hardikpandya/stop-slop [Stop Slop - Claude skill to strip AI writing tells from prose: banned phrases, structural clichés, sentence rules]
 - https://github.com/op7418/Humanizer-zh [Humanizer Chinese Version]
 
 
