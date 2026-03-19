@@ -302,6 +302,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/microsoft/PIKE-RAG [PIKE-RAG]
 
 ### AI Memory & Long Context
+- https://github.com/mem0ai/mem0 [Mem0 - universal long-term memory layer for AI agents; user/session/agent state, Python & Node SDKs, self-host or Mem0 Platform]
 - https://github.com/alexzhang13/rlm [Recursive Language Models (RLM) - unbounded context via recursive sub-LLM calls]
 - https://github.com/EverMind-AI/MSA [MSA (Memory Sparse Attention) - end-to-end trainable sparse latent memory for extreme long context (paper; code/models TBD)]
 - https://github.com/getzep/graphiti [Graphiti - dynamic temporal knowledge graph as agent memory (Zep)]
