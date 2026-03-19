@@ -105,7 +105,6 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
   - https://github.com/rasbt/LLMs-from-scratch/tree/main/ch05/12_gemma3 [Build Gemma 3 270M from scratch]
   - https://github.com/rasbt/reasoning-from-scratch [Reasoning models from scratch]
   - https://github.com/mingyin0312/RLFromScratch [Reinforcement learning from scratch (Chinese tutorial)]
-  - https://github.com/alexzhang13/rlm [Recursive Language Models for unbounded context]
   - https://github.com/karpathy/nanochat [End-to-end nanochat training loop in ~8K lines]
 
 
@@ -298,12 +297,15 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/infiniflow/ragflow [Best RAG Solution]
 - https://github.com/FareedKhan-dev/all-rag-techniques [All RAG Techniques]
 - https://github.com/NirDiamant/RAG_Techniques [RAG Techniques Concepts]
-- https://github.com/getzep/graphiti [Dynamic RAG]
 - https://github.com/lobehub/lobe-chat [Local RAG System]
 - https://github.com/HKUDS/MiniRAG [Mini RAG]
-- https://github.com/qhjqhj00/MemoRAG [Long Memory RAG]
 - https://github.com/microsoft/PIKE-RAG [PIKE-RAG]
-- https://github.com/EverMind-AI/MSA [MSA (Memory Sparse Attention) - scalable end-to-end trainable latent memory for extreme long context (paper; code/models TBD)]
+
+### AI Memory & Long Context
+- https://github.com/alexzhang13/rlm [Recursive Language Models (RLM) - unbounded context via recursive sub-LLM calls]
+- https://github.com/EverMind-AI/MSA [MSA (Memory Sparse Attention) - end-to-end trainable sparse latent memory for extreme long context (paper; code/models TBD)]
+- https://github.com/getzep/graphiti [Graphiti - dynamic temporal knowledge graph as agent memory (Zep)]
+- https://github.com/qhjqhj00/MemoRAG [MemoRAG - long-memory RAG over large corpora]
 
 ### AI Browser Automation
 - https://github.com/browser-use/browser-use [Browser-Use - AI Browser Control]

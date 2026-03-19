@@ -55,7 +55,7 @@ awesome-ai-security/
 - **AI Security & Attacks**: Prompt injection, adversarial attacks, poisoning, privacy, model security.
 - **AI Pentesting & Red Teaming**: AI-powered pentesting tools, red teaming, MCP security tools.
 - **AI Security Tools & Frameworks**: AI vulnerability detection, CVE analysis, OSINT, security libraries.
-- **AI Agents & Frameworks**: Agent frameworks, RAG, browser automation, MCP servers.
+- **AI Agents & Frameworks**: Agent frameworks, **AI memory & long context** (latent memory, recursive context, long-memory RAG), RAG stacks/collections, browser automation, MCP servers.
 - **AI Development & Training**: Training frameworks, local models, uncensored models, prompts.
 - **AI Applications**: Chat assistants, deep research, search engines, code analysis, web scraping.
 - **AI Image & Video**: Image generation, video generation, TTS, face recognition.
