@@ -292,6 +292,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/davebcn87/pi-autoresearch [Pi Autoresearch - autonomous experiment loop for Pi: try/measure/keep/revert, test speed, bundle size, LLM training, Lighthouse]
 - https://github.com/boshu2/agentops [AgentOps - DevOps layer for coding agents: flow, feedback, memory across sessions]
 - https://github.com/Cranot/roam-code [Architectural intelligence layer for AI coding agents — structural graph, governance, multi-agent orchestration, vulnerability mapping, 100% local]
+- https://github.com/hotjp/long-run-agent [LRA - long-running AI agent task manager: DAG dependencies, Constitution quality gates, 7-stage iteration guidance, multi-agent collaboration, context management]
 
 ### RAG Frameworks
 - https://github.com/infiniflow/ragflow [Best RAG Solution]
