@@ -393,6 +393,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/mshumer/gpt-oss-pro-mode [Shared "pro mode" prompts to upgrade many open models]
 
 ### Routing & Model Selection
+- https://github.com/CommonstackAI/UncommonRoute [UncommonRoute - local LLM router that dispatches requests by complexity tier; Codex/Claude Code/Cursor/OpenClaw compatible, ~0.5ms latency, 86% cost savings]
 - https://github.com/microsoft/best-route-llm [Train routing models to pick the best LLM per query]
 - https://openrouter.ai/switchpoint/router [Hosted router to automatically select optimal models]
 
