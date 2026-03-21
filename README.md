@@ -471,6 +471,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/leejet/stable-diffusion.cpp [Stable Diffusion C++]
 - https://github.com/apple/ml-stable-diffusion [Apple Stable Diffusion]
 - https://github.com/ant-research/MagicQuill [Intelligent Image Editing]
+- https://github.com/lightningpixel/modly [Modly - desktop app: image-to-3D mesh with local open-source models on GPU; Electron + Python, extension system]
 
 ### AI Video Generation
 - https://github.com/bytedance/LatentSync [Digital Human Video]
