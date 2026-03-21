@@ -242,6 +242,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 ### AI OSINT
 - https://ai.cylect.io/ [AI OSINT]
 - https://github.com/apurvsinghgautam/robin/ [AI-Powered Dark Web OSINT Tool]
+- https://github.com/calesthio/Crucix [Crucix - self-hosted OSINT terminal: 27 open feeds (satellite, flights, conflict, markets), Jarvis dashboard, optional LLM alerts & Telegram/Discord bots]
 
 ### AI Security Libraries
 - https://secml.readthedocs.io/ [SecML - Secure and Explainable ML Library]
