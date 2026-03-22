@@ -183,6 +183,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/antoninoLorenzo/AI-OPS [AI Assistant for Penetration Testing]
 - https://github.com/yz9yt/BugTrace-AI [AI Automated Web Pentesting]
 - https://github.com/six2dez/reconftw_ai [ReconFTW with AI Analysis]
+- https://github.com/projectdiscovery/katana [Katana (ProjectDiscovery) - fast web crawler/spider for automation: standard & headless, JS endpoint parsing, scope/regex filters, JSONL; stacks with httpx/nuclei and AI pentest agent workflows]
 - https://github.com/Ed1s0nZ/CyberStrikeAI [AI-Native Security Testing Platform with 100+ Tools]
 - https://github.com/vxcontrol/pentagi [PentAGI - Fully autonomous AI agents for penetration testing]
 - https://github.com/KeygraphHQ/shannon [Shannon - Autonomous AI pentester, finds and executes real exploits in web apps]
@@ -250,6 +251,29 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://secml.readthedocs.io/ [SecML - Secure and Explainable ML Library]
 - https://github.com/google/oss-fuzz-gen [AI Code Audit Fuzzing Tool]
 - https://github.com/Invicti-Security/brainstorm [AI Fuzzer for Web Applications]
+
+### TLS, fingerprint & bot signals (web / automation)
+- https://github.com/rawandahmad698/noble-tls [noble-tls - Python HTTP client with TLS/JA3 impersonation (requests-like API, auto-updated fingerprints)]
+- https://github.com/lexiforest/curl_cffi [curl_cffi - Python bindings to libcurl-impersonate: browser-aligned TLS/JA3 and HTTP/2 fingerprints without a full browser; strong default for scripted fetches]
+- https://github.com/0x676e67/rnet [rnet - Rust HTTP client with TLS JA3/JA4 and HTTP/2 fingerprint control]
+- https://github.com/fingerprintjs/BotD [BotD (FingerprintJS) - open-source client-side bot detection SDK you embed in your own pages (self-hosted / first-party integration)]
+- https://github.com/botswin/BotBrowser [BotBrowser - cross-platform Chromium for automation/QA against anti-bot stacks (Cloudflare, Akamai, Kasada, Shape, DataDome, PerimeterX, hCaptcha, FunCaptcha, Imperva, reCAPTCHA, ThreatMetrix, Adscore, etc.); use only on systems you own]
+- https://github.com/MiddleSchoolStudent/BotBrowser [BotBrowser (alt distribution) - headless-oriented Chromium builds for anti-bot automation; compare with botswin fork; authorized targets only]
+- https://github.com/daijro/camoufox [Camoufox - stealth-oriented Firefox for scraping/automation; pairs well with Browser-Use-style stacks and Cloudflare-challenge helper tools (e.g. solver proxies); use only where you have authorization]
+- https://github.com/AlloryDante/undetected-browser [undetected-browser - modified Puppeteer/Chromium stack for lower-detection automation testing]
+- https://github.com/ultrafunkamsterdam/nodriver [nodriver - undetected-style Chrome control without classic WebDriver surface; Python driver for hardened automation research]
+- https://github.com/Xewdy444/CF-Clearance-Scraper [CF-Clearance-Scraper - scriptable retrieval of Cloudflare `cf_clearance` / session artifacts for HTTP clients; for authorized testing and research only]
+- https://github.com/FlareSolverr/FlareSolverr [FlareSolverr - self-hosted HTTP API/proxy that solves Cloudflare challenges and returns cookies/HTML for downstream clients; deploy only on networks and sites you are allowed to test]
+- https://github.com/xKiian/awswaf [awswaf - AWS WAF browser-challenge / token handling for scripted clients; for authorized security research and targets you own or have explicit permission to test]
+- https://github.com/fingerprintjs/fingerprintjs [FingerprintJS - browser fingerprinting library (open-source visitor identification)]
+- https://github.com/abrahamjuliot/creepjs [CreepJS - browser fingerprinting + anti-spoofing / lie detection; modular parallel collection for privacy and bot research]
+- https://github.com/juu17/browser-fingerprint-shuffler [browser-fingerprint-shuffler - browser extension to shuffle fingerprint-related signals (privacy / QA research)]
+- https://pixelscan.net/fingerprint-check [Pixelscan - online browser fingerprint consistency / leak checker]
+- https://github.com/Myronfr/RISC-Fingerprinting2025 [RISC-Fingerprinting2025 - browser fingerprinting research materials]
+- https://github.com/Myronfr/AkamaiBmpGen2025 [AkamaiBmpGen2025 - Akamai BMP/sensor research tooling and notes (e.g. Akamai-ACF related artifacts)]
+- https://nullpt.rs/compiling-browser-to-bypass-antibot-measures [nullpt.rs - building Chromium variants for anti-bot / automation research (write-up)]
+- https://github.com/zmzimpl/chrome-power-app [Chrome Power App - companion app for customized Chromium / fingerprint-oriented workflows]
+- https://github.com/zmzimpl/chrome-power-chromium [chrome-power-chromium - Chromium sources for Chrome Power–style builds]
 
 ### AI Agent Security
 - https://github.com/NVIDIA/NemoClaw [NVIDIA plugin for secure installation of OpenClaw - sandboxed agents with Landlock/seccomp/netns, policy-enforced egress and inference]
@@ -321,13 +345,19 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/qhjqhj00/MemoRAG [MemoRAG - long-memory RAG over large corpora]
 
 ### AI Browser Automation
+- https://github.com/steel-dev/steel-browser [Steel Browser - AI-controllable browser automation with fingerprint / stealth-oriented controls]
+- https://github.com/Skyvern-AI/skyvern [Skyvern - LLM + computer-vision agents for web workflows; natural-language goals drive browser automation]
+- https://github.com/runablehq/mini-browser [mini-browser (Runable) - lightweight embeddable browser runtime built for AI agents]
 - https://github.com/browser-use/browser-use [Browser-Use - AI Browser Control]
 - https://github.com/browser-use/macOS-use [Computer-Use for macOS]
 - https://github.com/web-infra-dev/midscene [Browser-Use Alternative]
 - https://github.com/browser-use/workflow-use [Browser-Use Workflow Recording]
 - https://github.com/microsoft/magentic-ui [Microsoft Browser-Use Alternative]
-- https://github.com/lightpanda-io/browser [Lightpanda - Headless Browser for AI]
-- https://github.com/jo-inc/camofox-browser [Camofox - Headless browser server for AI agents, anti-detection]
+- https://github.com/lightpanda-io/browser [Lightpanda - headless browser for AI workloads, implemented in Zig (small memory footprint)]
+- https://github.com/jo-inc/camofox-browser [Camofox Browser - headless Camoufox/Firefox automation server for AI agents to reach sites that often block stock automation; anti-detection / realistic fingerprints]
+- https://github.com/Kaliiiiiiiiii-Vinyzu/patchright [patchright - patched Playwright with stronger anti-automation-detection defaults]
+- https://github.com/Kaliiiiiiiiii-Vinyzu/patchright-python [patchright-python - Python SDK for patchright]
+- https://github.com/Kaliiiiiiiiii-Vinyzu/patchright-nodejs [patchright-nodejs - Node.js SDK for patchright]
 
 ### MCP Servers
 - https://mcp.so/ [MCP Collection Website]
@@ -459,6 +489,8 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://deepwiki.com [GitHub Project Deep Search]
 
 ### AI Web Scraping
+- https://github.com/D4Vinci/Scrapling [Scrapling - adaptive Python scraping framework: parsers relearn selectors when pages change, fetcher handles Cloudflare Turnstile-class bot checks, spider mode (concurrency, multi-session, pause/resume, proxy rotation), streaming stats]
+- https://github.com/proxifly/free-proxy-list [free-proxy-list (Proxifly) - curated free HTTP/SOCKS proxy feeds for labs and scraper/agent pipelines; treat public proxies as hostile—no credentials or production traffic]
 - https://github.com/ScrapeGraphAI/Scrapegraph-ai [AI Web Scraping]
 - https://github.com/mishushakov/llm-scraper [LLM Web Scraper]
 - https://github.com/samber/the-great-gpt-firewall [Anti-AI Web Scraping]
@@ -534,6 +566,8 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 ## Utilities
 
 - https://github.com/jaredpalmer/mogcli [mogcli - agent-friendly Microsoft 365 CLI, Mail/Calendar/Contacts/Groups/Tasks/OneDrive, --json/--plain]
+- https://github.com/maillab/cloud-mail [cloud-mail - self-hosted domain email / mail-server stack for your own domain]
+- https://github.com/Eppie-io/Eppie-App [Eppie - open-protocol encrypted P2P email (client); decentralized mail without a single provider]
 - https://github.com/yucchiy/UniCli [UniCli - CLI to control Unity Editor from terminal, 80+ commands, JSON output, Claude Code plugin, AI-agent ready]
 - https://github.com/rtk-ai/rtk [rtk - Rust Token Killer: CLI proxy that reduces LLM token consumption 60-90% on dev commands, Claude Code hook]
 - https://github.com/jaydotsee/pdfx [pdfx - PDF to Markdown/JSON/HTML via VLM (Docling), Apple Silicon MLX, batch, OCR, tables, formulas]

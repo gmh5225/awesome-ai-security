@@ -54,7 +54,7 @@ awesome-ai-security/
 - **AI/LLM Guide**: LLM fundamentals, tutorials, awesome lists.
 - **AI Security & Attacks**: Prompt injection, adversarial attacks, poisoning, privacy, model security.
 - **AI Pentesting & Red Teaming**: AI-powered pentesting tools, red teaming, MCP security tools.
-- **AI Security Tools & Frameworks**: AI vulnerability detection, CVE analysis, OSINT, security libraries.
+- **AI Security Tools & Frameworks**: AI vulnerability detection, CVE analysis, OSINT, security libraries, **TLS / fingerprint / bot signals** (JA3 clients, site bot detection, automation hardening research—use only ethically and on authorized targets).
 - **AI Agents & Frameworks**: Agent frameworks, **formal methods / Lean agents** (e.g. AI-assisted theorem proving orchestration), **AI memory & long context** (latent memory, recursive context, long-memory RAG), RAG stacks/collections, browser automation, MCP servers, **agent sandboxes & isolation** (policy-enforced runtimes, container/VM boundaries).
 - **AI Development & Training**: Training frameworks, local models, uncensored models, prompts.
 - **AI Applications**: Chat assistants, deep research, search engines, code analysis, web scraping, **vision / domain apps** (e.g. agricultural or specialized image understanding with LLMs).
@@ -82,6 +82,10 @@ awesome-ai-security/
 4. Keep the description concise and useful.
 5. Put it into the most appropriate category.
 6. Prefer minimal changes over reformatting large sections.
+
+## Utilities Section
+
+End of `README.md` includes **Utilities** (mixed): agent-facing CLIs, productivity, and **mail/identity** (e.g. self-hosted domain mail, encrypted P2P email) when they support ops or privacy around AI workflows—keep entries concise.
 
 ## Data Source
 
