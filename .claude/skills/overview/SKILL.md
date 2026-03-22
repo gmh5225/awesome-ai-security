@@ -57,7 +57,7 @@ awesome-ai-security/
 - **AI Security Tools & Frameworks**: AI vulnerability detection, CVE analysis, OSINT, security libraries.
 - **AI Agents & Frameworks**: Agent frameworks, **AI memory & long context** (latent memory, recursive context, long-memory RAG), RAG stacks/collections, browser automation, MCP servers.
 - **AI Development & Training**: Training frameworks, local models, uncensored models, prompts.
-- **AI Applications**: Chat assistants, deep research, search engines, code analysis, web scraping.
+- **AI Applications**: Chat assistants, deep research, search engines, code analysis, web scraping, **vision / domain apps** (e.g. agricultural or specialized image understanding with LLMs).
 - **AI Image & Video**: Image generation, video generation, TTS, face recognition.
 - **Benchmarks & Standards**: AI safety benchmarks, threat frameworks, standards.
 

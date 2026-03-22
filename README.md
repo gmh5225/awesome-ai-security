@@ -464,6 +464,9 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/RandyVentures/tgcli [tgcli - Telegram CLI: sync, search, send, JSON output; built for OpenClaw E2E testing]
 - https://github.com/terminaltrove/moltbook-tui [moltbook-tui - TUI client for Moltbook, social network for AI agents; feed, comments, leaderboards, submolts]
 
+### AI Vision Applications
+- https://github.com/shukur-alom/leaf-diseases-detect [Leaf disease detection - FastAPI + Streamlit, Llama Vision via Groq API, severity and treatment recommendations from leaf images]
+
 
 
 ## AI Image & Video
