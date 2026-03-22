@@ -440,6 +440,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 
 ### Claude Code Skills / Plugins
 - https://github.com/VoltAgent/awesome-claude-code-subagents [100+ Specialized Claude Code Subagents Collection]
+- https://github.com/shuvonsec/claude-bug-bounty [claude-bug-bounty - Claude Code plugin for authorized bug bounty (Web2 + Web3): 7 skills, 8 slash commands (/recon, /hunt, /validate, /report, /chain, /scope, /triage, /web3-audit), 5 agents, recon stack (subfinder, httpx, katana, nuclei, …), vuln scanners + LLM-app probes (hai_*), report templates; companion repos for Web3 skills & writeup→skill builder in README]
 - https://github.com/affaan-m/everything-claude-code [Everything Claude Code - production plugin: agents, skills, hooks, commands, rules, MCP; Cursor/Codex/OpenCode; AgentShield /security-scan]
 - https://github.com/xu-xiang/everything-claude-code-zh [everything-claude-code 中文翻译 - full zh-CN agents/skills/hooks/commands/rules/MCP，便于中文开发者使用 ECC 生态]
 - https://github.com/popup-studio-ai/bkit-claude-code [bkit - PDCA methodology + context engineering for Claude Code, AI-native development]
