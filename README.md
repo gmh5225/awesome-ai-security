@@ -223,6 +223,8 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/amruth-sn/kong [Kong - agentic reverse engineer, LLM-orchestrated binary RE via in-process Ghidra, call-graph analysis, agentic deobfuscation]
 
 ### AI Vulnerability Detection
+- https://github.com/Mayaaa311/LLMBugScanner [LLM BugScanner - GPTLens-style pipeline: pluggable HF code LLMs as auditor + critic, rank findings by correctness/severity; Solidity-oriented datasets]
+- https://github.com/LLMAudit/LLMSmartAuditTool [LLM-SmartAudit - multi-agent Solidity auditing (BA/TA modes), task-oriented roles, 40+ detector prompts, batch notebooks + web visualizer, OpenAI API; arXiv:2410.09381]
 - https://github.com/scabench-org/hound [AI Auditor with Adaptive Knowledge Graphs]
 - https://semgrep.dev/ [AI-Assisted SAST]
 - https://github.com/squirrelscan/squirrelscan [Website audit tool for agent/LLM workflows (security/performance/SEO)]
