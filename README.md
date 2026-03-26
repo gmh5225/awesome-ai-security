@@ -52,6 +52,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 ## AI Security Starter Pack
 
 - **CTFs / Practice**
+  - https://github.com/verialabs/ctf-agent [ctf-agent - autonomous CTFd solver: coordinator LLM + parallel model swarms in Docker; BSidesSF 2026 1st]
   - https://aivillage.org/ [AI Village @ DEF CON - LLM Jailbreak Challenges]
   - https://doublespeak.chat/#/handbook [Doublespeak - AI Security Challenges]
   - https://github.com/EasyJailbreak/EasyJailbreak [Framework for adversarial jailbreak prompts]
@@ -236,6 +237,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/haroonawanofficial/AISA-Scanner [AI Security Scanner]
 - https://github.com/youpengl/OpenVul [OpenVul - Post-training framework for LLM-based vulnerability detection (SFT/DPO/ORPO/GRPO)]
 - https://github.com/Pinperepette/snakebite [snakebite - PyPI supply-chain scanner: heuristics + optional LLM to cut false positives; local or RSS feed mode]
+- https://github.com/rushter/hexora [hexora - Rust static analyzer for malicious Python (supply-chain, pasted scripts, IoCs); AST rules with confidence levels]
 
 ### AI CVE Analysis
 - https://github.com/arschlochnop/VulnWatchdog [CVE Monitoring with GPT Analysis]
