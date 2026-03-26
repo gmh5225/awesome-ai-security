@@ -549,6 +549,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 
 - https://robustbench.github.io/ [Adversarial Robustness Benchmark]
 - https://jailbreakbench.github.io/ [LLM Jailbreak Benchmark]
+- https://github.com/wuyoscar/ISC-Bench [ISC-Bench — Internal Safety Collapse (ISC); 56 TVD templates, JailbreakArena; Single/ICL/Agentic eval; arXiv:2603.23509]
 - https://github.com/gpiat/AIAE-AbliterationBench [AbliterationBench - benchmark model resilience to residual stream/abliteration attacks]
 - https://crfm.stanford.edu/helm/air-bench/latest/ [Stanford AI Safety Benchmark]
 - https://atlas.mitre.org/ [MITRE ATLAS - AI Threat Matrix]
