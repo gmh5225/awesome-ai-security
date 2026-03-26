@@ -235,6 +235,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/aress31/burpgpt [BurpGPT - AI Vulnerability Scanning]
 - https://github.com/haroonawanofficial/AISA-Scanner [AI Security Scanner]
 - https://github.com/youpengl/OpenVul [OpenVul - Post-training framework for LLM-based vulnerability detection (SFT/DPO/ORPO/GRPO)]
+- https://github.com/Pinperepette/snakebite [snakebite - PyPI malicious-package scanner: 14 supply-chain heuristics (.pth startup exec, cred/crypto/K8s harvest, setup-time network, obfuscation, persistence) + optional LLM triage (Claude Code CLI, Anthropic/OpenAI, Ollama, or --no-llm); local scan of installs or named packages, feed mode for PyPI RSS; stdlib-only, MIT]
 
 ### AI CVE Analysis
 - https://github.com/arschlochnop/VulnWatchdog [CVE Monitoring with GPT Analysis]
