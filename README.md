@@ -590,6 +590,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/yucchiy/UniCli [UniCli - CLI to control Unity Editor from terminal, 80+ commands, JSON output, Claude Code plugin, AI-agent ready]
 - https://github.com/rtk-ai/rtk [rtk - Rust Token Killer: CLI proxy that reduces LLM token consumption 60-90% on dev commands, Claude Code hook]
 - https://github.com/jaydotsee/pdfx [pdfx - PDF to Markdown/JSON/HTML via VLM (Docling), Apple Silicon MLX, batch, OCR, tables, formulas]
+- https://github.com/Michaelliv/markit [markit - convert documents/data/web/media to Markdown (CLI + SDK), plugin system, `--json`/`-q` modes for agents]
 - https://github.com/PostHog/posthog [PostHog - all-in-one product platform: analytics, session replay, feature flags, experiments, AI product assistant]
 - https://github.com/JefferyHcool/BiliNote [AI Video Note Generator]
 - https://github.com/mediar-ai/screenpipe [AI Screen Monitoring]
