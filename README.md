@@ -611,6 +611,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/francedot/acu [AI Computer Use Agents]
 - https://github.com/hesamsheikh/awesome-openclaw-usecases [OpenClaw Use Cases Collection]
 - https://github.com/patchy631/ai-engineering-hub [AI Engineering Hub]
+- https://github.com/huhusmang/Awesome-LLMs-for-Vulnerability-Detection [Awesome LLMs for Vulnerability Detection (papers/benchmarks/tools, daily arXiv updates)]
 - https://github.com/wgwang/awesome-LLMs-In-China [Chinese LLMs]
 
 
