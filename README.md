@@ -598,6 +598,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/mediar-ai/terminator [AI OCR Recognition Tool]
 - https://github.com/gmh5225/git-diff [AI-based Git Commit Message Generator]
 - https://github.com/svkozak/pi-acp [pi-acp - ACP (Agent Client Protocol) adapter for Pi Coding Agent (`pi --mode rpc`), bridges ACP JSON-RPC over stdio for clients like Zed; MIT]
+- https://github.com/crimeacs/claude-note [Claude Note - background service that turns Claude Code sessions into structured Obsidian notes (learnings/decisions/questions)]
 - https://github.com/ticarpi/jwt_tool [jwt_tool - JWT toolkit: validate, forge, scan, tamper, CVE exploits (alg=none, RS/HS256, key injection, etc.), dictionary attack]
 
 
