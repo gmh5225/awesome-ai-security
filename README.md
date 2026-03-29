@@ -428,6 +428,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/gamogestionweb/Turboquant-llama [TurboQuant + llama.cpp — roadmap/docs for Google TurboQuant (PolarQuant + QJL) KV-cache compression on mobile; MIT]
 - https://github.com/TheTom/turboquant_plus [TurboQuant+ — KV-cache compression (PolarQuant + WHT); Python reference + llama.cpp fork with Metal `turbo3`/`turbo4`; Apache-2.0]
 - https://github.com/spiritbuun/llama-cpp-turboquant-cuda [llama-cpp-turboquant-cuda — TurboQuant llama.cpp fork with CUDA support (NVIDIA GPU path)]
+- https://github.com/mitkox/vllm-turboquant [vllm-turboquant — vLLM 0.18.1rc1 fork with TurboQuant integration]
 - https://github.com/tonbistudio/turboquant-pytorch [TurboQuant — from-scratch PyTorch KV-cache compression (rotation + Lloyd-Max + QJL); synthetic + real-model validation; MIT]
 - https://github.com/Anemll/flash-moe [flash-moe (fork) - C/Objective-C/Metal inference engine for Qwen3.5-397B-A17B MoE on Apple Silicon; experts streamed from SSD (pread + page cache), hybrid MLX 4-bit + Unsloth GGUF Q3 experts / Q6 LM head / Q8 embedding, llama.cpp-style IQ3/IQ4/Q5 dequant kernels, optional Metal 4 NAX matmul (M5+), `--cache-io-split` for SSD fanout; tool-calling chat TUI]
 - https://github.com/gmh5225/optiml [OptiML - accelerate local inference via hot/cold neuron partitioning across GPU/CPU]
