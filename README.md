@@ -216,6 +216,9 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 
 ## AI Security Tools & Frameworks
 
+### AI SOC & SecOps
+- https://github.com/Vigil-SOC/vigil [Vigil - open-source AI-native SOC: 12 specialized agents, multi-agent workflows, MCP integrations (SIEM/EDR/TI/sandbox/ticketing), FastAPI + React]
+
 ### AI Reverse Engineering
 - https://github.com/ZeroDaysBroker/GhidraGPT [GPT Integration for Ghidra]
 - https://github.com/jtang613/GhidrAssist [LLM Extension for Ghidra]
