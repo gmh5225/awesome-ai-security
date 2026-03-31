@@ -448,6 +448,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/PatrickJS/awesome-cursorrules [Awesome Cursor Rules]
 - https://github.com/anthropics/prompt-eng-interactive-tutorial [Anthropic Prompt Engineering Tutorial]
 - https://github.com/langgptai/wonderful-prompts [Wonderful Prompts Collection]
+- https://github.com/Leonxlnx/claude-code-system-prompts [Claude Code System Prompts - independent research catalog of Claude Code prompt architecture, agent directives, and security classifier prompts]
 - https://github.com/mshumer/gpt-oss-pro-mode [Shared "pro mode" prompts to upgrade many open models]
 
 ### Routing & Model Selection
