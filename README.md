@@ -422,6 +422,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/CherryHQ/cherry-studio [Local LLM GUI]
 - https://github.com/sauravpanda/BrowserAI [Run Local LLMs in Browser]
 - https://github.com/signerlabs/Klee [Local Model Chat + RAG]
+- https://github.com/AlexsJones/llmfit [llmfit - hardware-aware local model recommender (RAM/CPU/GPU fit scoring), TUI/CLI + provider/runtime support (Ollama, llama.cpp, MLX, LM Studio, vLLM)]
 - https://github.com/dontizi/rlama [Local Ollama + RAG]
 - https://github.com/dinoki-ai/osaurus [MLX-based local inference server, Ollama alternative]
 - https://github.com/trymirai/uzu [High-performance Rust inference engine]
