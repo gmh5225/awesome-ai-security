@@ -483,7 +483,6 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/TinyAGI/tinyclaw [TinyClaw - multi-agent, multi-team, multi-channel 24/7 assistant; Discord/Telegram/WhatsApp, TinyOffice web portal, SQLite queue, Claude Code/Codex]
 - https://github.com/zhixianio/clawpal [ClawPal - Desktop companion for OpenClaw: manage agents, models, configs with visual UI]
 - https://github.com/HKUDS/nanobot [Ultra-lightweight personal AI assistant (Clawdbot-inspired)]
-- https://github.com/zeroclaw-labs/zeroclaw [ZeroClaw - Rust AI assistant, under 5MB RAM, $10 hardware]
 - https://github.com/louisho5/picobot [Picobot - Lightweight self-hosted AI bot, single Go binary]
 
 ### AI Deep Research
