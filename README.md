@@ -203,6 +203,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/cyproxio/mcp-for-security [Pentesting MCP]
 - https://github.com/johnhalloran321/mcpSafetyScanner [MCP Safety Scanner]
 - https://github.com/Karthikathangarasu/pentest-mcp [Pentest MCP]
+- https://github.com/Sicks3c/hackerone-mcp-server [HackerOne MCP — unofficial Hacker API over stdio: reports, programs, scope, earnings, hacktivity; submit/comment/close; MIT]
 - https://github.com/zhizhuodemao/android_proxy_mcp [Android Proxy MCP - MCP-based Android traffic capture, let AI analyze HTTP/HTTPS via natural language]
 - https://github.com/MHaggis/Security-Detections-MCP [Security Detections MCP - unified Sigma/Splunk ESCU/Elastic/KQL, 71+ tools, 11 prompts, autonomous detection platform]
 
