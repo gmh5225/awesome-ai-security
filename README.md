@@ -420,6 +420,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/guinmoon/LLMFarm [LLM on iOS/macOS]
 - https://github.com/huggingface/open-r1 [DeepSeek-R1 Open Source Reproduction]
 - https://github.com/exo-explore/exo [AI Cluster Model Running]
+- https://github.com/GradientHQ/parallax [Parallax - fully decentralized inference framework: distribute LLM serving across GPU nodes (SGLang/vLLM) + Macs (MLX) via Lattica P2P; OpenClaw integration; Apache-2.0]
 - https://github.com/CherryHQ/cherry-studio [Local LLM GUI]
 - https://github.com/sauravpanda/BrowserAI [Run Local LLMs in Browser]
 - https://github.com/signerlabs/Klee [Local Model Chat + RAG]
