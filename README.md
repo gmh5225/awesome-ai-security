@@ -422,6 +422,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/mudler/LocalAI [Local Model Loading Tool]
 - https://github.com/guinmoon/LLMFarm [LLM on iOS/macOS]
 - https://github.com/huggingface/open-r1 [DeepSeek-R1 Open Source Reproduction]
+- https://huggingface.co/kai-os/Carnice-9b [Carnice-9b — Qwen3.5-9B-based merged 9B checkpoint tuned for Hermes Agent (terminal, browser, structured tool use, harness-native message patterns); Apache-2.0]
 - https://github.com/exo-explore/exo [AI Cluster Model Running]
 - https://github.com/GradientHQ/parallax [Parallax - fully decentralized inference framework: distribute LLM serving across GPU nodes (SGLang/vLLM) + Macs (MLX) via Lattica P2P; OpenClaw integration; Apache-2.0]
 - https://github.com/michaelneale/mesh-llm [mesh-llm - distributed LLM inference mesh: auto-splits dense models (pipeline parallelism) + MoE experts (expert sharding) across nodes via llama.cpp RPC; OpenAI-compatible API; gossip blackboard]
