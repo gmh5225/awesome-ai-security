@@ -289,6 +289,8 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/cisco-ai-defense/skill-scanner [Security scanner for agent skills - prompt injection, exfiltration, malicious code]
 - https://github.com/huifer/skill-security-scan [CLI to scan Claude Skills for security risks before installing]
 - https://github.com/avast/sage [Sage - Agent Detection & Response: guards commands, files, web requests for Claude Code, Cursor, OpenClaw]
+- https://github.com/motiful/cc-gateway [cc-gateway - Claude Code ↔ Anthropic reverse proxy: canonical device/env fingerprint rewrite, telemetry sanitization, billing-header strip, centralized OAuth; alpha; MIT]
+- https://github.com/ultrmgns/claude-private [claude-private — Claude Code CLI patched to strip telemetry/phone-home (binary + env); Messages API intact; `ANTHROPIC_BASE_URL` for claude-code-router / alt backends; Linux x86_64 + `patch_binary.py`]
 - https://github.com/botiverse/agent-vault [Keep secrets hidden from AI agents - placeholder I/O layer, encrypted vault]
 - https://github.com/alrinny/agent-chat [E2E encrypted agent-to-agent messaging, prompt injection guardrail]
 - https://github.com/numbergroup/AgentGuard [AgentGuard - prompt/command injection, Unicode bypass, Clinejection-style, GitHub issue screening, OpenClaw + MCP]
@@ -303,6 +305,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 
 ### Agent Frameworks
 - https://github.com/microsoft/ai-agents-for-beginners [AI Agents for Beginners]
+- https://github.com/rasbt/mini-coding-agent [mini-coding-agent — minimal Python coding-agent harness (workspace snapshot, tools, approval modes, session/memory); Ollama backend; stdlib-only script; Apache-2.0]
 - https://github.com/openai/openai-agents-js [OpenAI Agent JS]
 - https://github.com/openai/openai-agents-python [OpenAI Agent Python]
 - https://github.com/e2b-dev/awesome-ai-agents [Awesome AI Agents]
