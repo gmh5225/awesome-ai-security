@@ -332,6 +332,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/boshu2/agentops [AgentOps - DevOps layer for coding agents: flow, feedback, memory across sessions]
 - https://github.com/Cranot/roam-code [Architectural intelligence layer for AI coding agents — structural graph, governance, multi-agent orchestration, vulnerability mapping, 100% local]
 - https://github.com/hotjp/long-run-agent [LRA - long-running AI agent task manager: DAG dependencies, Constitution quality gates, 7-stage iteration guidance, multi-agent collaboration, context management]
+- https://github.com/NousResearch/hermes-agent [Hermes Agent — Nous Research: TUI + messaging gateway (Telegram/Discord/Slack/WhatsApp/Signal), skills/memory loop, MCP, cron, subagents & tool RPC, multi-provider models, remote terminal backends; `hermes claw migrate` from OpenClaw; MIT]
 
 ### Formal Methods & Lean (AI Agents)
 - https://github.com/math-inc/OpenGauss [Open Gauss - project-scoped Lean workflow orchestrator: /prove /draft /autoprove /formalize via cameronfreer/lean4-skills; Claude Code or Codex backends, swarm tracking, MCP/LSP; forked from hermes-agent]
