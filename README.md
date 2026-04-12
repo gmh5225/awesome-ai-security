@@ -227,6 +227,8 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/agentrebench/AgentRE-Bench [AgentRE-Bench - Agentic benchmark for long-horizon binary RE: C2/encoding/anti-analysis, deterministic scoring, 13 ELF tasks]
 - https://github.com/banteg/bn [bn - Agent-friendly Binary Ninja CLI: decompile, xrefs, types, mutations via Unix socket to GUI plugin]
 - https://github.com/amruth-sn/kong [Kong - agentic reverse engineer, LLM-orchestrated binary RE via in-process Ghidra, call-graph analysis, agentic deobfuscation]
+- https://github.com/CSIT-SG/AETHER [An AI-powered reverse-engineering copilot for assisting tedious malware analysis in IDA Pro]
+- https://github.com/mrphrazer/ghidra-headless-mcp [ghidra-headless-mcp — headless Ghidra over MCP]
 
 ### AI Vulnerability Detection
 - https://github.com/Mayaaa311/LLMBugScanner [LLM BugScanner - GPTLens-style pipeline: pluggable HF code LLMs as auditor + critic, rank findings by correctness/severity; Solidity-oriented datasets]
