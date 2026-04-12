@@ -289,6 +289,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/cisco-ai-defense/skill-scanner [Security scanner for agent skills - prompt injection, exfiltration, malicious code]
 - https://github.com/huifer/skill-security-scan [CLI to scan Claude Skills for security risks before installing]
 - https://github.com/avast/sage [Sage - Agent Detection & Response: guards commands, files, web requests for Claude Code, Cursor, OpenClaw]
+- https://github.com/thewaltero/mythos-router [mythos-router - Node/TS CLI for Claude (Opus): Strict Write Discipline — pre/post filesystem snapshots verify claimed file ops, correction turns, MEMORY.md execution log, token/turn budgets, dry-run, `mythos verify` drift scan; MIT]
 - https://github.com/ex-machina-co/opencode-anthropic-auth [OpenCode plugin: Anthropic OAuth auth (PKCE + refresh) for Claude Pro/Max subscription usage; injects required headers/beta flags + system-prompt sanitization; strongly recommend version pinning to reduce auto-update supply-chain risk]
 - https://github.com/motiful/cc-gateway [cc-gateway - Claude Code ↔ Anthropic reverse proxy: canonical device/env fingerprint rewrite, telemetry sanitization, billing-header strip, centralized OAuth; alpha; MIT]
 - https://github.com/ultrmgns/claude-private [claude-private — Claude Code CLI patched to strip telemetry/phone-home (binary + env); Messages API intact; `ANTHROPIC_BASE_URL` for claude-code-router / alt backends; Linux x86_64 + `patch_binary.py`]
