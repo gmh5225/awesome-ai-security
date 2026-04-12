@@ -242,6 +242,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/youpengl/OpenVul [OpenVul - Post-training framework for LLM-based vulnerability detection (SFT/DPO/ORPO/GRPO)]
 - https://github.com/Pinperepette/snakebite [snakebite - PyPI supply-chain scanner: heuristics + optional LLM to cut false positives; local or RSS feed mode]
 - https://github.com/rushter/hexora [hexora - Rust static analyzer for malicious Python (supply-chain, pasted scripts, IoCs); AST rules with confidence levels]
+- https://github.com/sashiko-dev/sashiko [Sashiko - agentic Linux kernel patch review (Rust): lore.kernel.org + local git, multi-stage LLM protocol (implementation, concurrency, security, drivers), web UI/CLI; self-contained; patch/kernel context sent to LLM—authorize sharing & monitor API cost; Apache-2.0]
 
 ### AI CVE Analysis
 - https://github.com/arschlochnop/VulnWatchdog [CVE Monitoring with GPT Analysis]
