@@ -207,6 +207,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/Sicks3c/hackerone-mcp-server [HackerOne MCP — unofficial Hacker API over stdio: reports, programs, scope, earnings, hacktivity; submit/comment/close; MIT]
 - https://github.com/zhizhuodemao/android_proxy_mcp [Android Proxy MCP - MCP-based Android traffic capture, let AI analyze HTTP/HTTPS via natural language]
 - https://github.com/MHaggis/Security-Detections-MCP [Security Detections MCP - unified Sigma/Splunk ESCU/Elastic/KQL, 71+ tools, 11 prompts, autonomous detection platform]
+- https://github.com/rolandpg/zettelforge [ZettelForge — CTI agentic memory MCP server with entity extraction (CVEs, actors, IOCs, ATT&CK), knowledge graph, alias resolution, STIX 2.1, intent-classified retrieval, OCSF audit logging. Offline, MIT]
 
 ### AI-Powered C2
 - https://github.com/Red-Hex-Consulting/Ankou [AI C2 Framework]
