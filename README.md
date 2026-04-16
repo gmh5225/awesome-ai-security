@@ -582,6 +582,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://atlas.mitre.org/ [MITRE ATLAS - AI Threat Matrix]
 - https://www.nist.gov/itl/ai-risk-management-framework [NIST AI Risk Management Framework]
 - https://github.com/vectara/hallucination-leaderboard [Model Hallucination Leaderboard]
+- https://github.com/mattersec-labs/seclens [SecLens - benchmark for evaluating LLMs on security vulnerability detection; 5 stakeholder lenses, 406 tasks from real CVEs, 12 models; arXiv:2604.01637]
 - https://github.com/regenrek/aidex [Aidex - practical ranking of models by cost, quality, and use-case fitness]
 
 
