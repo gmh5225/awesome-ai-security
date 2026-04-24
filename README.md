@@ -482,6 +482,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/popup-studio-ai/bkit-claude-code [bkit - PDCA methodology + context engineering for Claude Code, AI-native development]
 - https://github.com/Dammyjay93/interface-design [Design Engineering for Claude Code - Consistent UI]
 - https://github.com/BehiSecc/VibeSec-Skill [Claude skill for secure code and common vulnerability prevention]
+- https://github.com/SnailSploit/Claude-Red [Claude-Red - curated offensive-security skill library for Claude Skills (SKILL.md): SQLi, shellcode, EDR evasion, exploit development, and other attack-surface playbooks]
 - https://github.com/hamelsmu/claude-review-loop [Claude Code plugin: automated code review loop with Codex]
 - https://github.com/blader/humanizer [Remove AI Writing Signs from Text]
 - https://github.com/hardikpandya/stop-slop [Stop Slop - Claude skill to strip AI writing tells from prose: banned phrases, structural clichés, sentence rules]
