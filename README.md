@@ -450,6 +450,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/mitkox/vllm-turboquant [vllm-turboquant — vLLM 0.18.1rc1 fork with TurboQuant integration]
 - https://github.com/tonbistudio/turboquant-pytorch [TurboQuant — from-scratch PyTorch KV-cache compression (rotation + Lloyd-Max + QJL); synthetic + real-model validation; MIT]
 - https://github.com/Anemll/flash-moe [flash-moe (fork) - C/Objective-C/Metal inference engine for Qwen3.5-397B-A17B MoE on Apple Silicon; experts streamed from SSD (pread + page cache), hybrid MLX 4-bit + Unsloth GGUF Q3 experts / Q6 LM head / Q8 embedding, llama.cpp-style IQ3/IQ4/Q5 dequant kernels, optional Metal 4 NAX matmul (M5+), `--cache-io-split` for SSD fanout; tool-calling chat TUI]
+- https://github.com/0xSero/deepseek-v4-flash-sm120 [deepseek-v4-flash-sm120 - SM_120 (NVIDIA Blackwell RTX 50xx/Pro 6000) sparse-decode kernel + runtime monkey-patch for DeepSeek-V4-Flash FP8 on `lmsysorg/sglang:deepseek-v4-blackwell`]
 - https://github.com/gmh5225/optiml [OptiML - accelerate local inference via hot/cold neuron partitioning across GPU/CPU]
 
 ### Uncensored Models
