@@ -517,6 +517,10 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/aakashsharan/research-vault [AI Research Assistant with RAG and Structured Extraction]
 - https://github.com/nashsu/llm_wiki [LLM Wiki - cross-platform desktop app that incrementally builds a persistent, interlinked wiki from your documents (knowledge base maintenance beyond one-shot RAG)]
 
+### AI Finance & Trading
+- https://github.com/LuckyOne7777/LLM-Trading-Lab [LLM-Trading-Lab - forward-only, real-money micro-cap experiment where an LLM manages a constrained portfolio with transparent logs and evaluation artifacts]
+- https://github.com/LuckyOne7777/LLM-Investor-Behavior-Benchmark [LIBB - research library for LLM trading experiments: persistent portfolio state, behavioral/performance/sentiment metrics, and rollback-safe processing]
+
 ### AI Search Engines
 - https://github.com/rashadphz/farfalle [AI Search Engine]
 - https://github.com/miurla/morphic [AI Search Engine]
