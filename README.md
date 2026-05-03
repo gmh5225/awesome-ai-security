@@ -422,6 +422,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/trevin-creator/autoresearch-mlx [Apple Silicon (MLX) port of Karpathy's autoresearch — autonomous AI research loops on Mac, agent edits train.py, val_bpb keep/revert]
 - https://github.com/openai/parameter-golf [OpenAI Parameter Golf / Model Craft Challenge - train LM in ≤16MB artifact; MLX on Apple Silicon locally, CUDA multi-GPU (e.g. 8×H100) for leaderboard; FineWeb val bits-per-byte]
 - https://github.com/kvcache-ai/ktransformers [LLM Inference Optimization Framework]
+- https://github.com/NVIDIA/TileGym [TileGym - CUDA Tile kernel tutorials/examples for GPU programming and LLM integration (e.g., Llama/DeepSeek), with benchmarking and transformer end-to-end acceleration paths]
 - https://github.com/transformerlab/transformerlab-app [Training Studio]
 - https://github.com/Lightning-AI/litgpt [Fine-tuning Framework]
 - https://github.com/ml-explore/mlx-lm [MLX LLM Fine-tuning]
