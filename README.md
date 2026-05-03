@@ -312,6 +312,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 
 ### Agent Frameworks
 - https://github.com/microsoft/ai-agents-for-beginners [AI Agents for Beginners]
+- https://github.com/czl9707/build-your-own-openclaw [Build Your Own OpenClaw - step-by-step tutorial (18 progressive stages) to build an AI agent from chat loop to lightweight OpenClaw]
 - https://github.com/rasbt/mini-coding-agent [mini-coding-agent — minimal Python coding-agent harness (workspace snapshot, tools, approval modes, session/memory); Ollama backend; stdlib-only script; Apache-2.0]
 - https://github.com/openai/openai-agents-js [OpenAI Agent JS]
 - https://github.com/openai/openai-agents-python [OpenAI Agent Python]
