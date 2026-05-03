@@ -372,6 +372,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/steel-dev/steel-browser [Steel Browser - AI-controllable browser automation with fingerprint / stealth-oriented controls]
 - https://github.com/Skyvern-AI/skyvern [Skyvern - LLM + computer-vision agents for web workflows; natural-language goals drive browser automation]
 - https://github.com/runablehq/mini-browser [mini-browser (Runable) - lightweight embeddable browser runtime built for AI agents]
+- https://github.com/injaneity/pi-computer-use [pi-computer-use - semantic macOS computer-use extension for Pi coding agent (AX-first actions, window refs, stealth/background-safe paths, optional screenshot fallback)]
 - https://github.com/millionco/expect [Expect - expect-cli: agents run browser tests from unstaged/branch changes; Claude or Codex]
 - https://github.com/JCodesMore/ai-website-cloner-template [AI Website Cloner Template - one-command `/clone-website` workflow for agent-driven pixel-perfect site cloning (recon, asset extraction, component specs, parallel builders); MIT]
 - https://github.com/browser-use/browser-use [Browser-Use - AI Browser Control]
