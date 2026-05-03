@@ -489,6 +489,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/BehiSecc/VibeSec-Skill [Claude skill for secure code and common vulnerability prevention]
 - https://github.com/mukul975/Anthropic-Cybersecurity-Skills [754 structured cybersecurity skills for AI agents; mapped to MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, and NIST AI RMF; agentskills.io standard; works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI, and 20+ platforms]
 - https://github.com/SnailSploit/Claude-Red [Claude-Red - curated offensive-security skill library for Claude Skills (SKILL.md): SQLi, shellcode, EDR evasion, exploit development, and other attack-surface playbooks]
+- https://github.com/codexstar69/bug-hunter [bug-hunter - adversarial AI bug hunter skill with multi-agent detect+auto-fix pipeline on safe branches; targets security vulns, logic bugs, and runtime issues across Claude Code/Cursor/Codex CLI/Copilot CLI/OpenCode/Pi]
 - https://github.com/hamelsmu/claude-review-loop [Claude Code plugin: automated code review loop with Codex]
 - https://github.com/blader/humanizer [Remove AI Writing Signs from Text]
 - https://github.com/hardikpandya/stop-slop [Stop Slop - Claude skill to strip AI writing tells from prose: banned phrases, structural clichés, sentence rules]
