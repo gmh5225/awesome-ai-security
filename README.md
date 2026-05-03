@@ -338,6 +338,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/karpathy/autoresearch [autoresearch - AI agents running single-GPU nanochat training autonomously, program.md + train.py, 5-min val_bpb loop]
 - https://github.com/davebcn87/pi-autoresearch [Pi Autoresearch - autonomous experiment loop for Pi: try/measure/keep/revert, test speed, bundle size, LLM training, Lighthouse]
 - https://github.com/antinomyhq/forgecode [Forge - AI-enhanced terminal coding agent/pair programmer with multi-provider model support, workflows, MCP integration, and restricted shell mode]
+- https://github.com/Hmbown/DeepSeek-TUI [DeepSeek TUI - terminal-native coding agent for DeepSeek V4 with MCP client, sandbox, durable task queue, 1M-context compaction, and Plan/Agent/YOLO modes]
 - https://github.com/boshu2/agentops [AgentOps - DevOps layer for coding agents: flow, feedback, memory across sessions]
 - https://github.com/Cranot/roam-code [Architectural intelligence layer for AI coding agents — structural graph, governance, multi-agent orchestration, vulnerability mapping, 100% local]
 - https://github.com/hotjp/long-run-agent [LRA - long-running AI agent task manager: DAG dependencies, Constitution quality gates, 7-stage iteration guidance, multi-agent collaboration, context management]
