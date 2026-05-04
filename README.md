@@ -577,6 +577,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/AUTOMATIC1111/stable-diffusion-webui [Stable Diffusion WebUI]
 - https://github.com/leejet/stable-diffusion.cpp [Stable Diffusion C++]
 - https://github.com/apple/ml-stable-diffusion [Apple Stable Diffusion]
+- https://github.com/0x0funky/agent-sprite-forge [Agent Sprite Forge - Codex skill workflow for game-ready 2D sprite sheets/layered maps with deterministic local post-processing and engine-ready export (Godot/Unity)]
 - https://github.com/ant-research/MagicQuill [Intelligent Image Editing]
 - https://github.com/lightningpixel/modly [Modly - desktop app: image-to-3D mesh with local open-source models on GPU; Electron + Python, extension system]
 
