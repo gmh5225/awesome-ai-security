@@ -403,6 +403,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/anthropics/knowledge-work-plugins [Claude plugins repo with skills/connectors/slash commands (MCP integration)]
 - https://github.com/co-browser/browser-use-mcp-server [Browser-Use MCP]
 - https://github.com/langchain-ai/langchain-mcp-adapters [MCP to LangChain Adapter]
+- https://github.com/nicobailon/pi-mcp-adapter [pi-mcp-adapter - token-efficient MCP adapter for Pi coding agent: lazy server lifecycle, tool-metadata cache, proxy/direct-tools modes, and shared MCP config compatibility]
 - https://github.com/patruff/ollama-mcp-bridge [Ollama MCP Bridge]
 - https://github.com/regenrek/deepwiki-mcp [DeepWiki MCP]
 - https://github.com/upstash/context7 [Documentation MCP]
