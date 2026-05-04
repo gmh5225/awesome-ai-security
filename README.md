@@ -242,6 +242,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/LLMAudit/LLMSmartAuditTool [LLM-SmartAudit - multi-agent Solidity auditing (BA/TA modes), task-oriented roles, 40+ detector prompts, batch notebooks + web visualizer, OpenAI API; arXiv:2410.09381]
 - https://github.com/scabench-org/hound [AI Auditor with Adaptive Knowledge Graphs]
 - https://github.com/416rehman/DeepZero [DeepZero - automated vulnerability research pipeline engine (YAML-defined stages) for large-scale Windows kernel driver analysis, decompilation, and IOCTL exploitability assessment with AI agents]
+- https://github.com/kpolley/redai [RedAI - terminal workbench for AI-driven vulnerability discovery with live validation evidence (browser/iOS validator environments, PoCs, logs, screenshots, reproducible reports)]
 - https://semgrep.dev/ [AI-Assisted SAST]
 - https://github.com/squirrelscan/squirrelscan [Website audit tool for agent/LLM workflows (security/performance/SEO)]
 - https://github.com/rohansx/vgx [Git pre-commit security scanner with LLM integration (detect AI code + vulnerabilities)]
