@@ -270,6 +270,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://secml.readthedocs.io/ [SecML - Secure and Explainable ML Library]
 - https://github.com/google/oss-fuzz-gen [AI Code Audit Fuzzing Tool]
 - https://github.com/Invicti-Security/brainstorm [AI Fuzzer for Web Applications]
+- https://github.com/NativeStar/js-hooker [js-hooker - lightweight JavaScript hooking library for browser environments (runtime interception/instrumentation helper)]
 
 ### TLS, fingerprint & bot signals (web / automation)
 - https://github.com/rawandahmad698/noble-tls [noble-tls - Python HTTP client with TLS/JA3 impersonation (requests-like API, auto-updated fingerprints)]
