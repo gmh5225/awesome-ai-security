@@ -65,6 +65,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
   - https://www.aidaily.win [AI Daily News]
   - https://baoyu.io/blog/how-to-write-good-prompt [How to Write Good Prompts]
   - https://rootissh.in/ [LLM Pentesting Series Blog]
+  - https://github.com/Abdowaer098/Wa3r-OffSec-Kit [Wa3r OffSec Kit - offensive-security knowledge base with practical workflows, payload patterns, case studies, and forensics notes]
 
 - **Newsletters / Collections**
   - https://mlsecops.com/podcast [MLSecOps Podcast]
@@ -239,6 +240,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/Mayaaa311/LLMBugScanner [LLM BugScanner - GPTLens-style pipeline: pluggable HF code LLMs as auditor + critic, rank findings by correctness/severity; Solidity-oriented datasets]
 - https://github.com/LLMAudit/LLMSmartAuditTool [LLM-SmartAudit - multi-agent Solidity auditing (BA/TA modes), task-oriented roles, 40+ detector prompts, batch notebooks + web visualizer, OpenAI API; arXiv:2410.09381]
 - https://github.com/scabench-org/hound [AI Auditor with Adaptive Knowledge Graphs]
+- https://github.com/416rehman/DeepZero [DeepZero - automated vulnerability research pipeline engine (YAML-defined stages) for large-scale Windows kernel driver analysis, decompilation, and IOCTL exploitability assessment with AI agents]
 - https://semgrep.dev/ [AI-Assisted SAST]
 - https://github.com/squirrelscan/squirrelscan [Website audit tool for agent/LLM workflows (security/performance/SEO)]
 - https://github.com/rohansx/vgx [Git pre-commit security scanner with LLM integration (detect AI code + vulnerabilities)]
