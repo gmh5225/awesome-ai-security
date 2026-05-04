@@ -478,6 +478,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://erichartford.com/uncensored-models [Uncensored Models Training Guide]
 - https://huggingface.co/cognitivecomputations/Dolphin3.0-Llama3.1-8B [Dolphin Uncensored Model]
 - https://github.com/AEON-7/Qwen3.6-27B-AEON-Ultimate-Uncensored-DFlash [Qwen3.6-27B AEON Ultimate Uncensored DFlash - lossless abliteration with NVFP4 quantization deployment guide for DGX Spark/Blackwell (BF16 + NVFP4)]
+- https://github.com/AEON-7/Qwen3.6-NVFP4-DFlash [Qwen3.6-35B-A3B-heretic NVFP4 + DFlash speculative decoding stack for DGX Spark (GB10/sm_121a), with source-built vLLM and deployment guide]
 - https://huggingface.co/LuffyTheFox/OmniCoder-Qwen3.5-9B-Claude-4.6-Opus-Uncensored-v2-GGUF [Qwen3.5-9B-Claude-4.6-Opus-Uncensored-v2]
 
 ### Prompts & Rules
