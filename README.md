@@ -109,6 +109,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
   - https://github.com/rasbt/reasoning-from-scratch [Reasoning models from scratch]
   - https://github.com/mingyin0312/RLFromScratch [Reinforcement learning from scratch (Chinese tutorial)]
   - https://github.com/karpathy/nanochat [End-to-end nanochat training loop in ~8K lines]
+  - https://github.com/kyegomez/OpenMythos [OpenMythos - first-principles theoretical reconstruction of Claude Mythos architecture based on public research literature]
   - https://github.com/vixhal-baraiya/microgpt-c [MicroGPT-C — train and infer a tiny GPT in pure dependency-free C (single file); fp32/AVX2 style CPU path; MIT]
 
 
