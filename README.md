@@ -395,6 +395,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://mcp.so/ [MCP Collection Website]
 - https://github.com/gmh5225/MCP-Chinese-Getting-Started-Guide [MCP Getting Started Guide]
 - https://github.com/microsoft/DebugMCP [VSCode extension that exposes a local MCP server for AI-assisted debugging (multi-language)]
+- https://github.com/jtang613/gdb-mcp [gdb-mcp - lightweight MCP server for GDB automation (FastMCP): exposes `gdb-command` to run debugger commands and return output]
 - https://github.com/mrphrazer/ghidra-headless-mcp [ghidra-headless-mcp — headless Ghidra over MCP]
 - https://github.com/anthropics/knowledge-work-plugins [Claude plugins repo with skills/connectors/slash commands (MCP integration)]
 - https://github.com/co-browser/browser-use-mcp-server [Browser-Use MCP]
