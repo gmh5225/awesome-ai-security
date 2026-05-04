@@ -95,6 +95,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
   - https://github.com/WangRongsheng/awesome-LLM-resourses [Comprehensive LLM Resources]
   - https://github.com/mahseema/awesome-ai-tools [Awesome AI Tools]
   - https://github.com/Shubhamsaboo/awesome-llm-apps [Awesome LLM Apps]
+  - https://github.com/mahonzhan/awesome-agent-harness [Curated list of agent harnesses, agent frameworks, workflow frameworks, and emerging agent protocols]
   - https://github.com/punkpeye/awesome-mcp-servers [Awesome MCP Servers]
   - https://github.com/wong2/awesome-mcp-servers [Awesome MCP Servers]
   - https://github.com/deepseek-ai/awesome-deepseek-integration [Awesome DeepSeek Integration]
