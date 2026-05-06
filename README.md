@@ -649,6 +649,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/Eppie-io/Eppie-App [Eppie - open-protocol encrypted P2P email (client); decentralized mail without a single provider]
 - https://github.com/yucchiy/UniCli [UniCli - CLI to control Unity Editor from terminal, 80+ commands, JSON output, Claude Code plugin, AI-agent ready]
 - https://github.com/rtk-ai/rtk [rtk - Rust Token Killer: CLI proxy that reduces LLM token consumption 60-90% on dev commands, Claude Code hook]
+- https://github.com/mksglu/context-mode [context-mode - context-window optimizer for coding agents: sandboxes tool output to reduce token pressure (claims up to 98% reduction across multiple platforms)]
 - https://github.com/jaydotsee/pdfx [pdfx - PDF to Markdown/JSON/HTML via VLM (Docling), Apple Silicon MLX, batch, OCR, tables, formulas]
 - https://github.com/PSPDFKit/pdf-to-markdown [Nutrient PDF-to-Markdown — local CLI wrapper (`@pspdfkit/pdf-to-markdown`); signed proprietary engine; free ≤1k PDFs/mo; optional agent skill (nutrient-skills)]
 - https://github.com/Michaelliv/markit [markit - convert documents/data/web/media to Markdown (CLI + SDK), plugin system, `--json`/`-q` modes for agents]
