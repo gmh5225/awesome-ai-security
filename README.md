@@ -492,6 +492,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/NeoVertex1/SuperPrompt [Super Prompt]
 - https://github.com/richards199999/Thinking-Claude [Claude Enhancement Prompt]
 - https://github.com/LouisShark/chatgpt_system_prompt [ChatGPT System Prompts Collection]
+- https://github.com/freestylefly/awesome-gpt-image-2 [Prompt as Code - GPT-Image2 industrial prompt engine/template library (370+ reverse-engineered cases, 20+ production templates)]
 - https://github.com/PatrickJS/awesome-cursorrules [Awesome Cursor Rules]
 - https://github.com/anthropics/prompt-eng-interactive-tutorial [Anthropic Prompt Engineering Tutorial]
 - https://github.com/langgptai/wonderful-prompts [Wonderful Prompts Collection]
