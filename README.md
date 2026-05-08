@@ -192,6 +192,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/projectdiscovery/katana [Katana (ProjectDiscovery) - fast web crawler/spider for automation: standard & headless, JS endpoint parsing, scope/regex filters, JSONL; stacks with httpx/nuclei and AI pentest agent workflows]
 - https://github.com/Ed1s0nZ/CyberStrikeAI [AI-Native Security Testing Platform with 100+ Tools]
 - https://github.com/vxcontrol/pentagi [PentAGI - Fully autonomous AI agents for penetration testing]
+- https://github.com/Agnuxo1/EnigmAgent [EnigmAgent - autonomous AI security research/pentest agent with CTF benchmarking, decentralized swarm coordination, exploit validation, and Lean 4-backed security claims]
 - https://github.com/KeygraphHQ/shannon [Shannon - Autonomous AI pentester, finds and executes real exploits in web apps]
 - https://github.com/wudidike/pentest_skill [Black-box web penetration-testing automation framework for AI agents with phase-based workflow and report generation]
 
