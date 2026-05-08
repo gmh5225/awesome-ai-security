@@ -418,6 +418,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 
 ### AI Sandbox & Isolation
 - https://github.com/NVIDIA/OpenShell [OpenShell - safe private runtime for autonomous agents: Docker/K3s gateway, YAML policies (filesystem, L7 network egress, process, inference routing), credential providers without FS leakage; Claude, OpenCode, Codex, Copilot; Apache-2.0, alpha]
+- https://github.com/strukto-ai/mirage [Mirage - unified virtual filesystem for AI agents: mount S3/Drive/Slack/GitHub/etc. under one tree with bash-style tooling and workspace snapshots]
 - https://github.com/afshinm/zerobox [zerobox - lightweight cross-platform process sandboxing using Codex runtime policies; sandbox any command with file, network, and credential controls]
 - https://github.com/provos/ironcurtain [ironcurtain - secure runtime for autonomous AI agents with plain-English constitution policies]
 - https://github.com/microsandbox/microsandbox [AI Code Execution Sandbox, E2B Alternative]
