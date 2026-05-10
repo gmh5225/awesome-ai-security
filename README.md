@@ -315,6 +315,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/alrinny/agent-chat [E2E encrypted agent-to-agent messaging, prompt injection guardrail]
 - https://github.com/numbergroup/AgentGuard [AgentGuard - prompt/command injection, Unicode bypass, Clinejection-style, GitHub issue screening, OpenClaw + MCP]
 - https://github.com/onecli/onecli [OneCLI - Open-source credential vault for AI agents. Rust HTTP gateway injects API credentials transparently so agents never hold raw keys. AES-256-GCM encryption, per-agent scoping, audit trail]
+- https://github.com/future-agi/future-agi [Future AGI - Open-source self-hostable end-to-end agent engineering platform with built-in real-time guardrails for unsafe outputs (jailbreak, PII, injection, toxicity), tracing, evals, simulations, datasets, and gateway for LLM and AI agent applications]
 
 ### AI Slop / PR Quality
 - https://github.com/peakoss/anti-slop [GitHub Action: detect and auto-close low-quality and AI slop PRs]
