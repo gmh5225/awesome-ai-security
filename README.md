@@ -404,6 +404,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/Kaliiiiiiiiii-Vinyzu/patchright [patchright - patched Playwright with stronger anti-automation-detection defaults]
 - https://github.com/Kaliiiiiiiiii-Vinyzu/patchright-python [patchright-python - Python SDK for patchright]
 - https://github.com/Kaliiiiiiiiii-Vinyzu/patchright-nodejs [patchright-nodejs - Node.js SDK for patchright]
+- https://github.com/CloakHQ/CloakBrowser [CloakBrowser - stealth Chromium with source-level fingerprint patches; drop-in Playwright replacement; bot-detection benchmark claims (30/30)]
 
 ### MCP Servers
 - https://mcp.so/ [MCP Collection Website]
