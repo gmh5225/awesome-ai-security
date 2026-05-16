@@ -303,6 +303,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/NVIDIA/NemoClaw [NVIDIA plugin for secure installation of OpenClaw - sandboxed agents with Landlock/seccomp/netns, policy-enforced egress and inference]
 - https://github.com/peg/rampart [Firewall for AI agents - policy engine for OpenClaw, Claude Code, Cursor, Codex]
 - https://github.com/openguardrails/openguardrails [OpenGuardrails - Runtime security for AI agents: prompt injection, credential leakage, exfiltration, behavioral threats]
+- https://aport.io/ [APort - Runtime policy and verification layer for AI agents and MCP-connected tools]
 - https://github.com/cisco-ai-defense/skill-scanner [Security scanner for agent skills - prompt injection, exfiltration, malicious code]
 - https://github.com/huifer/skill-security-scan [CLI to scan Claude Skills for security risks before installing]
 - https://github.com/HarmonicSecurity/claudit-sec [claudit-sec - read-only security audit for Claude Desktop/Claude Code configs: visibility into MCP servers, extensions/plugins, connectors, scheduled tasks, and permissions]
