@@ -247,6 +247,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/kpolley/redai [RedAI - terminal workbench for AI-driven vulnerability discovery with live validation evidence (browser/iOS validator environments, PoCs, logs, screenshots, reproducible reports)]
 - https://github.com/vercel-labs/deepsec [deepsec - coding-agent-powered security harness for large codebases: candidate-site scanning, AI investigation/revalidation, and exportable findings workflows]
 - https://github.com/Agent-Field/sec-af [SEC-AF - AI-native security auditor on AgentField: proves exploitability with verdicts, data-flow traces, and actionable evidence; adversarial hunt/prove agent DAG; Apache-2.0]
+- https://github.com/evilsocket/audit [audit - 8-stage vulnerability-discovery agent (Cloudflare Glasswing-style): Recon/Hunt/Validate/Gapfill/Dedupe/Trace/Feedback/Report; narrow agents + adversarial disprove + reachability gate; Claude Code Agent SDK, subscription OAuth; MIT]
 - https://github.com/zakirkun/deep-eye [Deep Eye - AI-driven vulnerability scanner and pentesting framework with multi-provider LLM support, payload generation, recon modules, and report export]
 - https://semgrep.dev/ [AI-Assisted SAST]
 - https://github.com/squirrelscan/squirrelscan [Website audit tool for agent/LLM workflows (security/performance/SEO)]
