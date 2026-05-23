@@ -307,6 +307,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/openguardrails/openguardrails [OpenGuardrails - Runtime security for AI agents: prompt injection, credential leakage, exfiltration, behavioral threats]
 - https://github.com/cisco-ai-defense/skill-scanner [Security scanner for agent skills - prompt injection, exfiltration, malicious code]
 - https://github.com/huifer/skill-security-scan [CLI to scan Claude Skills for security risks before installing]
+- https://github.com/hashgraph-online/hol-guard [HOL Guard - AI antivirus for developer agents: pre-run protection for Codex/Claude Code/Cursor/Gemini/OpenCode; scan/approve plugins, skills, MCP servers & harness configs; plugin-scanner for CI; Apache-2.0]
 - https://github.com/HarmonicSecurity/claudit-sec [claudit-sec - read-only security audit for Claude Desktop/Claude Code configs: visibility into MCP servers, extensions/plugins, connectors, scheduled tasks, and permissions]
 - https://github.com/avast/sage [Sage - Agent Detection & Response: guards commands, files, web requests for Claude Code, Cursor, OpenClaw]
 - https://github.com/thewaltero/mythos-router [mythos-router - Node/TS CLI for Claude (Opus): Strict Write Discipline — pre/post filesystem snapshots verify claimed file ops, correction turns, MEMORY.md execution log, token/turn budgets, dry-run, `mythos verify` drift scan; MIT]
