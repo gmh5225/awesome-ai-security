@@ -343,6 +343,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/HKUDS/AutoAgent [AutoAgent - Zero-Code LLM Agent]
 - https://github.com/VoltAgent/voltagent [VoltAgent - TypeScript AI Agent]
 - https://github.com/langchain-ai/langgraph [LangGraph]
+- https://github.com/google/ax [AX (Agent Executor) - Google open-source distributed agent runtime: controller, event log, resumption, isolated skills/tools/agents, MCP; auditing & policy; Kubernetes; early dev; Apache-2.0]
 - https://github.com/langchain-ai/langchain [LangChain]
 - https://github.com/openonion/connectonion [ConnectOnion - AI Agent Framework for Agent Collaboration]
 - https://github.com/voltropy/volt [Volt - Coding agent with lossless context management]
