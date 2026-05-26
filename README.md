@@ -283,6 +283,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/lexiforest/curl_cffi [curl_cffi - Python bindings to libcurl-impersonate: browser-aligned TLS/JA3 and HTTP/2 fingerprints without a full browser; strong default for scripted fetches]
 - https://github.com/0x676e67/rnet [rnet - Rust HTTP client with TLS JA3/JA4 and HTTP/2 fingerprint control]
 - https://github.com/fingerprintjs/BotD [BotD (FingerprintJS) - open-source client-side bot detection SDK you embed in your own pages (self-hosted / first-party integration)]
+- https://github.com/tiagozip/cap [Cap - privacy-first self-hosted CAPTCHA alternative (proof-of-work + instrumentation challenges); ~20kb, no telemetry, standalone Docker, invisible mode; reCAPTCHA/hCaptcha/Turnstile alternative; Apache-2.0]
 - https://github.com/botswin/BotBrowser [BotBrowser - cross-platform Chromium for automation/QA against anti-bot stacks (Cloudflare, Akamai, Kasada, Shape, DataDome, PerimeterX, hCaptcha, FunCaptcha, Imperva, reCAPTCHA, ThreatMetrix, Adscore, etc.); use only on systems you own]
 - https://github.com/MiddleSchoolStudent/BotBrowser [BotBrowser (alt distribution) - headless-oriented Chromium builds for anti-bot automation; compare with botswin fork; authorized targets only]
 - https://github.com/daijro/camoufox [Camoufox - stealth-oriented Firefox for scraping/automation; pairs well with Browser-Use-style stacks and Cloudflare-challenge helper tools (e.g. solver proxies); use only where you have authorization]
