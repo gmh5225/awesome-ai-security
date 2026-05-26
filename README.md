@@ -195,6 +195,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/Agnuxo1/EnigmAgent [EnigmAgent - autonomous AI security research/pentest agent with CTF benchmarking, decentralized swarm coordination, exploit validation, and Lean 4-backed security claims]
 - https://github.com/KeygraphHQ/shannon [Shannon - Autonomous AI pentester, finds and executes real exploits in web apps]
 - https://github.com/wudidike/pentest_skill [Black-box web penetration-testing automation framework for AI agents with phase-based workflow and report generation]
+- https://github.com/yv1ing/Z3r0 [Z3r0 - controlled multi-agent workbench for authorized security assessment, code auditing & research: CSO coordinator + intelligence/penetration/reverse/crypto specialists, Docker-bound sandboxes (shell/noVNC/file mgr), persistent delegation, LiteLLM/OpenAI-compatible; FastAPI + React; MIT]
 
 ### AI Red Teaming Tools
 - https://github.com/Azure/counterfit [Microsoft ML Penetration Testing Tool]
