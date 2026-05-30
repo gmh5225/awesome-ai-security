@@ -434,7 +434,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/NVIDIA/OpenShell [OpenShell - safe private runtime for autonomous agents: Docker/K3s gateway, YAML policies (filesystem, L7 network egress, process, inference routing), credential providers without FS leakage; Claude, OpenCode, Codex, Copilot; Apache-2.0, alpha]
 - https://github.com/strukto-ai/mirage [Mirage - unified virtual filesystem for AI agents: mount S3/Drive/Slack/GitHub/etc. under one tree with bash-style tooling and workspace snapshots]
 - https://github.com/afshinm/zerobox [zerobox - lightweight cross-platform process sandboxing using Codex runtime policies; sandbox any command with file, network, and credential controls]
-- https://github.com/provos/ironcurtain [ironcurtain - secure runtime for autonomous AI agents with plain-English constitution policies]
+- https://github.com/provos/ironcurtain [IronCurtain - secure runtime for autonomous AI agents: plain-English constitution → compiled policy; MCP semantic interposition (allow/deny/escalate), V8 isolate or Docker agent mode; Claude Code/Goose; ironcurtain.dev; research prototype; Apache-2.0]
 - https://github.com/microsandbox/microsandbox [AI Code Execution Sandbox, E2B Alternative]
 - https://github.com/jamesmurdza/sandboxjs [All-in-One Sandbox for AI Agents]
 - https://github.com/agent-infra/sandbox [Agent Infrastructure Sandbox]
@@ -532,6 +532,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/Dammyjay93/interface-design [Design Engineering for Claude Code - Consistent UI]
 - https://github.com/BehiSecc/VibeSec-Skill [Claude skill for secure code and common vulnerability prevention]
 - https://github.com/mukul975/Anthropic-Cybersecurity-Skills [754 structured cybersecurity skills for AI agents; mapped to MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, and NIST AI RMF; agentskills.io standard; works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI, and 20+ platforms]
+- https://github.com/YARAHQ/yara-rule-skill [yara-rule-skill - LLM Agent Skill for YARA rule authoring, review & optimization: YARA-Forge/yaraQA best practices, 20+ quality checks, performance/style guides; OpenClaw/Claude Code/MCP agents]
 - https://github.com/SnailSploit/Claude-Red [Claude-Red - curated offensive-security skill library for Claude Skills (SKILL.md): SQLi, shellcode, EDR evasion, exploit development, and other attack-surface playbooks]
 - https://github.com/codexstar69/bug-hunter [bug-hunter - adversarial AI bug hunter skill with multi-agent detect+auto-fix pipeline on safe branches; targets security vulns, logic bugs, and runtime issues across Claude Code/Cursor/Codex CLI/Copilot CLI/OpenCode/Pi]
 - https://github.com/hamelsmu/claude-review-loop [Claude Code plugin: automated code review loop with Codex]
@@ -566,6 +567,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/nashsu/llm_wiki [LLM Wiki - cross-platform desktop app that incrementally builds a persistent, interlinked wiki from your documents (knowledge base maintenance beyond one-shot RAG)]
 
 ### AI Finance & Trading
+- https://github.com/TraderAlice/OpenAlice [OpenAlice - AI trading agent (equities, crypto, commodities, forex, macro): full lifecycle from research through entry, position management, to exit; unified multi-broker UTA (CCXT/Alpaca/IBKR), trading-as-git guard pipeline, approval-gated execution, workspace + MCP; AGPL-3.0; experimental]
 - https://github.com/LuckyOne7777/LLM-Trading-Lab [LLM-Trading-Lab - forward-only, real-money micro-cap experiment where an LLM manages a constrained portfolio with transparent logs and evaluation artifacts]
 - https://github.com/LuckyOne7777/LLM-Investor-Behavior-Benchmark [LIBB - research library for LLM trading experiments: persistent portfolio state, behavioral/performance/sentiment metrics, and rollback-safe processing]
 
