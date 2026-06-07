@@ -196,6 +196,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/KeygraphHQ/shannon [Shannon - Autonomous AI pentester, finds and executes real exploits in web apps]
 - https://github.com/wudidike/pentest_skill [Black-box web penetration-testing automation framework for AI agents with phase-based workflow and report generation]
 - https://github.com/yv1ing/Z3r0 [Z3r0 - controlled multi-agent workbench for authorized security assessment, code auditing & research: CSO coordinator + intelligence/penetration/reverse/crypto specialists, Docker-bound sandboxes (shell/noVNC/file mgr), persistent delegation, LiteLLM/OpenAI-compatible; FastAPI + React; MIT]
+- https://github.com/secorizon/SecorizonAI [SecorizonAI - terminal-native AI shell for pentesters: single Go binary, local LLM via Ollama, JSON tool-use ReAct loop with shell execution + built-in web search, on-demand methodology guides, MCP (Burp) support; Apache-2.0 + Commons Clause; use only on authorized engagements]
 
 ### AI Red Teaming Tools
 - https://github.com/Azure/counterfit [Microsoft ML Penetration Testing Tool]
@@ -240,6 +241,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/mrphrazer/ghidra-headless-mcp [ghidra-headless-mcp — headless Ghidra over MCP]
 - https://github.com/vwww-droid/Mira [Mira - mobile runtime detection workbench (Android/iOS): AI-native live runtime analysis with Relay + MCP, remote shell/Frida workflows, and reusable detection knowledge]
 - https://github.com/buzzer-re/ToCode [ToCode - export binaries/IDA databases into source-like project trees (recovered C, asm, summaries, rich JSON metadata + AGENTS.md) so coding agents can traverse large binaries as an oracle; supports IDA Pro and radare2]
+- https://github.com/cellebrite-labs/ghidra-rpc [ghidra-rpc - agentic Ghidra skill: runs Ghidra as a persistent PyGhidra daemon exposing decompile/xrefs/type-recovery/patch/binary-diff via a JSON CLI over Unix socket, drivable by any shell-capable AI assistant (Cursor, Claude Code, etc.); by Cellebrite Labs]
 
 ### AI Vulnerability Detection
 - https://github.com/Mayaaa311/LLMBugScanner [LLM BugScanner - GPTLens-style pipeline: pluggable HF code LLMs as auditor + critic, rank findings by correctness/severity; Solidity-oriented datasets]
@@ -322,6 +324,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/numbergroup/AgentGuard [AgentGuard - prompt/command injection, Unicode bypass, Clinejection-style, GitHub issue screening, OpenClaw + MCP]
 - https://github.com/onecli/onecli [OneCLI - Open-source credential vault for AI agents. Rust HTTP gateway injects API credentials transparently so agents never hold raw keys. AES-256-GCM encryption, per-agent scoping, audit trail]
 - https://github.com/future-agi/future-agi [Future AGI - Open-source self-hostable agent engineering platform with real-time guardrails (jailbreak, PII, injection, toxicity), tracing, evals, simulations, and gateway for AI agents]
+- https://github.com/Asymptote-Labs/agent-beacon [Agent Beacon - open-source endpoint telemetry for local AI agents: captures prompts/tool-use/file edits from major harnesses (Claude Code, Codex, Cursor, OpenClaw...), normalizes to local JSONL, MDM deployment + forwarding to SIEMs (Splunk, Sentinel, CrowdStrike...); Go, MIT]
 
 ### AI Slop / PR Quality
 - https://github.com/peakoss/anti-slop [GitHub Action: detect and auto-close low-quality and AI slop PRs]
@@ -558,6 +561,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/HKUDS/nanobot [Ultra-lightweight personal AI assistant (Clawdbot-inspired)]
 - https://github.com/zeroclaw-labs/zeroclaw [ZeroClaw - Rust AI assistant, under 5MB RAM, $10 hardware]
 - https://github.com/louisho5/picobot [Picobot - Lightweight self-hosted AI bot, single Go binary]
+- https://github.com/pewdiepie-archdaemon/odysseus [Odysseus - self-hosted, local-first AI workspace (ChatGPT/Claude-style UI): chat with local/API models, opencode+MCP agent (web/files/shell/skills/memory), deep research, model cookbook, email/calendar/notes; Docker, admin-gated tools; MIT]
 
 ### AI Deep Research
 - https://github.com/assafelovic/gpt-researcher [GPT Researcher]
@@ -588,6 +592,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/ahmedkhaleel2004/gitdiagram [GitHub Diagram Generator]
 - https://gitingest.com [GitHub Code Merger for LLM]
 - https://deepwiki.com [GitHub Project Deep Search]
+- https://github.com/anvia-hq/lexa [Lexa - fast local code intelligence in Rust: indexes a codebase into a portable, queryable graph for text/symbol search, outline, dependency tracing and hash-aware edits; query from CLI, editor, or MCP client]
 
 ### AI Web Scraping
 - https://github.com/D4Vinci/Scrapling [Scrapling - adaptive Python scraping framework: parsers relearn selectors when pages change, fetcher handles Cloudflare Turnstile-class bot checks, spider mode (concurrency, multi-session, pause/resume, proxy rotation), streaming stats]
