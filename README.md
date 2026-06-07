@@ -239,6 +239,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/CSIT-SG/AETHER [An AI-powered reverse-engineering copilot for assisting tedious malware analysis in IDA Pro]
 - https://github.com/mrphrazer/ghidra-headless-mcp [ghidra-headless-mcp — headless Ghidra over MCP]
 - https://github.com/vwww-droid/Mira [Mira - mobile runtime detection workbench (Android/iOS): AI-native live runtime analysis with Relay + MCP, remote shell/Frida workflows, and reusable detection knowledge]
+- https://github.com/buzzer-re/ToCode [ToCode - export binaries/IDA databases into source-like project trees (recovered C, asm, summaries, rich JSON metadata + AGENTS.md) so coding agents can traverse large binaries as an oracle; supports IDA Pro and radare2]
 
 ### AI Vulnerability Detection
 - https://github.com/Mayaaa311/LLMBugScanner [LLM BugScanner - GPTLens-style pipeline: pluggable HF code LLMs as auditor + critic, rank findings by correctness/severity; Solidity-oriented datasets]
