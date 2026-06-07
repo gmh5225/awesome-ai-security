@@ -448,6 +448,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/earendil-works/gondolin [Experimental Linux MicroVM Agent Sandbox]
 - https://github.com/adammiribyan/zeroboot [Zeroboot - sub-millisecond KVM VM sandboxes for AI agents via Firecracker snapshot + CoW forking, Python/Node SDK]
 - https://github.com/rcarmo/piclaw [PiClaw - Docker sandbox for Pi Coding Agent: isolated Debian, streaming web UI, SSE, persistent sessions, passkeys/TOTP, optional WhatsApp]
+- https://github.com/CharlyCst/spadebox [SpadeBox - sandboxed tools (files/grep/glob, fetch, js_repl/js_exec) + embedded JS runtime for AI agents in Rust with JS/Python/MCP bindings; cap-std FS sandboxing, HTTP domain allowlisting, secret token substitution, no bash tool]
 
 
 
