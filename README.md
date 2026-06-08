@@ -98,6 +98,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
   - https://github.com/Shubhamsaboo/awesome-llm-apps [Awesome LLM Apps]
   - https://github.com/mahonzhan/awesome-agent-harness [Curated list of agent harnesses, agent frameworks, workflow frameworks, and emerging agent protocols]
   - https://github.com/punkpeye/awesome-mcp-servers [Awesome MCP Servers]
+  - https://intel.twzrd.xyz [TWZRD Agent Intel - Trust scoring for AI agents on Solana. Verify agent wallet identity before x402 micropayments. Free MCP: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`]
   - https://github.com/wong2/awesome-mcp-servers [Awesome MCP Servers]
   - https://github.com/deepseek-ai/awesome-deepseek-integration [Awesome DeepSeek Integration]
   - https://github.com/lmmlzn/Awesome-LLMs-Datasets [Awesome LLMs Datasets]
