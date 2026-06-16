@@ -252,6 +252,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/vercel-labs/deepsec [deepsec - coding-agent-powered security harness for large codebases: candidate-site scanning, AI investigation/revalidation, and exportable findings workflows]
 - https://github.com/Agent-Field/sec-af [SEC-AF - AI-native security auditor on AgentField: proves exploitability with verdicts, data-flow traces, and actionable evidence; adversarial hunt/prove agent DAG; Apache-2.0]
 - https://github.com/evilsocket/audit [audit - 8-stage vulnerability-discovery agent (Cloudflare Glasswing-style): Recon/Hunt/Validate/Gapfill/Dedupe/Trace/Feedback/Report; narrow agents + adversarial disprove + reachability gate; Claude Code Agent SDK, subscription OAuth; MIT]
+- https://github.com/visa/visa-vulnerability-agentic-harness [VVAH (Visa) - agentic SAST pipeline for autonomous vulnerability discovery: 9-stage threat modeling → multi-lens research → adversarial verification → SARIF; multi-model (Claude CLI/SDK, OpenAI); Glasswing-inspired; `vvaharness` CLI; authorized use only]
 - https://github.com/zakirkun/deep-eye [Deep Eye - AI-driven vulnerability scanner and pentesting framework with multi-provider LLM support, payload generation, recon modules, and report export]
 - https://semgrep.dev/ [AI-Assisted SAST]
 - https://github.com/squirrelscan/squirrelscan [Website audit tool for agent/LLM workflows (security/performance/SEO)]
@@ -624,6 +625,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/0x0funky/agent-sprite-forge [Agent Sprite Forge - Codex skill workflow for game-ready 2D sprite sheets/layered maps with deterministic local post-processing and engine-ready export (Godot/Unity)]
 - https://github.com/ant-research/MagicQuill [Intelligent Image Editing]
 - https://github.com/lightningpixel/modly [Modly - desktop app: image-to-3D mesh with local open-source models on GPU; Electron + Python, extension system]
+- https://github.com/PSkinnerTech/3d-asset-factory [3D Asset Factory - CLI-first pipeline from YAML specs: GPT Image 2.0 concept → TRELLIS.2 GLB, optimize, deterministic QA, review HTML, web/Unity/Unreal export packages + manifest/provenance; mock or GPU/Modal/SSH runners; MIT]
 
 ### AI Video Generation
 - https://github.com/bytedance/LatentSync [Digital Human Video]
