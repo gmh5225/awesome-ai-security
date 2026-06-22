@@ -545,6 +545,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/blader/humanizer [Remove AI Writing Signs from Text]
 - https://github.com/hardikpandya/stop-slop [Stop Slop - Claude skill to strip AI writing tells from prose: banned phrases, structural clichés, sentence rules]
 - https://github.com/op7418/Humanizer-zh [Humanizer Chinese Version]
+- https://github.com/htdt/godogen [Godogen - autonomous game dev skill generator for Claude Code/Codex: publish staged pipeline into Godot (C#/.NET), Bevy (Rust), or Babylon.js repos; Gemini/Grok/Tripo3D asset gen, screenshot-grounded self-repair capture loop; MIT]
 
 
 
