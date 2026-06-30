@@ -624,6 +624,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/leejet/stable-diffusion.cpp [Stable Diffusion C++]
 - https://github.com/apple/ml-stable-diffusion [Apple Stable Diffusion]
 - https://github.com/0x0funky/agent-sprite-forge [Agent Sprite Forge - Codex skill workflow for game-ready 2D sprite sheets/layered maps with deterministic local post-processing and engine-ready export (Godot/Unity)]
+- https://github.com/dreiachse-cyber/image-cockpit-for-codex-workflows [Image Cockpit - local web cockpit for Codex imagegen handoff: pixel art, region-based image editing, animation frames/sprite sheets (GIF/WebP/ZIP); codex-handoff inbox/outbox, optional `codex exec` autorun; no direct OpenAI API calls; MIT]
 - https://github.com/ant-research/MagicQuill [Intelligent Image Editing]
 - https://github.com/lightningpixel/modly [Modly - desktop app: image-to-3D mesh with local open-source models on GPU; Electron + Python, extension system]
 - https://github.com/PSkinnerTech/3d-asset-factory [3D Asset Factory - CLI-first pipeline from YAML specs: GPT Image 2.0 concept → TRELLIS.2 GLB, optimize, deterministic QA, review HTML, web/Unity/Unreal export packages + manifest/provenance; mock or GPU/Modal/SSH runners; MIT]
