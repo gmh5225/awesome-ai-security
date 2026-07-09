@@ -197,6 +197,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/wudidike/pentest_skill [Black-box web penetration-testing automation framework for AI agents with phase-based workflow and report generation]
 - https://github.com/yv1ing/Z3r0 [Z3r0 - controlled multi-agent workbench for authorized security assessment, code auditing & research: CSO coordinator + intelligence/penetration/reverse/crypto specialists, Docker-bound sandboxes (shell/noVNC/file mgr), persistent delegation, LiteLLM/OpenAI-compatible; FastAPI + React; MIT]
 - https://github.com/ASCIT31/Dark-Moon [Dark-Moon - autonomous AI penetration testing platform where Markdown methodology playbooks orchestrate 80+ offensive tools via MCP across web, cloud, Active Directory, Kubernetes and API targets, with an evidence trail per finding]
+- https://github.com/Strategic-Automation/violin [Violin - supervised, agentic Hermes Agent pentest profile: 31 skill-based playbooks (OWASP Top 10, API Top 10, LLM Top 10) with interactive scoping, scope validation, and approval gates. Installs via `hermes profile install https://github.com/Strategic-Automation/violin`. Hermes-native, no extra API keys; MIT]
 - https://github.com/secorizon/SecorizonAI [SecorizonAI - terminal-native AI shell for pentesters: single Go binary, local LLM via Ollama, JSON tool-use ReAct loop with shell execution + built-in web search, on-demand methodology guides, MCP (Burp) support; Apache-2.0 + Commons Clause; use only on authorized engagements]
 
 ### AI Red Teaming Tools
