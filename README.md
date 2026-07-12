@@ -192,10 +192,13 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/projectdiscovery/katana [Katana (ProjectDiscovery) - fast web crawler/spider for automation: standard & headless, JS endpoint parsing, scope/regex filters, JSONL; stacks with httpx/nuclei and AI pentest agent workflows]
 - https://github.com/Ed1s0nZ/CyberStrikeAI [AI-Native Security Testing Platform with 100+ Tools]
 - https://github.com/vxcontrol/pentagi [PentAGI - Fully autonomous AI agents for penetration testing]
+- https://github.com/XenoCoreGiger31/GEMMA-by-GOOGLE [HALO (GEMMA-by-GOOGLE) - Fully local, autonomous AI pentesting agent; a local Gemma model drives a 29-tool MCP server through recon, attack, and reporting]
 - https://github.com/Agnuxo1/EnigmAgent [EnigmAgent - autonomous AI security research/pentest agent with CTF benchmarking, decentralized swarm coordination, exploit validation, and Lean 4-backed security claims]
 - https://github.com/KeygraphHQ/shannon [Shannon - Autonomous AI pentester, finds and executes real exploits in web apps]
 - https://github.com/wudidike/pentest_skill [Black-box web penetration-testing automation framework for AI agents with phase-based workflow and report generation]
 - https://github.com/yv1ing/Z3r0 [Z3r0 - controlled multi-agent workbench for authorized security assessment, code auditing & research: CSO coordinator + intelligence/penetration/reverse/crypto specialists, Docker-bound sandboxes (shell/noVNC/file mgr), persistent delegation, LiteLLM/OpenAI-compatible; FastAPI + React; MIT]
+- https://github.com/ASCIT31/Dark-Moon [Dark-Moon - autonomous AI penetration testing platform where Markdown methodology playbooks orchestrate 80+ offensive tools via MCP across web, cloud, Active Directory, Kubernetes and API targets, with an evidence trail per finding]
+- https://github.com/Strategic-Automation/violin [Violin - supervised, agentic Hermes Agent pentest profile: 31 skill-based playbooks (OWASP Top 10, API Top 10, LLM Top 10) with interactive scoping, scope validation, and approval gates. Installs via `hermes profile install https://github.com/Strategic-Automation/violin`. Hermes-native, no extra API keys; MIT]
 - https://github.com/secorizon/SecorizonAI [SecorizonAI - terminal-native AI shell for pentesters: single Go binary, local LLM via Ollama, JSON tool-use ReAct loop with shell execution + built-in web search, on-demand methodology guides, MCP (Burp) support; Apache-2.0 + Commons Clause; use only on authorized engagements]
 
 ### AI Red Teaming Tools
@@ -314,6 +317,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/openguardrails/openguardrails [OpenGuardrails - Runtime security for AI agents: prompt injection, credential leakage, exfiltration, behavioral threats]
 - https://github.com/cisco-ai-defense/skill-scanner [Security scanner for agent skills - prompt injection, exfiltration, malicious code]
 - https://github.com/huifer/skill-security-scan [CLI to scan Claude Skills for security risks before installing]
+- https://github.com/pezhik/skilltotal [SkillTotal - offline static scanner for AI components (agent skills, MCP servers, npm/PyPI packages, repos): supply-chain risk, dangerous capabilities, prompt injection, tool poisoning, exfiltration; deterministic (regex + AST, no LLM), evidence-anchored, SARIF + pre-commit + GitHub Action; Apache-2.0]
 - https://github.com/hashgraph-online/hol-guard [HOL Guard - AI antivirus for developer agents: pre-run protection for Codex/Claude Code/Cursor/Gemini/OpenCode; scan/approve plugins, skills, MCP servers & harness configs; plugin-scanner for CI; Apache-2.0]
 - https://github.com/HarmonicSecurity/claudit-sec [claudit-sec - read-only security audit for Claude Desktop/Claude Code configs: visibility into MCP servers, extensions/plugins, connectors, scheduled tasks, and permissions]
 - https://github.com/avast/sage [Sage - Agent Detection & Response: guards commands, files, web requests for Claude Code, Cursor, OpenClaw]
