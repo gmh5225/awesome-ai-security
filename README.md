@@ -580,6 +580,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/zilliztech/deep-searcher [Local Deep Searcher]
 - https://github.com/aakashsharan/research-vault [AI Research Assistant with RAG and Structured Extraction]
 - https://github.com/nashsu/llm_wiki [LLM Wiki - cross-platform desktop app that incrementally builds a persistent, interlinked wiki from your documents (knowledge base maintenance beyond one-shot RAG)]
+- https://github.com/atomicstrata/llm-wiki-compiler [llm-wiki-compiler - knowledge compiler: raw sources in, interlinked wiki out; Karpathy LLM Wiki pattern]
 - https://github.com/Agent-Field/af-deep-research [AF Deep Research - autonomous multi-agent research backend on AgentField: parallel streams, quality-driven iterative loops, structured entities/relationships/evidence/cited documents]
 
 ### AI Finance & Trading
