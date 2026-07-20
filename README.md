@@ -295,6 +295,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/tiagozip/cap [Cap - privacy-first self-hosted CAPTCHA alternative (proof-of-work + instrumentation challenges); ~20kb, no telemetry, standalone Docker, invisible mode; reCAPTCHA/hCaptcha/Turnstile alternative; Apache-2.0]
 - https://github.com/botswin/BotBrowser [BotBrowser - cross-platform Chromium for automation/QA against anti-bot stacks (Cloudflare, Akamai, Kasada, Shape, DataDome, PerimeterX, hCaptcha, FunCaptcha, Imperva, reCAPTCHA, ThreatMetrix, Adscore, etc.); use only on systems you own]
 - https://github.com/MiddleSchoolStudent/BotBrowser [BotBrowser (alt distribution) - headless-oriented Chromium builds for anti-bot automation; compare with botswin fork; authorized targets only]
+- https://github.com/zhom/donutbrowser [Donut Browser - open-source anti-detect Chromium (Wayfern) with isolated profiles, proxy/VPN, Local API & MCP for Claude/automation; AGPL-3.0; authorized targets only]
 - https://github.com/daijro/camoufox [Camoufox - stealth-oriented Firefox for scraping/automation; pairs well with Browser-Use-style stacks and Cloudflare-challenge helper tools (e.g. solver proxies); use only where you have authorization]
 - https://github.com/AlloryDante/undetected-browser [undetected-browser - modified Puppeteer/Chromium stack for lower-detection automation testing]
 - https://github.com/ultrafunkamsterdam/nodriver [nodriver - undetected-style Chrome control without classic WebDriver surface; Python driver for hardened automation research]
