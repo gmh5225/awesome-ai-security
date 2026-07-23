@@ -257,6 +257,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/Agent-Field/sec-af [SEC-AF - AI-native security auditor on AgentField: proves exploitability with verdicts, data-flow traces, and actionable evidence; adversarial hunt/prove agent DAG; Apache-2.0]
 - https://github.com/evilsocket/audit [audit - 8-stage vulnerability-discovery agent (Cloudflare Glasswing-style): Recon/Hunt/Validate/Gapfill/Dedupe/Trace/Feedback/Report; narrow agents + adversarial disprove + reachability gate; Claude Code Agent SDK, subscription OAuth; MIT]
 - https://github.com/visa/visa-vulnerability-agentic-harness [VVAH (Visa) - agentic SAST pipeline for autonomous vulnerability discovery: 9-stage threat modeling → multi-lens research → adversarial verification → SARIF; multi-model (Claude CLI/SDK, OpenAI); Glasswing-inspired; `vvaharness` CLI; authorized use only]
+- https://github.com/scadastrangelove/rust-in-peace [rust-in-peace - agentic Rust vulnerability-discovery harness: autonomous recon/find/triage/patch loop for unsafe/FFI memory bugs, panic-DoS, and deserialization-trust issues; verifies findings with Miri/ASan/panic/hang detectors and cargo-fuzz]
 - https://github.com/zakirkun/deep-eye [Deep Eye - AI-driven vulnerability scanner and pentesting framework with multi-provider LLM support, payload generation, recon modules, and report export]
 - https://semgrep.dev/ [AI-Assisted SAST]
 - https://github.com/squirrelscan/squirrelscan [Website audit tool for agent/LLM workflows (security/performance/SEO)]
