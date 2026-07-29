@@ -333,6 +333,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/onecli/onecli [OneCLI - Open-source credential vault for AI agents. Rust HTTP gateway injects API credentials transparently so agents never hold raw keys. AES-256-GCM encryption, per-agent scoping, audit trail]
 - https://github.com/future-agi/future-agi [Future AGI - Open-source self-hostable agent engineering platform with real-time guardrails (jailbreak, PII, injection, toxicity), tracing, evals, simulations, and gateway for AI agents]
 - https://github.com/Asymptote-Labs/agent-beacon [Agent Beacon - open-source endpoint telemetry for local AI agents: captures prompts/tool-use/file edits from major harnesses (Claude Code, Codex, Cursor, OpenClaw...), normalizes to local JSONL, MDM deployment + forwarding to SIEMs (Splunk, Sentinel, CrowdStrike...); Go, MIT]
+- https://github.com/VrtxOmega/veritas-agent-trust-lab [VERITAS Omega Agent Trust Lab - blind, zero-signup six-case challenge for forged verdicts, exact-action substitution, replay, evaluator correlation, evidence deletion, and silent monitoring; deterministic results, no execution authority]
 
 ### AI Slop / PR Quality
 - https://github.com/peakoss/anti-slop [GitHub Action: detect and auto-close low-quality and AI slop PRs]
