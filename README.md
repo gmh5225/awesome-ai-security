@@ -257,6 +257,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/Agent-Field/sec-af [SEC-AF - AI-native security auditor on AgentField: proves exploitability with verdicts, data-flow traces, and actionable evidence; adversarial hunt/prove agent DAG; Apache-2.0]
 - https://github.com/evilsocket/audit [audit - 8-stage vulnerability-discovery agent (Cloudflare Glasswing-style): Recon/Hunt/Validate/Gapfill/Dedupe/Trace/Feedback/Report; narrow agents + adversarial disprove + reachability gate; Claude Code Agent SDK, subscription OAuth; MIT]
 - https://github.com/visa/visa-vulnerability-agentic-harness [VVAH (Visa) - agentic SAST pipeline for autonomous vulnerability discovery: 9-stage threat modeling → multi-lens research → adversarial verification → SARIF; multi-model (Claude CLI/SDK, OpenAI); Glasswing-inspired; `vvaharness` CLI; authorized use only]
+- https://github.com/scadastrangelove/rust-in-peace [rust-in-peace - agentic Rust vulnerability-discovery harness: autonomous recon/find/triage/patch loop for unsafe/FFI memory bugs, panic-DoS, and deserialization-trust issues; verifies findings with Miri/ASan/panic/hang detectors and cargo-fuzz]
 - https://github.com/zakirkun/deep-eye [Deep Eye - AI-driven vulnerability scanner and pentesting framework with multi-provider LLM support, payload generation, recon modules, and report export]
 - https://semgrep.dev/ [AI-Assisted SAST]
 - https://github.com/squirrelscan/squirrelscan [Website audit tool for agent/LLM workflows (security/performance/SEO)]
@@ -332,6 +333,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/onecli/onecli [OneCLI - Open-source credential vault for AI agents. Rust HTTP gateway injects API credentials transparently so agents never hold raw keys. AES-256-GCM encryption, per-agent scoping, audit trail]
 - https://github.com/future-agi/future-agi [Future AGI - Open-source self-hostable agent engineering platform with real-time guardrails (jailbreak, PII, injection, toxicity), tracing, evals, simulations, and gateway for AI agents]
 - https://github.com/Asymptote-Labs/agent-beacon [Agent Beacon - open-source endpoint telemetry for local AI agents: captures prompts/tool-use/file edits from major harnesses (Claude Code, Codex, Cursor, OpenClaw...), normalizes to local JSONL, MDM deployment + forwarding to SIEMs (Splunk, Sentinel, CrowdStrike...); Go, MIT]
+- https://github.com/VrtxOmega/veritas-agent-trust-lab [VERITAS Omega Agent Trust Lab - blind, zero-signup six-case challenge for forged verdicts, exact-action substitution, replay, evaluator correlation, evidence deletion, and silent monitoring; deterministic results, no execution authority]
 
 ### AI Slop / PR Quality
 - https://github.com/peakoss/anti-slop [GitHub Action: detect and auto-close low-quality and AI slop PRs]
