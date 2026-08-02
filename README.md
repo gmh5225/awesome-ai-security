@@ -211,6 +211,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/Yanlewen/TradeTrap [TradeTrap - test LLM-based trading agents: prompt injection, MCP hijacking, state tampering, memory poisoning; AI-Trader/Valuecell]
 
 ### AI Security MCP Tools
+- https://github.com/AndrewXuTurtle/mcpaudit [mcpaudit — MCP server + CLI that audits the MCP servers you already have installed across Claude Desktop, Claude Code, Cursor, Windsurf and VS Code. Tool poisoning (incl. zero-width/bidi chars in tool descriptions), credential blast radius, privilege scope, transport, and supply-chain provenance: homoglyph publisher scopes, registry-removed packages, install hooks, and OSV/GHSA advisories matched to the resolved version. Zero dependencies; nothing installed or executed; MIT]
 - https://github.com/ArmorerLabs/Armorer-Guard [Armorer Guard - local Rust scanner and MCP proxy for prompt injection, credential leakage, exfiltration, and risky tool-call detection before execution]
 - https://github.com/0x4m4/hexstrike-ai [HexStrike AI - 150+ Cybersecurity Tools MCP]
 - https://github.com/cyproxio/mcp-for-security [Pentesting MCP]
