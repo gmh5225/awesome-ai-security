@@ -335,6 +335,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/future-agi/future-agi [Future AGI - Open-source self-hostable agent engineering platform with real-time guardrails (jailbreak, PII, injection, toxicity), tracing, evals, simulations, and gateway for AI agents]
 - https://github.com/Asymptote-Labs/agent-beacon [Agent Beacon - open-source endpoint telemetry for local AI agents: captures prompts/tool-use/file edits from major harnesses (Claude Code, Codex, Cursor, OpenClaw...), normalizes to local JSONL, MDM deployment + forwarding to SIEMs (Splunk, Sentinel, CrowdStrike...); Go, MIT]
 - https://github.com/VrtxOmega/veritas-agent-trust-lab [VERITAS Omega Agent Trust Lab - blind, zero-signup six-case challenge for forged verdicts, exact-action substitution, replay, evaluator correlation, evidence deletion, and silent monitoring; deterministic results, no execution authority]
+- https://github.com/alexgreensh/repo-forensics [Repo Forensics - offline scanner for AI-agent repos, skills, plugins & MCP servers before install: supply-chain risk, prompt injection, dangerous capabilities; 26 scanners, runtime behavior prediction, ClawHavoc campaign detection, CISA KEV/CVE checks; SARIF-style output; Claude Code/Codex/OpenClaw/Cursor; PolyForm Noncommercial]
 
 ### AI Slop / PR Quality
 - https://github.com/peakoss/anti-slop [GitHub Action: detect and auto-close low-quality and AI slop PRs]
@@ -558,6 +559,8 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/hardikpandya/stop-slop [Stop Slop - Claude skill to strip AI writing tells from prose: banned phrases, structural clichés, sentence rules]
 - https://github.com/op7418/Humanizer-zh [Humanizer Chinese Version]
 - https://github.com/htdt/godogen [Godogen - autonomous game dev skill generator for Claude Code/Codex: publish staged pipeline into Godot (C#/.NET), Bevy (Rust), or Babylon.js repos; Gemini/Grok/Tripo3D asset gen, screenshot-grounded self-repair capture loop; MIT]
+- https://github.com/alexgreensh/token-optimizer [Token Optimizer - find and fix "ghost tokens" in Claude Code/Codex sessions; survive compaction, avoid context-quality decay; session audit + dashboard]
+- https://github.com/alexgreensh/outsourcerer [Outsourcerer - offload grunt work from Claude Code to cheaper engines/models while the main session orchestrates; live token-limit awareness, benchmark-based model routing, second-opinion lane]
 
 
 
