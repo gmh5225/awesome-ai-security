@@ -126,6 +126,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/alphasecio/prompt-guard [Prompt Defense for LLM]
 - https://github.com/tml-epfl/llm-adaptive-attacks [Adaptive Attacks on LLMs]
 - https://github.com/RomiconEZ/llamator [LLM Vulnerability Testing Framework]
+- https://github.com/gh0stOo/claude-md-vorlagen-de/blob/main/guides/prompt-hardening.md [German-language prompt-injection hardening guide with 10 concrete before/after code patterns (system/user separation, delimiters, output validation, RAG source distrust)]
 
 ### Adversarial Attacks
 - https://gradientscience.org/intro_adversarial/ [Introduction to Adversarial Examples]
