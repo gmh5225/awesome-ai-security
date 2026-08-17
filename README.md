@@ -342,6 +342,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 
 ### AI Slop / PR Quality
 - https://github.com/peakoss/anti-slop [GitHub Action: detect and auto-close low-quality and AI slop PRs]
+- https://github.com/rasbt/ai-detector-from-scratch [Build an AI text detector from scratch: dataset construction, classifier comparison (logreg/DistilBERT/ModernBERT/GPT-2/Qwen3), CLI/API/browser UI, detector-as-verifier RL; Apache-2.0]
 
 
 
@@ -514,6 +515,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/Anemll/flash-moe [flash-moe (fork) - C/Objective-C/Metal inference engine for Qwen3.5-397B-A17B MoE on Apple Silicon; experts streamed from SSD (pread + page cache), hybrid MLX 4-bit + Unsloth GGUF Q3 experts / Q6 LM head / Q8 embedding, llama.cpp-style IQ3/IQ4/Q5 dequant kernels, optional Metal 4 NAX matmul (M5+), `--cache-io-split` for SSD fanout; tool-calling chat TUI]
 - https://github.com/JustVugg/colibri [Colibri - pure C, zero-deps engine to run GLM-5.2 (744B MoE) on ~25GB RAM; experts streamed from disk]
 - https://github.com/0xSero/deepseek-v4-flash-sm120 [deepseek-v4-flash-sm120 - SM_120 (NVIDIA Blackwell RTX 50xx/Pro 6000) sparse-decode kernel + runtime monkey-patch for DeepSeek-V4-Flash FP8 on `lmsysorg/sglang:deepseek-v4-blackwell`]
+- https://github.com/maliubiao/dgx-spark-2-deepseek-flash-0731 [DeepSeek-V4-Flash-0731 dual DGX Spark (GB10) cluster recipe: 200GbE QSFP direct-connect, vLLM Anemll DSpark image, TP=2, 1M context]
 - https://github.com/gmh5225/optiml [OptiML - accelerate local inference via hot/cold neuron partitioning across GPU/CPU]
 
 ### Uncensored Models
