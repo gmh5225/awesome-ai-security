@@ -516,6 +516,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/JustVugg/colibri [Colibri - pure C, zero-deps engine to run GLM-5.2 (744B MoE) on ~25GB RAM; experts streamed from disk]
 - https://github.com/0xSero/deepseek-v4-flash-sm120 [deepseek-v4-flash-sm120 - SM_120 (NVIDIA Blackwell RTX 50xx/Pro 6000) sparse-decode kernel + runtime monkey-patch for DeepSeek-V4-Flash FP8 on `lmsysorg/sglang:deepseek-v4-blackwell`]
 - https://github.com/maliubiao/dgx-spark-2-deepseek-flash-0731 [DeepSeek-V4-Flash-0731 dual DGX Spark (GB10) cluster recipe: 200GbE QSFP direct-connect, vLLM Anemll DSpark image, TP=2, 1M context]
+- https://github.com/tonyd2wild/DGX-Spark-Hard-Poweroff-Fix [DGX Spark (GB10) log-less hard power-off diagnosis + GPU clock-cap fix (`nvidia-smi -lgc`) with systemd persistence]
 - https://github.com/gmh5225/optiml [OptiML - accelerate local inference via hot/cold neuron partitioning across GPU/CPU]
 
 ### Uncensored Models
