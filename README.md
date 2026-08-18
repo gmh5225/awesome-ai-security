@@ -342,6 +342,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 
 ### AI Slop / PR Quality
 - https://github.com/peakoss/anti-slop [GitHub Action: detect and auto-close low-quality and AI slop PRs]
+- https://github.com/dmmulroy/anti-slop [anti-slop - vendored Oxlint rules that reject low-evidence TypeScript/JavaScript patterns (type-assertion/unknown/mock slop); agent skill installer; MIT]
 - https://github.com/rasbt/ai-detector-from-scratch [Build an AI text detector from scratch: dataset construction, classifier comparison (logreg/DistilBERT/ModernBERT/GPT-2/Qwen3), CLI/API/browser UI, detector-as-verifier RL; Apache-2.0]
 
 
@@ -517,6 +518,8 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/0xSero/deepseek-v4-flash-sm120 [deepseek-v4-flash-sm120 - SM_120 (NVIDIA Blackwell RTX 50xx/Pro 6000) sparse-decode kernel + runtime monkey-patch for DeepSeek-V4-Flash FP8 on `lmsysorg/sglang:deepseek-v4-blackwell`]
 - https://github.com/maliubiao/dgx-spark-2-deepseek-flash-0731 [DeepSeek-V4-Flash-0731 dual DGX Spark (GB10) cluster recipe: 200GbE QSFP direct-connect, vLLM Anemll DSpark image, TP=2, 1M context]
 - https://github.com/tonyd2wild/DGX-Spark-Hard-Poweroff-Fix [DGX Spark (GB10) log-less hard power-off diagnosis + GPU clock-cap fix (`nvidia-smi -lgc`) with systemd persistence]
+- https://github.com/0xBakeer/Qwen3.8-27B-FP8-on-a-single-DGX-Spark [Qwen3.8-27B-FP8 single DGX Spark (GB10/SM121) vLLM recipe: DSpark speculative decode + prefix cache, measured tok/s vs MTP/k/concurrency; MIT]
+- https://github.com/0xBakeer/Qwen3.8-27B-4-bit-on-a-single-DGX-Spark [Qwen3.8-27B 4-bit (NVFP4/MixedInt4) single DGX Spark recipe vs FP8: DSpark k/concurrency tradeoffs, W4A16/Marlin notes for SM121; MIT]
 - https://github.com/gmh5225/optiml [OptiML - accelerate local inference via hot/cold neuron partitioning across GPU/CPU]
 
 ### Uncensored Models
