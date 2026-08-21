@@ -506,6 +506,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/dinoki-ai/osaurus [MLX-based local inference server, Ollama alternative]
 - https://github.com/trymirai/uzu [High-performance Rust inference engine]
 - https://github.com/jundot/omlx [LLM inference server for Apple Silicon]
+- https://github.com/youssofal/MTPLX [MTPLX - Apple Silicon native MTP speculative decoding on MLX (no external drafter): Qwen 3.8 27B ~2–3x vs AR, exact rejection sampling; Mac app + CLI, OpenAI/Anthropic API]
 - https://github.com/gamogestionweb/Turboquant-llama [TurboQuant + llama.cpp — roadmap/docs for Google TurboQuant (PolarQuant + QJL) KV-cache compression on mobile; MIT]
 - https://github.com/TheTom/turboquant_plus [TurboQuant+ — KV-cache compression (PolarQuant + WHT); Python reference + llama.cpp fork with Metal `turbo3`/`turbo4`; Apache-2.0]
 - https://github.com/noonghunna/qwen36-27b-single-3090 [Run Qwen3.6-27B (vision/tool-calling, OpenAI-compatible local API) on a single RTX 3090 via vLLM + Docker; active development moved to `noonghunna/club-3090`]
