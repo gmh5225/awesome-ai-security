@@ -339,6 +339,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/VrtxOmega/veritas-agent-trust-lab [VERITAS Omega Agent Trust Lab - blind, zero-signup six-case challenge for forged verdicts, exact-action substitution, replay, evaluator correlation, evidence deletion, and silent monitoring; deterministic results, no execution authority]
 - https://github.com/ionsec/trace [TRACE - read-only DFIR collector for AI/LLM endpoint artifacts: 27 collectors (Ollama, LM Studio, llama.cpp, Claude Code, Cursor, Aider, AutoGPT, CrewAI...), shadow-AI/network/Docker/browser discovery, SHA-256 chain of custody, AI IOC + secret detection, MITRE ATLAS mapping, HTML/JSON/STIX 2.1 reports, Velociraptor artifact pack; Python + zero-dep Go binary, AGPL-3.0]
 - https://github.com/alexgreensh/repo-forensics [Repo Forensics - offline scanner for AI-agent repos, skills, plugins & MCP servers before install: supply-chain risk, prompt injection, dangerous capabilities; 26 scanners, runtime behavior prediction, ClawHavoc campaign detection, CISA KEV/CVE checks; SARIF-style output; Claude Code/Codex/OpenClaw/Cursor; PolyForm Noncommercial]
+- https://github.com/KongFangXun/sofagent [sofagent - audit-first governance harness for AI coding agents: 24 rules enforced at commit time via git hooks (secret leakage, out-of-scope edits, destructive ops), HMAC-chained tamper-evident audit log, snapshot rollback; MIT]
 
 ### AI Slop / PR Quality
 - https://github.com/peakoss/anti-slop [GitHub Action: detect and auto-close low-quality and AI slop PRs]
