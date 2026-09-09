@@ -222,6 +222,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/Sicks3c/hackerone-mcp-server [HackerOne MCP — unofficial Hacker API over stdio: reports, programs, scope, earnings, hacktivity; submit/comment/close; MIT]
 - https://github.com/zhizhuodemao/android_proxy_mcp [Android Proxy MCP - MCP-based Android traffic capture, let AI analyze HTTP/HTTPS via natural language]
 - https://github.com/MHaggis/Security-Detections-MCP [Security Detections MCP - unified Sigma/Splunk ESCU/Elastic/KQL, 71+ tools, 11 prompts, autonomous detection platform]
+- https://github.com/ai-blueteam/http-detection-agent [http-detection-agent - capability-aware HTTP attack detection: Rust CLI and local MCP server over a normalized rule catalog of 76 detections across 62 behavior families; MIT]
 - https://github.com/Correctover/correctover-scan [correctover-scan - zero-config npm CLI that scans MCP client configs (Claude Desktop, Cursor, VS Code) for credential exposure, SSRF, missing auth/transport encryption and other misconfigurations; findings mapped to OWASP AISVS; JSON/SARIF output for CI; MIT]
 - https://github.com/rolandpg/zettelforge [ZettelForge — CTI agentic memory MCP server with entity extraction (CVEs, threat actors, IOCs, MITRE ATT&CK), knowledge graph with alias resolution, STIX 2.1, intent-classified retrieval, OCSF audit logging; offline; MIT]
 
