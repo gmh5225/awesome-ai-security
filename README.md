@@ -225,6 +225,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/ai-blueteam/http-detection-agent [http-detection-agent - capability-aware HTTP attack detection: Rust CLI and local MCP server over a normalized rule catalog of 76 detections across 62 behavior families; MIT]
 - https://github.com/Correctover/correctover-scan [correctover-scan - zero-config npm CLI that scans MCP client configs (Claude Desktop, Cursor, VS Code) for credential exposure, SSRF, missing auth/transport encryption and other misconfigurations; findings mapped to OWASP AISVS; JSON/SARIF output for CI; MIT]
 - https://github.com/rolandpg/zettelforge [ZettelForge — CTI agentic memory MCP server with entity extraction (CVEs, threat actors, IOCs, MITRE ATT&CK), knowledge graph with alias resolution, STIX 2.1, intent-classified retrieval, OCSF audit logging; offline; MIT]
+- https://agentglass.net [AgentGlass - free remote MCP server + web scanner that checks a public URL for hidden instructions aimed at AI agents (prompt injection in hidden text, comments, metadata); endpoint https://agentglass.net/mcp]
 
 ### AI-Powered C2
 - https://github.com/Red-Hex-Consulting/Ankou [AI C2 Framework]
