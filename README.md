@@ -320,6 +320,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/zmzimpl/chrome-power-chromium [chrome-power-chromium - Chromium sources for Chrome Power–style builds]
 
 ### AI Agent Security
+- https://github.com/maximhq/bifrost [Bifrost Edge - endpoint governance for AI apps and MCP servers with guardrails, approvals, audit logs, and device management]
 - https://github.com/NVIDIA/NemoClaw [NVIDIA plugin for secure installation of OpenClaw - sandboxed agents with Landlock/seccomp/netns, policy-enforced egress and inference]
 - https://github.com/peg/rampart [Firewall for AI agents - policy engine for OpenClaw, Claude Code, Cursor, Codex]
 - https://github.com/openguardrails/openguardrails [OpenGuardrails - Runtime security for AI agents: prompt injection, credential leakage, exfiltration, behavioral threats]
