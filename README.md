@@ -418,6 +418,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/amanhij/Zikkaron [Zikkaron - Claude Code long-term memory over MCP: local SQLite + sqlite-vec + FTS; 26 cognitive-style subsystems (predictive write gate, Hopfield energy, reconsolidation, causal discovery, successor representations), 23 tools, hooks for context compaction replay & session warm-start; MIT]
 - https://github.com/qhjqhj00/MemoRAG [MemoRAG - long-memory RAG over large corpora]
 - https://github.com/milla-jovovich/mempalace [MemPalace - local long-term memory system for AI agents with hierarchical "palace" structure, ChromaDB storage, AAAK compression dialect, and MCP tools]
+- https://github.com/mnemoverse/mcp-memory-server [Mnemoverse - hosted persistent memory for AI agents over MCP; tell it a recalled memory helped or misled and it re-ranks recall; remote endpoint with OAuth or local npx with a key; MIT server, hosted engine, free tier]
 
 ### AI Browser Automation
 - https://github.com/steel-dev/steel-browser [Steel Browser - AI-controllable browser automation with fingerprint / stealth-oriented controls]
