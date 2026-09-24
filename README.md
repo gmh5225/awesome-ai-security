@@ -325,6 +325,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/peg/rampart [Firewall for AI agents - policy engine for OpenClaw, Claude Code, Cursor, Codex]
 - https://github.com/openguardrails/openguardrails [OpenGuardrails - Runtime security for AI agents: prompt injection, credential leakage, exfiltration, behavioral threats]
 - https://github.com/cisco-ai-defense/skill-scanner [Security scanner for agent skills - prompt injection, exfiltration, malicious code]
+- https://github.com/Tencent/AI-Infra-Guard [AI-Infra-Guard (A.I.G) - Tencent Zhuque Lab's full-stack AI red-teaming platform: Agent/Skill/MCP scan, AI infra CVE scan (146 components, 2000+ rules), and LLM jailbreak evaluation; ships `aig-skill-scan` as the official OpenClaw ClawHub scanner (SARIF 2.1.0 output, SkillTrustBench T01-T09 taxonomy); web UI + CLI + Docker; Apache-2.0]
 - https://github.com/huifer/skill-security-scan [CLI to scan Claude Skills for security risks before installing]
 - https://github.com/pezhik/skilltotal [SkillTotal - offline static scanner for AI components (agent skills, MCP servers, npm/PyPI packages, repos): supply-chain risk, dangerous capabilities, prompt injection, tool poisoning, exfiltration; deterministic (regex + AST, no LLM), evidence-anchored, SARIF + pre-commit + GitHub Action; Apache-2.0]
 - https://github.com/hashgraph-online/hol-guard [HOL Guard - AI antivirus for developer agents: pre-run protection for Codex/Claude Code/Cursor/Gemini/OpenCode; scan/approve plugins, skills, MCP servers & harness configs; plugin-scanner for CI; Apache-2.0]
@@ -345,6 +346,8 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/alexgreensh/repo-forensics [Repo Forensics - offline scanner for AI-agent repos, skills, plugins & MCP servers before install: supply-chain risk, prompt injection, dangerous capabilities; 26 scanners, runtime behavior prediction, ClawHavoc campaign detection, CISA KEV/CVE checks; SARIF-style output; Claude Code/Codex/OpenClaw/Cursor; PolyForm Noncommercial]
 - https://github.com/KongFangXun/sofagent [sofagent - audit-first governance harness for AI coding agents: 24 rules enforced at commit time via git hooks (secret leakage, out-of-scope edits, destructive ops), HMAC-chained tamper-evident audit log, snapshot rollback; MIT]
 - https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive [Orca AI Incident Archive - open database of real-world AI agent security incidents (prompt injection, agents used offensively, agent supply chain, sandbox escapes, agent-framework CVEs); every record cites a primary source and flags confirmed victims and AI involvement; JSON/CSV exports; CC BY 4.0]
+- https://github.com/FORIFOR/AISecure [AISecure - local-first preflight before text or Office/PDF reaches ChatGPT/Claude/Gemini: MAIN-world fetch wrapper stops the prompt in the page, Native Messaging host inspects on-device with no external calls, encrypted metadata-only audit; publishes its own measured detection recall (0.30 on a 60-case labelled corpus) and the categories it detects zero times; MIT]
+
 
 ### AI Slop / PR Quality
 - https://github.com/peakoss/anti-slop [GitHub Action: detect and auto-close low-quality and AI slop PRs]
