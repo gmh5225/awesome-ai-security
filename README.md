@@ -213,6 +213,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/humanbound/humanbound [Humanbound - open-source CLI that runs LLM-generated adversarial attacks against an agent's HTTP endpoint, scored against OWASP LLM Top 10, OWASP Agentic Top 10, NIST, and EU AI Act mappings]
 
 ### AI Security MCP Tools
+- https://github.com/tomelias10/mcp-drift-check [MCP Drift Check — passive local Python CLI that statically flags mutable/unpinned npm/npx package references in MCP client configs; does not execute servers, download packages, or upload configs; MIT]
 - https://github.com/AndrewXuTurtle/mcpaudit [mcpaudit — MCP server + CLI that audits the MCP servers you already have installed across Claude Desktop, Claude Code, Cursor, Windsurf and VS Code. Tool poisoning (incl. zero-width/bidi chars in tool descriptions), credential blast radius, privilege scope, transport, and supply-chain provenance: homoglyph publisher scopes, registry-removed packages, install hooks, and OSV/GHSA advisories matched to the resolved version. Zero dependencies; nothing installed or executed; MIT]
 - https://github.com/ArmorerLabs/Armorer-Guard [Armorer Guard - local Rust scanner and MCP proxy for prompt injection, credential leakage, exfiltration, and risky tool-call detection before execution]
 - https://github.com/0x4m4/hexstrike-ai [HexStrike AI - 150+ Cybersecurity Tools MCP]
