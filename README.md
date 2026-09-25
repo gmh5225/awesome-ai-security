@@ -347,6 +347,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/KongFangXun/sofagent [sofagent - audit-first governance harness for AI coding agents: 24 rules enforced at commit time via git hooks (secret leakage, out-of-scope edits, destructive ops), HMAC-chained tamper-evident audit log, snapshot rollback; MIT]
 - https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive [Orca AI Incident Archive - open database of real-world AI agent security incidents (prompt injection, agents used offensively, agent supply chain, sandbox escapes, agent-framework CVEs); every record cites a primary source and flags confirmed victims and AI involvement; JSON/CSV exports; CC BY 4.0]
 - https://github.com/FORIFOR/AISecure [AISecure - local-first preflight before text or Office/PDF reaches ChatGPT/Claude/Gemini: MAIN-world fetch wrapper stops the prompt in the page, Native Messaging host inspects on-device with no external calls, encrypted metadata-only audit; publishes its own measured detection recall (0.30 on a 60-case labelled corpus) and the categories it detects zero times; MIT]
+- https://github.com/sunglasses-dev/sunglasses [SUNGLASSES - open-source local input firewall for AI agents: scans text, files, PDFs, images and QR codes for prompt injection, credential leaks and data exfiltration with 1,554 patterns across 118 categories; ships as a CLI, Python API, MCP server and Claude Code hook]
 
 
 ### AI Slop / PR Quality
