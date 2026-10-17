@@ -700,6 +700,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/vectara/hallucination-leaderboard [Model Hallucination Leaderboard]
 - https://github.com/mattersec-labs/seclens [SecLens - benchmark for evaluating LLMs on security vulnerability detection; 5 stakeholder lenses, 406 tasks from real CVEs, 12 models; arXiv:2604.01637]
 - https://github.com/regenrek/aidex [Aidex - practical ranking of models by cost, quality, and use-case fitness]
+- https://github.com/raxITlabs/decision-models-as-guardrails [Decision Models as Guardrails - 18 decision models and Amazon Bedrock Guardrails on the same 9,975 labelled guardrail checks (content, prompt attacks, denied topics, profanity, PII, grounding); one fixed 0.5 block threshold, balanced accuracy, catch and false-block rates, USD per 1,000 checks; per-row results public]
 
 
 
