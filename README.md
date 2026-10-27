@@ -358,6 +358,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/sunglasses-dev/sunglasses [SUNGLASSES - open-source local input firewall for AI agents: scans text, files, PDFs, images and QR codes for prompt injection, credential leaks and data exfiltration with 1,554 patterns across 118 categories; ships as a CLI, Python API, MCP server and Claude Code hook]
 - https://github.com/baitelmal/centrol [centrol - local flight recorder for AI agents. Records tool calls, commands, and file mutations to a hash-chained ledger the agent has no write path to. Rollback with provenance, offline verification. Single Go binary, no daemon. Apache-2.0]
 - https://github.com/Frank-Masciopinto/ironheights [Ironheights - local-first static scanner for OpenClaw/ClawHub agent skills before install: prompt injection, hidden text, credential reads, remote-exec installs, persistence; integrity baseline + `verify` to catch later skill-file changes; reads files as data, no telemetry; `npx ironheights`; Apache-2.0]
+- https://personalagentbench.com/openclaw-security/ [Personal Agent Bench: OpenClaw security - defaults read from pinned source at release 2026.10.2 (sandbox falls back to off, exec to security=full / ask=off), gateway exposure, plugins/skills, memory files + SQLite index, published advisories by month, and the openclaw commands that check each item on your install]
 
 ### AI Slop / PR Quality
 - https://github.com/peakoss/anti-slop [GitHub Action: detect and auto-close low-quality and AI slop PRs]
