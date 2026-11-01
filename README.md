@@ -260,6 +260,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/buzzer-re/ToCode [ToCode - export binaries/IDA databases into source-like project trees (recovered C, asm, summaries, rich JSON metadata + AGENTS.md) so coding agents can traverse large binaries as an oracle; supports IDA Pro and radare2]
 - https://github.com/cellebrite-labs/ghidra-rpc [ghidra-rpc - agentic Ghidra skill: runs Ghidra as a persistent PyGhidra daemon exposing decompile/xrefs/type-recovery/patch/binary-diff via a JSON CLI over Unix socket, drivable by any shell-capable AI assistant (Cursor, Claude Code, etc.); by Cellebrite Labs]
 - https://github.com/morluto/rea [REA - local CLI and MCP server for agent-assisted reverse engineering of native binaries, JavaScript/Electron apps, and .NET assemblies; evidence provenance and explicit limitations; native deep analysis uses separately installed Hopper, Ghidra, or IDA]
+- https://github.com/dagoSte/reverseai [ReverseAI - static RE of untrusted ELF/PE/Mach-O, APK/DEX and JS/npm/Electron packages without running them: Ghidra/JADX/LIEF/YARA-X/Babel in one-shot offline containers, host-verified byte-anchored evidence, MCP server for Claude Code/Codex/Cursor, and an agent team (queen + parallel builders + independent council) that rebuilds binaries as compilable C/C++]
 
 ### AI Vulnerability Detection
 - https://github.com/Mayaaa311/LLMBugScanner [LLM BugScanner - GPTLens-style pipeline: pluggable HF code LLMs as auditor + critic, rank findings by correctness/severity; Solidity-oriented datasets]
