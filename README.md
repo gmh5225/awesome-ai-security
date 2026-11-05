@@ -231,6 +231,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/Correctover/correctover-scan [correctover-scan - zero-config npm CLI that scans MCP client configs (Claude Desktop, Cursor, VS Code) for credential exposure, SSRF, missing auth/transport encryption and other misconfigurations; findings mapped to OWASP AISVS; JSON/SARIF output for CI; MIT]
 - https://github.com/rolandpg/zettelforge [ZettelForge — CTI agentic memory MCP server with entity extraction (CVEs, threat actors, IOCs, MITRE ATT&CK), knowledge graph with alias resolution, STIX 2.1, intent-classified retrieval, OCSF audit logging; offline; MIT]
 - https://github.com/doomsday-network/bounty-guard [BountyGuard — Open-source prompt-injection firewall, published honeypot blocklist (data/honeypots.json), and zero-dependency MCP security server (mcp_server.py / https://doomsday.network/mcp) that screens GitHub repositories for trap signatures and classifies issues into SAFE_WITH_ESCROW, SAFE_NO_ESCROW, or QUARANTINE; MIT]
+- https://dctify.com/tools/mcp-config-checker [MCP Config Checker — web tool that audits MCP client configs for risky servers: permissions, prompt-injection surface, supply-chain flags; free, no signup (Dctify/Security Observer)]
 
 ### AI-Powered C2
 - https://github.com/Red-Hex-Consulting/Ankou [AI C2 Framework]
