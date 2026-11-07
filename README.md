@@ -118,6 +118,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 ## AI Security & Attacks
 
 ### Prompt Injection
+- https://github.com/xqpsec/dsh-jailbreak [DSH 破甲 plugin: request-boundary body rewrite, 4 wire protocols, auditable manifest]
 - https://www.lakera.ai/blog/guide-to-prompt-injection [Prompt Injection Guide]
 - https://genai.owasp.org/llmrisk/llm01-prompt-injection/ [OWASP LLM01:2025 Prompt Injection]
 - https://redbotsecurity.com/prompt-injection-attacks-ai-security-2025/ [Prompt Injection Attacks 2025]
