@@ -129,6 +129,7 @@ npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered
 - https://github.com/RomiconEZ/llamator [LLM Vulnerability Testing Framework]
 - https://github.com/gh0stOo/claude-md-vorlagen-de/blob/main/guides/prompt-hardening.md [German-language prompt-injection hardening guide with 10 concrete before/after code patterns (system/user separation, delimiters, output validation, RAG source distrust)]
 - https://github.com/Vick606/subcanopy-guard [Context-Aware Indirect Prompt Injection Scanner]
+- https://github.com/ppcvote/ultraprobe [UltraProbe - static audit of system prompts and agent/MCP tool descriptions for 25 prompt-injection defenses (OWASP LLM Top 10 + Agentic ASI01-09); offline, no LLM calls, SARIF; npm `ultraprobe`; MIT]
 
 ### Adversarial Attacks
 - https://gradientscience.org/intro_adversarial/ [Introduction to Adversarial Examples]
